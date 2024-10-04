@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LEE\\source\\repos\\test\\CarRental.csproj": {}
+    "C:\\Users\\LEE\\Source\\Repos\\test\\CarRental.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LEE\\source\\repos\\test\\CarRental.csproj": {
+    "C:\\Users\\LEE\\Source\\Repos\\test\\CarRental.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LEE\\source\\repos\\test\\CarRental.csproj",
+        "projectUniqueName": "C:\\Users\\LEE\\Source\\Repos\\test\\CarRental.csproj",
         "projectName": "CarRental",
-        "projectPath": "C:\\Users\\LEE\\source\\repos\\test\\CarRental.csproj",
+        "projectPath": "C:\\Users\\LEE\\Source\\Repos\\test\\CarRental.csproj",
         "packagesPath": "C:\\Users\\LEE\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\LEE\\Source\\Repos\\test\\obj\\",
         "projectStyle": "PackageReference",
