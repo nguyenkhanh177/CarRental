@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LEE\\source\\repos\\test\\",
+  "WorkspaceRootPath": "D:\\VisualStudio\\UDWeb\\CarRental\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\lee\\source\\repos\\test\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -16,10 +16,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
@@ -50,23 +46,23 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LEE\\source\\repos\\test\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LEE\\source\\repos\\test\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-<<<<<<< HEAD
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
->>>>>>> 37eeb6cf5a4243ffa04996832e560ae0012173d9
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T12:13:39.944Z",
+              "WhenOpened": "2024-10-02T09:34:30.869Z",
               "EditorCaption": ""
             }
           ]
