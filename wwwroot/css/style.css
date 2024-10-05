@@ -295,7 +295,7 @@
     justify-content: center;
     color: var(--bs-secondary);
     background: var(--bs-primary);
-    border-radius: 67% 33% 29% 71% / 39% 46% 54% 61%;;
+    border-radius: 67% 33% 29% 71% / 39% 46% 54% 61%;
     animation-name: icon-animat;
     animation-duration: 5s;
     animation-delay: 1s;
@@ -953,4 +953,32 @@
 }
 /*** copyright end ***/
 
+/*Login start*/
+.login {
+    background-image: url('/img/banner-1.jpg');
+    background-size: cover;
+    margin: 0;
+}
+.login .container {
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+}
 
+.login .container .form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login .container p{
+    color: black;
+}
+
+
+
+/*Login end*/
