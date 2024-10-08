@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\VisualStudio\\UDWeb\\CarRental\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,27 +63,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\LogIn\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\LogIn\\Index.cshtml",
-              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\LogIn\\Index.cshtml",
-              "RelativeToolTip": "Views\\LogIn\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T16:06:17.102Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T07:28:58.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T07:24:52.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAABYAAABaAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T09:34:30.869Z"
+              "WhenOpened": "2024-10-08T07:15:26.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAIwM0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T07:11:15.474Z",
+              "EditorCaption": ""
             }
           ]
         }
