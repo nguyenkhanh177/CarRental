@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Đăng ký";
+}
+
+<div class="container-fluid overflow-hidden register py-5">
+    <div class="container w-50 m-auto rounded-2">
+        <div class="form row g-1">
+            <h3 class="mb-3 text-white">Đăng ký</h3>
+            <div class="input-group">
+                <div class="col-3 d-flex align-items-center bg-light text-body rounded-start p-2">
+                    <span class="ms-1">Tài khoản</span>
+                </div>
+                <input class="form-control" type="text" placeholder="Nhập tên tài khoản">
+            </div>
+            <div class="input-group">
+                <div class="col-3 d-flex align-items-center bg-light text-body rounded-start p-2">
+                    <span class="ms-1">Mật khẩu</span>
+                </div>
+                <input class="form-control" type="password" placeholder="Nhập mật khẩu">
+            </div>
+            <div class="input-group">
+                <div class="col-3 d-flex align-items-center bg-light text-body rounded-start p-2">
+                    <span class="ms-1">Xác nhận</span>
+                </div>
+                <input class="form-control" type="password" placeholder="Nhập lại mật khẩu">
+            </div>
+            <div class="input-group">
+                <div class="col-3 d-flex align-items-center bg-light text-body rounded-start p-2">
+                    <span class="ms-1">Họ và tên</span>
+                </div>
+                <input class="form-control" type="text" placeholder="Nhập họ và tên">
+            </div>
+            <div class="input-group">
+                <div class="col-3 d-flex align-items-center bg-light text-body rounded-start p-2">
+                    <span class="ms-1">Căn cước</span>
+                </div>
+                <input class="form-control" type="text" placeholder="Nhập căn cước công dân">
+            </div>
+            <div class="input-group">
+                <div class="col-3 d-flex align-items-center bg-light text-body rounded-start p-2">
+                    <span class="ms-1">Ngày sinh</span>
+                </div>
+                <input class="form-control" type="date">
+            </div>
+            
+            <p class="wrong">*Tài khoản đã tồn tại</p>
+            <button href="#" class="btn btn-primary text-white border-0 rounded-2 p-lg-2" name="login">Đăng ký</button>
+            <p class="rege text-white">Nếu bạn đã có tài khoản, <a href="Login">đăng nhập</a></p>
+        </div>
+    </div>
+</div>
