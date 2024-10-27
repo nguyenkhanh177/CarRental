@@ -1,28 +1,32 @@
-﻿@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Đăng nhập";
+﻿@model string
+
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = "Đăng nhập";
 }
 
 <div class="container-fluid overflow-hidden login py-5">
-    <div class="container w-50 m-auto rounded-2">
-        <div class="form">
-            <h3 class="mb-3 text-white">Đăng nhập</h3>
-            <div class="input-group">
-                <div class="col-4 d-flex align-items-center bg-light text-body rounded-start p-2">
-                    <span class="ms-1">Tài khoản</span>
-                </div>
-                <input class="form-control" type="text" placeholder="Nhập tên tài khoản">
-            </div>
-            <div class="input-group">
-                <div class="col-4 d-flex align-items-center bg-light text-body rounded-start p-2">
-                    <span class="ms-1">Mật khẩu</span>
-                </div>
-                <input class="form-control" type="password" placeholder="Nhập mật khẩu">
-            </div>
-             
-             <button href="#" class="btn btn-primary text-white rounded-2" name="login">Đăng nhập</button>
-            <p class="wrong">*Bạn nhập sai tài khoản hoặc mật khẩu</p>
-             <p class="rege">Nếu bạn chưa có tài khoản, <a href="Register" class="">đăng ký</a></p>
-         </div>
-    </div>
+	<div class="container w-50 m-auto rounded-2">
+		<form asp-action="LoginAction" asp-controller="LogIn" class="form" method="post">
+			<h3 class="mb-3 text-white">Đăng nhập</h3>
+			<div class="input-group">
+				<div class="col-3 d-flex align-items-center bg-light text-body rounded-start p-2">
+					<span class="ms-1">Tài khoản</span>
+				</div>
+				<input name="Username" class="form-control" type="text" placeholder="Nhập tên tài khoản">
+			</div>
+			<div class="input-group">
+				<div class="col-3 d-flex align-items-center bg-light text-body rounded-start p-2">
+					<span class="ms-1">Mật khẩu</span>
+				</div>
+				<input name="Password" class="form-control" type="password" placeholder="Nhập mật khẩu">
+			</div>
+
+			<button type="submit" class="btn btn-primary text-white rounded-2" name="login">Đăng nhập</button>
+
+				<p class="wrong text-danger">@Model</p>
+
+			<p class="rege">Nếu bạn chưa có tài khoản, <a href="Register" class="">đăng ký</a></p>
+		</form>
+	</div>
 </div>
