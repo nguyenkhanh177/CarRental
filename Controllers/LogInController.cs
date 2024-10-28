@@ -6,6 +6,10 @@ namespace CarRental.Controllers
     {
         private readonly CarRentalContext _context;
 
+        public LogInController(CarRentalContext context)
+        {
+            _context = context;
+        }
         [HttpPost]
         public IActionResult LoginAction(string Username, string Password)
         {
@@ -16,7 +20,7 @@ namespace CarRental.Controllers
             }
             else
             {
-                
+
                 if (_context == null || _context.TbCustomers == null)
                 {
                     return View("Index", "Bạn nhập sai tài khoản hoặc mật khẩu");

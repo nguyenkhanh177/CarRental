@@ -17,105 +17,105 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarRental
 build_property.RootNamespace = CarRental
-build_property.ProjectDir = D:\VisualStudio\CarRental\CarRental\
+build_property.ProjectDir = D:\VisualStudio\UDWeb\CarRental\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\VisualStudio\CarRental\CarRental
+build_property.MSBuildProjectDirectory = D:\VisualStudio\UDWeb\CarRental
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/VisualStudio/CarRental/CarRental/Areas/Admin/Views/Home/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Areas/Admin/Views/Shared/Error.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Areas/Admin/Views/_ViewImports.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Areas/Admin/Views/_ViewStart.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/About/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/Blog/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/Cars/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/Cars/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/Contact/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/Feature/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/Feature/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/Home/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/LogIn/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/LogIn/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nSW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/OurTeam/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/OurTeam/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3VyVGVhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/Register/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/Service/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/Shared/Error.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/Testimonial/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/Testimonial/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/_404/Index.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/_404/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcXzQwNFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/_ViewImports.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Views/_ViewStart.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/CarRental/CarRental/Areas/Admin/Views/Shared/_Layout.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dflcaoz5gm
 
-[D:/VisualStudio/CarRental/CarRental/Views/Shared/_Layout.cshtml]
+[D:/VisualStudio/UDWeb/CarRental/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pihumplo1e
