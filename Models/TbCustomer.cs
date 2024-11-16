@@ -23,6 +23,8 @@ public partial class TbCustomer
 
     public string Password { get; set; } = null!;
 
+    public string Avatar { get; set; } = null!;
+
     public virtual ICollection<TbBlogComment> TbBlogComments { get; set; } = new List<TbBlogComment>();
 
     public virtual ICollection<TbContract> TbContracts { get; set; } = new List<TbContract>();

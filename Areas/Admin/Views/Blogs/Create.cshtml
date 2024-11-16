@@ -1,0 +1,57 @@
+﻿@model CarRental.Models.TbBlog
+
+@{
+	ViewData["Title"] = "Create";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid pt-4 px-4">
+	<div class="col-sm-12 col-xl-12">
+		<div class="bg-secondary rounded h-100 p-4">
+			<h6 class="mb-4">Tạo blogs</h6>
+			<div class="row">
+				<div class="col-md-4">
+					<form asp-action="Create">
+						<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+						<div class="form-group">
+							<label asp-for="Title" class="control-label">Tiêu đề</label>
+							<input asp-for="Title" class="form-control" />
+							<span asp-validation-for="Title" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="PublishTime" class="control-label">Thời gian</label>
+							<input asp-for="PublishTime" class="form-control" />
+							<span asp-validation-for="PublishTime" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="Description" class="control-label">Mô tả</label>
+							<input asp-for="Description" class="form-control" />
+							<span asp-validation-for="Description" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="Image" class="control-label">Ảnh</label>
+							<input asp-for="Image" class="form-control" />
+							<span asp-validation-for="Image" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<label asp-for="Detail" class="control-label">Nội dung</label>
+							<input asp-for="Detail" class="form-control" />
+							<span asp-validation-for="Detail" class="text-danger"></span>
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Create" class="btn btn-primary" />
+						</div>
+
+					</form>
+				</div>
+			</div>
+
+			<div>
+				<a asp-action="Index">Back to List</a>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+   

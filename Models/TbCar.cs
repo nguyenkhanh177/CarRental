@@ -11,8 +11,6 @@ public partial class TbCar
 
     public string Color { get; set; } = null!;
 
-    public int ManufactureYear { get; set; }
-
     public virtual TbProductionModel IdproductionModelNavigation { get; set; } = null!;
 
     public virtual ICollection<TbBrokenCar> TbBrokenCars { get; set; } = new List<TbBrokenCar>();

@@ -13,9 +13,9 @@ public partial class TbReceiver
 
     public string Gmail { get; set; } = null!;
 
-    public int? Idcar { get; set; }
+    public int Idcar { get; set; }
 
-    public virtual TbCar? IdcarNavigation { get; set; }
+    public virtual TbCar IdcarNavigation { get; set; } = null!;
 
     public virtual ICollection<TbLiquidation> TbLiquidations { get; set; } = new List<TbLiquidation>();
 }

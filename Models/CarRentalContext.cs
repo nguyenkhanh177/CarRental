@@ -25,6 +25,8 @@ public partial class CarRentalContext : DbContext
 
     public virtual DbSet<TbCar> TbCars { get; set; }
 
+    public virtual DbSet<TbCarReview> TbCarReviews { get; set; }
+
     public virtual DbSet<TbContract> TbContracts { get; set; }
 
     public virtual DbSet<TbCustomer> TbCustomers { get; set; }
@@ -45,7 +47,7 @@ public partial class CarRentalContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("data source= QUANGLOCPC\\QUANGLOC; initial catalog=CarRental; integrated security=True; TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("data source=QUANGLOCPC\\QUANGLOC;initial catalog=CarRental;integrated security=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -56,6 +58,9 @@ public partial class CarRentalContext : DbContext
             entity.ToTable("TB_Admin");
 
             entity.Property(e => e.Idadmin).HasColumnName("IDAdmin");
+            entity.Property(e => e.Avatar)
+                .HasMaxLength(50)
+                .IsUnicode(false);
             entity.Property(e => e.Email)
                 .HasMaxLength(30)
                 .IsUnicode(false);
@@ -73,15 +78,21 @@ public partial class CarRentalContext : DbContext
 
         modelBuilder.Entity<TbBlog>(entity =>
         {
-            entity.HasKey(e => e.BlogId);
+            entity.HasKey(e => e.Idblog);
 
             entity.ToTable("TB_Blog");
 
-            entity.Property(e => e.BlogId)
-                .ValueGeneratedNever()
-                .HasColumnName("BlogID");
+            entity.Property(e => e.Idblog).HasColumnName("IDBlog");
+            entity.Property(e => e.Idadmin).HasColumnName("IDAdmin");
+            entity.Property(e => e.Image)
+                .HasMaxLength(50)
+                .IsUnicode(false);
             entity.Property(e => e.PublishTime).HasColumnType("datetime");
-            entity.Property(e => e.Title).HasMaxLength(100);
+
+            entity.HasOne(d => d.IdadminNavigation).WithMany(p => p.TbBlogs)
+                .HasForeignKey(d => d.Idadmin)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_TB_Blog_TB_Admin1");
         });
 
         modelBuilder.Entity<TbBlogComment>(entity =>
@@ -90,11 +101,10 @@ public partial class CarRentalContext : DbContext
 
             entity.ToTable("TB_BlogComment");
 
-            entity.Property(e => e.Idcomment)
-                .ValueGeneratedNever()
-                .HasColumnName("IDComment");
+            entity.Property(e => e.Idcomment).HasColumnName("IDComment");
             entity.Property(e => e.Idblog).HasColumnName("IDBlog");
             entity.Property(e => e.Idcustomer).HasColumnName("IDCustomer");
+            entity.Property(e => e.Time).HasColumnType("datetime");
 
             entity.HasOne(d => d.IdblogNavigation).WithMany(p => p.TbBlogComments)
                 .HasForeignKey(d => d.Idblog)
@@ -113,9 +123,7 @@ public partial class CarRentalContext : DbContext
 
             entity.ToTable("TB_BrokenCar");
 
-            entity.Property(e => e.IdbrokenCar)
-                .ValueGeneratedNever()
-                .HasColumnName("IDBrokenCar");
+            entity.Property(e => e.IdbrokenCar).HasColumnName("IDBrokenCar");
             entity.Property(e => e.Idcar).HasColumnName("IDCar");
 
             entity.HasOne(d => d.IdcarNavigation).WithMany(p => p.TbBrokenCars)
@@ -140,15 +148,24 @@ public partial class CarRentalContext : DbContext
                 .HasConstraintName("FK_TB_Car_TB_ProductionModel");
         });
 
+        modelBuilder.Entity<TbCarReview>(entity =>
+        {
+            entity.HasKey(e => e.IdcarReview).HasName("PK_Table_1");
+
+            entity.ToTable("TB_CarReview");
+
+            entity.Property(e => e.IdcarReview).HasColumnName("IDCarReview");
+            entity.Property(e => e.Idcustomer).HasColumnName("IDCustomer");
+            entity.Property(e => e.Review).HasMaxLength(50);
+        });
+
         modelBuilder.Entity<TbContract>(entity =>
         {
             entity.HasKey(e => e.Idcontract);
 
             entity.ToTable("TB_Contract");
 
-            entity.Property(e => e.Idcontract)
-                .ValueGeneratedNever()
-                .HasColumnName("IDContract");
+            entity.Property(e => e.Idcontract).HasColumnName("IDContract");
             entity.Property(e => e.ContractPrice)
                 .HasColumnType("money")
                 .HasColumnName("Contract_Price");
@@ -182,6 +199,9 @@ public partial class CarRentalContext : DbContext
 
             entity.Property(e => e.Idcustomer).HasColumnName("IDCustomer");
             entity.Property(e => e.Address).HasMaxLength(100);
+            entity.Property(e => e.Avatar)
+                .HasMaxLength(50)
+                .IsUnicode(false);
             entity.Property(e => e.Email)
                 .HasMaxLength(30)
                 .IsUnicode(false);
@@ -204,9 +224,7 @@ public partial class CarRentalContext : DbContext
 
             entity.ToTable("TB_ImportHistory");
 
-            entity.Property(e => e.Idimport)
-                .ValueGeneratedNever()
-                .HasColumnName("IDImport");
+            entity.Property(e => e.Idimport).HasColumnName("IDImport");
             entity.Property(e => e.Idcar).HasColumnName("IDCar");
             entity.Property(e => e.Idsupplier).HasColumnName("IDSupplier");
 
@@ -227,9 +245,7 @@ public partial class CarRentalContext : DbContext
 
             entity.ToTable("TB_Liquidation");
 
-            entity.Property(e => e.Idliquidation)
-                .ValueGeneratedNever()
-                .HasColumnName("IDLiquidation");
+            entity.Property(e => e.Idliquidation).HasColumnName("IDLiquidation");
             entity.Property(e => e.ClearancePrice).HasColumnType("money");
             entity.Property(e => e.Idreceiver).HasColumnName("IDReceiver");
 
@@ -245,9 +261,7 @@ public partial class CarRentalContext : DbContext
 
             entity.ToTable("TB_MaintenanceHistory");
 
-            entity.Property(e => e.Idmaintenance)
-                .ValueGeneratedNever()
-                .HasColumnName("IDMaintenance");
+            entity.Property(e => e.Idmaintenance).HasColumnName("IDMaintenance");
             entity.Property(e => e.Idcontract).HasColumnName("IDContract");
             entity.Property(e => e.Idstaff).HasColumnName("IDStaff");
 
@@ -281,9 +295,7 @@ public partial class CarRentalContext : DbContext
 
             entity.ToTable("TB_Receiver");
 
-            entity.Property(e => e.Idreceiver)
-                .ValueGeneratedNever()
-                .HasColumnName("IDReceiver");
+            entity.Property(e => e.Idreceiver).HasColumnName("IDReceiver");
             entity.Property(e => e.Gmail).HasMaxLength(50);
             entity.Property(e => e.Idcar).HasColumnName("IDCar");
             entity.Property(e => e.NameReceiver).HasMaxLength(50);
@@ -293,6 +305,7 @@ public partial class CarRentalContext : DbContext
 
             entity.HasOne(d => d.IdcarNavigation).WithMany(p => p.TbReceivers)
                 .HasForeignKey(d => d.Idcar)
+                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_Receiver_TB_Car");
         });
 
@@ -302,9 +315,7 @@ public partial class CarRentalContext : DbContext
 
             entity.ToTable("TB_Staff");
 
-            entity.Property(e => e.Idstaff)
-                .ValueGeneratedNever()
-                .HasColumnName("IDStaff");
+            entity.Property(e => e.Idstaff).HasColumnName("IDStaff");
             entity.Property(e => e.Idcard)
                 .HasMaxLength(10)
                 .IsFixedLength()
@@ -321,9 +332,7 @@ public partial class CarRentalContext : DbContext
 
             entity.ToTable("TB_Supplier");
 
-            entity.Property(e => e.Idsupplier)
-                .ValueGeneratedNever()
-                .HasColumnName("IDSupplier");
+            entity.Property(e => e.Idsupplier).HasColumnName("IDSupplier");
             entity.Property(e => e.Branch).HasMaxLength(50);
             entity.Property(e => e.SupplierName).HasMaxLength(50);
         });
