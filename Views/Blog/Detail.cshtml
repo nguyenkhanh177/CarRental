@@ -20,11 +20,7 @@
 
 <div class="container-fluid blog py-5">
 	<div class="container py-5">
-		<div class="main-wrapper">
-			<div class="blog-area section-space-y-axis-100">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
+		
 							<div class="blog-detail-item">
 								<div class="blog-img">
 									<img class="img-full" src="/img/Blog/@Model.Image" alt="Blog Image" width="100%">
@@ -64,7 +60,7 @@
 
 													<img src="/img/avatar/@item.IdcustomerNavigation.Avatar" alt="Avatar" width="80px" height="80px" class="rounded-circle m-3" />
 													<div>
-														<div class="m-1"><strong class="text-primary"><i class="fa-solid fa-user"> </i>@item.IdcustomerNavigation.Name</strong> - <strong><i class="fa-solid fa-calendar-days"></i> @item.Time.ToString("HH/mm dd/MM/yyyy")</strong></div>
+														<div class="m-1"><strong class="text-primary"><i class="fa-solid fa-user"> </i>@item.IdcustomerNavigation.Name</strong> - <strong><i class="fa-solid fa-calendar-days"></i> @item.Time.ToString("HH:mm dd/MM/yyyy")</strong></div>
 														<p class="user-comment mb-0">@item.Detail</p>
 													</div>
 												</div>
@@ -94,10 +90,4 @@
 						</div>
 					</div>
 
-				</div>
-
-
-			</div>
-		</div>
-	</div>
 

@@ -22,8 +22,6 @@ namespace CarRental.Controllers
             if (id == null || _context.TbBlogs == null)
             { return RedirectToAction("Index", "404"); }
             var blog = _context.TbBlogs.Include(m => m.TbBlogComments).ThenInclude(m => m.IdcustomerNavigation).Where(m => m.Idblog == id).Include(m => m.IdadminNavigation).FirstOrDefault(m => m.Idblog == id);
-            //var blog = _context.TbBlogs.Include(b => b.IdadminNavigation).Include(b => b.TbBlogComments).Where(b => b.TbBlogComments.Any(c => c.Idblog == id)).Select(b => new TbBlog { Idblog = b.Idblog, Title = b.Title, Detail = b.Detail, PublishTime = b.PublishTime, Description = b.Description, Idadmin = b.Idadmin, Image = b.Image, IdadminNavigation = b.IdadminNavigation, TbBlogComments = b.TbBlogComments.Where(c => c.Idblog == id).ToList() }).FirstOrDefault(m=>m.Idblog == id);
-
             if (blog == null)
             {
                 return RedirectToAction("Index", "404");
@@ -33,7 +31,7 @@ namespace CarRental.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> comment(string detail)
+        public async Task<IActionResult> comment(string detail, int id)
         {
             if (ModelState.IsValid)
             {
@@ -49,7 +47,7 @@ namespace CarRental.Controllers
                 await _context.SaveChangesAsync();
 
             }
-            return RedirectToAction("Detail",idblogdetail);
+            return RedirectToAction("Detail", new { id = idblogdetail });
         }
 
         public IActionResult Index()
@@ -61,6 +59,6 @@ namespace CarRental.Controllers
 
 
 
-        
+
     }
 }

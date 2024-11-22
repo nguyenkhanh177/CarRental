@@ -7,21 +7,29 @@ public partial class TbProductionModel
 {
     public int IdproductionModel { get; set; }
 
-    public string Automaker { get; set; } = null!;
+    public int Idautomaker { get; set; }
 
     public int SeatingCapacity { get; set; }
 
-    public string Gearbox { get; set; } = null!;
+    public int Idgearbox { get; set; }
 
-    public string Fuel { get; set; } = null!;
+    public int Idfuel { get; set; }
 
     public string Describe { get; set; } = null!;
 
-    public int FuelConsumption { get; set; }
-
-    public int ManufactureYear { get; set; }
-
     public int Star { get; set; }
+
+    public int IddriverCapabilities { get; set; }
+
+    public string ProductionModelName { get; set; } = null!;
+
+    public virtual TbAutomaker IdautomakerNavigation { get; set; } = null!;
+
+    public virtual TbDriverCapability IddriverCapabilitiesNavigation { get; set; } = null!;
+
+    public virtual TbFuel IdfuelNavigation { get; set; } = null!;
+
+    public virtual TbGearbox IdgearboxNavigation { get; set; } = null!;
 
     public virtual ICollection<TbCar> TbCars { get; set; } = new List<TbCar>();
 }

@@ -1,0 +1,65 @@
+﻿@model CarRental.Models.TbProductionModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>TbProductionModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Idautomaker" class="control-label"></label>
+                <select asp-for="Idautomaker" class ="form-control" asp-items="ViewBag.Idautomaker"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="SeatingCapacity" class="control-label"></label>
+                <input asp-for="SeatingCapacity" class="form-control" />
+                <span asp-validation-for="SeatingCapacity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Idgearbox" class="control-label"></label>
+                <select asp-for="Idgearbox" class ="form-control" asp-items="ViewBag.Idgearbox"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Idfuel" class="control-label"></label>
+                <select asp-for="Idfuel" class ="form-control" asp-items="ViewBag.Idfuel"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Describe" class="control-label"></label>
+                <input asp-for="Describe" class="form-control" />
+                <span asp-validation-for="Describe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Star" class="control-label"></label>
+                <input asp-for="Star" class="form-control" />
+                <span asp-validation-for="Star" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IddriverCapabilities" class="control-label"></label>
+                <select asp-for="IddriverCapabilities" class ="form-control" asp-items="ViewBag.IddriverCapabilities"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductionModelName" class="control-label"></label>
+                <input asp-for="ProductionModelName" class="form-control" />
+                <span asp-validation-for="ProductionModelName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

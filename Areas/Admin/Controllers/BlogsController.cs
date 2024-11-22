@@ -22,7 +22,8 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Blogs
         public async Task<IActionResult> Index()
         {
-            return View(await _context.TbBlogs.ToListAsync());
+            var carRentalContext = _context.TbBlogs.Include(t => t.IdadminNavigation);
+            return View(await carRentalContext.ToListAsync());
         }
 
         // GET: Admin/Blogs/Details/5
@@ -34,6 +35,7 @@ namespace CarRental.Areas.Admin.Controllers
             }
 
             var tbBlog = await _context.TbBlogs
+                .Include(t => t.IdadminNavigation)
                 .FirstOrDefaultAsync(m => m.Idblog == id);
             if (tbBlog == null)
             {
@@ -46,6 +48,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Blogs/Create
         public IActionResult Create()
         {
+            ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Idadmin");
             return View();
         }
 
@@ -54,7 +57,7 @@ namespace CarRental.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Title,Detail,PublishTime,Description,Image")] TbBlog tbBlog)
+        public async Task<IActionResult> Create([Bind("Title,Idblog,Detail,PublishTime,Description,Image,Idadmin")] TbBlog tbBlog)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +65,7 @@ namespace CarRental.Areas.Admin.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Idadmin", tbBlog.Idadmin);
             return View(tbBlog);
         }
 
@@ -78,6 +82,7 @@ namespace CarRental.Areas.Admin.Controllers
             {
                 return NotFound();
             }
+            ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Idadmin", tbBlog.Idadmin);
             return View(tbBlog);
         }
 
@@ -86,7 +91,7 @@ namespace CarRental.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Title,Detail,PublishTime,Description,Image")] TbBlog tbBlog)
+        public async Task<IActionResult> Edit(int id, [Bind("Title,Idblog,Detail,PublishTime,Description,Image,Idadmin")] TbBlog tbBlog)
         {
             if (id != tbBlog.Idblog)
             {
@@ -102,10 +107,18 @@ namespace CarRental.Areas.Admin.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
+                    if (!TbBlogExists(tbBlog.Idblog))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
                         throw;
+                    }
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Idadmin", tbBlog.Idadmin);
             return View(tbBlog);
         }
 
@@ -118,6 +131,7 @@ namespace CarRental.Areas.Admin.Controllers
             }
 
             var tbBlog = await _context.TbBlogs
+                .Include(t => t.IdadminNavigation)
                 .FirstOrDefaultAsync(m => m.Idblog == id);
             if (tbBlog == null)
             {

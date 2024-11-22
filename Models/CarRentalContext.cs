@@ -17,6 +17,8 @@ public partial class CarRentalContext : DbContext
 
     public virtual DbSet<TbAdmin> TbAdmins { get; set; }
 
+    public virtual DbSet<TbAutomaker> TbAutomakers { get; set; }
+
     public virtual DbSet<TbBlog> TbBlogs { get; set; }
 
     public virtual DbSet<TbBlogComment> TbBlogComments { get; set; }
@@ -30,6 +32,12 @@ public partial class CarRentalContext : DbContext
     public virtual DbSet<TbContract> TbContracts { get; set; }
 
     public virtual DbSet<TbCustomer> TbCustomers { get; set; }
+
+    public virtual DbSet<TbDriverCapability> TbDriverCapabilities { get; set; }
+
+    public virtual DbSet<TbFuel> TbFuels { get; set; }
+
+    public virtual DbSet<TbGearbox> TbGearboxes { get; set; }
 
     public virtual DbSet<TbImportHistory> TbImportHistories { get; set; }
 
@@ -73,6 +81,18 @@ public partial class CarRentalContext : DbContext
                 .IsUnicode(false);
             entity.Property(e => e.Username)
                 .HasMaxLength(15)
+                .IsUnicode(false);
+        });
+
+        modelBuilder.Entity<TbAutomaker>(entity =>
+        {
+            entity.HasKey(e => e.Idautomaker);
+
+            entity.ToTable("TB_Automaker");
+
+            entity.Property(e => e.Idautomaker).HasColumnName("IDAutomaker");
+            entity.Property(e => e.AutomakerName)
+                .HasMaxLength(50)
                 .IsUnicode(false);
         });
 
@@ -141,6 +161,9 @@ public partial class CarRentalContext : DbContext
             entity.Property(e => e.Idcar).HasColumnName("IDCar");
             entity.Property(e => e.Color).HasMaxLength(20);
             entity.Property(e => e.IdproductionModel).HasColumnName("IDProductionModel");
+            entity.Property(e => e.Image)
+                .HasMaxLength(50)
+                .IsUnicode(false);
 
             entity.HasOne(d => d.IdproductionModelNavigation).WithMany(p => p.TbCars)
                 .HasForeignKey(d => d.IdproductionModel)
@@ -183,7 +206,7 @@ public partial class CarRentalContext : DbContext
             entity.HasOne(d => d.IdcarNavigation).WithMany(p => p.TbContracts)
                 .HasForeignKey(d => d.Idcar)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_TB_Contract_TB_Car");
+                .HasConstraintName("FK_TB_Contract_TB_Car1");
 
             entity.HasOne(d => d.IdcustomerNavigation).WithMany(p => p.TbContracts)
                 .HasForeignKey(d => d.Idcustomer)
@@ -216,6 +239,36 @@ public partial class CarRentalContext : DbContext
             entity.Property(e => e.Username)
                 .HasMaxLength(50)
                 .IsUnicode(false);
+        });
+
+        modelBuilder.Entity<TbDriverCapability>(entity =>
+        {
+            entity.HasKey(e => e.IddriverCapabilities).HasName("PK_ID_DriverCapabilities");
+
+            entity.ToTable("TB_DriverCapabilities");
+
+            entity.Property(e => e.IddriverCapabilities).HasColumnName("IDDriverCapabilities");
+            entity.Property(e => e.DriverCapabilitiesName).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<TbFuel>(entity =>
+        {
+            entity.HasKey(e => e.Idfuel);
+
+            entity.ToTable("TB_Fuel");
+
+            entity.Property(e => e.Idfuel).HasColumnName("IDFuel");
+            entity.Property(e => e.FuelName).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<TbGearbox>(entity =>
+        {
+            entity.HasKey(e => e.Idgearbox);
+
+            entity.ToTable("TB_Gearbox");
+
+            entity.Property(e => e.Idgearbox).HasColumnName("IDGearbox");
+            entity.Property(e => e.GearboxName).HasMaxLength(50);
         });
 
         modelBuilder.Entity<TbImportHistory>(entity =>
@@ -283,10 +336,33 @@ public partial class CarRentalContext : DbContext
             entity.ToTable("TB_ProductionModel");
 
             entity.Property(e => e.IdproductionModel).HasColumnName("IDProductionModel");
-            entity.Property(e => e.Automaker).HasMaxLength(15);
-            entity.Property(e => e.Describe).HasMaxLength(500);
-            entity.Property(e => e.Fuel).HasMaxLength(10);
-            entity.Property(e => e.Gearbox).HasMaxLength(10);
+            entity.Property(e => e.Idautomaker).HasColumnName("IDAutomaker");
+            entity.Property(e => e.IddriverCapabilities).HasColumnName("IDDriverCapabilities");
+            entity.Property(e => e.Idfuel).HasColumnName("IDFuel");
+            entity.Property(e => e.Idgearbox).HasColumnName("IDGearbox");
+            entity.Property(e => e.ProductionModelName)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+
+            entity.HasOne(d => d.IdautomakerNavigation).WithMany(p => p.TbProductionModels)
+                .HasForeignKey(d => d.Idautomaker)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_TB_ProductionModel_TB_Automaker");
+
+            entity.HasOne(d => d.IddriverCapabilitiesNavigation).WithMany(p => p.TbProductionModels)
+                .HasForeignKey(d => d.IddriverCapabilities)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_TB_ProductionModel_TB_DriverCapabilities");
+
+            entity.HasOne(d => d.IdfuelNavigation).WithMany(p => p.TbProductionModels)
+                .HasForeignKey(d => d.Idfuel)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_TB_ProductionModel_TB_Fuel");
+
+            entity.HasOne(d => d.IdgearboxNavigation).WithMany(p => p.TbProductionModels)
+                .HasForeignKey(d => d.Idgearbox)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_TB_ProductionModel_TB_Gearbox");
         });
 
         modelBuilder.Entity<TbReceiver>(entity =>

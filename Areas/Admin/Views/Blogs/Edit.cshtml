@@ -40,6 +40,11 @@
                 <span asp-validation-for="Image" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Idadmin" class="control-label"></label>
+                <select asp-for="Idadmin" class="form-control" asp-items="ViewBag.Idadmin"></select>
+                <span asp-validation-for="Idadmin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>

@@ -55,7 +55,8 @@ namespace CarRental.Controllers
                     Name = Name,
                     Idcard = ID,
                     Address = Address,
-                    Birth = Birth
+                    Birth = Birth,
+                    Avatar = "Avatar-1.jpg"
                 };
                 _context.TbCustomers.Add(customer);
                 _context.SaveChanges();

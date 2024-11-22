@@ -29,7 +29,6 @@
     <link href="~/css/style.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -79,52 +78,52 @@
                     <div class="navbar-nav mx-auto py-0">
                         @if(ViewBag.Active == 1)
                         {
-                            <a href="Home" class="nav-item nav-link active">Trang chủ</a>
+                            <a href="/Home" class="nav-item nav-link active">Trang chủ</a>
                         }
                         else
                         { 
-                            <a href="Home" class="nav-item nav-link">Trang chủ</a>
+                            <a href="/Home" class="nav-item nav-link">Trang chủ</a>
                         }
                         @if(ViewBag.Active == 2)
                         {
-                            <a href="about" class="nav-item nav-link active">Giới thiệu</a>
+                            <a href="/about" class="nav-item nav-link active">Giới thiệu</a>
                         }
                         else
                         {
-                            <a href="about" class="nav-item nav-link">Giới thiệu</a>
+                            <a href="/about" class="nav-item nav-link">Giới thiệu</a>
                         }
                         @if(ViewBag.Active == 3)
                         {
-                            <a href="service" class="nav-item nav-link active">Dịch vụ</a>
+                            <a href="/service" class="nav-item nav-link active">Dịch vụ</a>
                         }
                         else
                         {
-                            <a href="service" class="nav-item nav-link">Dịch vụ</a>
+                            <a href="/service" class="nav-item nav-link">Dịch vụ</a>
                         }
                         @if(ViewBag.Active == 4)
                         {
-                            <a href="blog" class="nav-item nav-link active">Blog</a>
+                            <a href="/blog" class="nav-item nav-link active">Blog</a>
                         }
                         else
                         {
-                            <a href="blog" class="nav-item nav-link">Blog</a>
+                            <a href="/blog" class="nav-item nav-link">Blog</a>
                         }
                         <div class="nav-item dropdown">
                         @if(ViewBag.Active == 5)
                         {
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Trang</a>
+                            <a href="/#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Trang</a>
                         
                         }
                         else{
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Trang</a>
+                            <a href="/#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Trang</a>
 
                         }
                             <div class="dropdown-menu m-0">
-                                <a href="feature" class="dropdown-item">Our Feature</a>
-                                <a href="cars" class="dropdown-item">Xe</a>
-                                <a href="ourteam" class="dropdown-item">Chúng tôi</a>
-                                <a href="testimonial" class="dropdown-item">Testimonial</a>
-                                <a href="_404" class="dropdown-item">404 Page</a>
+                                <a href="/feature" class="dropdown-item">Our Feature</a>
+                                <a href="/cars" class="dropdown-item">Xe</a>
+                                <a href="/ourteam" class="dropdown-item">Chúng tôi</a>
+                                <a href="/testimonial" class="dropdown-item">Testimonial</a>
+                                <a href="/_404" class="dropdown-item">404 Page</a>
                             </div>
                         </div>
                         @if (ViewBag.Active == 6)
