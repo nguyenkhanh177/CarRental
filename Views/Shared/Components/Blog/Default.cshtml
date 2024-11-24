@@ -1,0 +1,44 @@
+﻿@model IEnumerable<CarRental.Models.TbBlog>
+
+<div class="container-fluid blog py-5">
+	<div class="container py-5">
+		<div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+			<h1 class="display-5 text-capitalize mb-3">Cental<span class="text-primary"> Blog</span></h1>
+			<p class="mb-0">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio,
+			</p>
+		</div>
+		<div class="row g-4">
+			@{
+				if (Model == null || Model.Count() == 0)
+				{
+					<div>Không có blog nào ở đây</div>
+				}
+				else
+				{
+					foreach (var item in Model)
+					{
+						string sURL = $"/blog/{item.Idblog}.html";
+						<div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+							<div class="blog-item">
+								<div class="blog-img">
+									<img src="/files/blogs/@item.Image" class="img-fluid rounded-top w-100" alt="Image">
+								</div>
+								<div class="blog-content rounded-bottom p-4">
+									<div class="blog-date">@item.PublishTime.ToString("dd/MM/yyyy")</div>
+									<div class="blog-comment my-3">
+										<div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">@item.IdadminNavigation.Name</span></div>
+										<div class="small"><span class="fa fa-comment-alt text-primary"></span><span class="ms-2">@item.TbBlogComments.Count() Comments</span></div>
+									</div>
+									<a href="@sURL" class="h4 d-block mb-3">@item.Title</a>
+									<p class="mb-3">@item.Description</p>
+									<a href="@sURL" class="">Đọc thêm  <i class="fa fa-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					}
+				}
+			}
+		</div>
+	</div>
+</div>

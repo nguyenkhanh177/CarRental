@@ -15048,8 +15048,8 @@
       ]
     },
     {
-      "Route": "img/Avatar/avatar-1.jpg",
-      "AssetFile": "img/Avatar/avatar-1.jpg",
+      "Route": "files/Avatars/avatar-1.jpg",
+      "AssetFile": "files/Avatars/avatar-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15085,8 +15085,8 @@
       ]
     },
     {
-      "Route": "img/Avatar/avatar-1.twvdm4h7kg.jpg",
-      "AssetFile": "img/Avatar/avatar-1.jpg",
+      "Route": "files/Avatars/avatar-1.twvdm4h7kg.jpg",
+      "AssetFile": "files/Avatars/avatar-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15125,13 +15125,13 @@
         },
         {
           "Name": "label",
-          "Value": "img/Avatar/avatar-1.jpg"
+          "Value": "files/Avatars/avatar-1.jpg"
         }
       ]
     },
     {
-      "Route": "img/Avatar/avatar-2.jpg",
-      "AssetFile": "img/Avatar/avatar-2.jpg",
+      "Route": "files/Avatars/avatar-2.jpg",
+      "AssetFile": "files/Avatars/avatar-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15167,8 +15167,8 @@
       ]
     },
     {
-      "Route": "img/Avatar/avatar-2.xf0ncly021.jpg",
-      "AssetFile": "img/Avatar/avatar-2.jpg",
+      "Route": "files/Avatars/avatar-2.xf0ncly021.jpg",
+      "AssetFile": "files/Avatars/avatar-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15207,13 +15207,13 @@
         },
         {
           "Name": "label",
-          "Value": "img/Avatar/avatar-2.jpg"
+          "Value": "files/Avatars/avatar-2.jpg"
         }
       ]
     },
     {
-      "Route": "img/Avatar/avatar-3.5pm55uz6is.jpg",
-      "AssetFile": "img/Avatar/avatar-3.jpg",
+      "Route": "files/Avatars/avatar-3.5pm55uz6is.jpg",
+      "AssetFile": "files/Avatars/avatar-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15252,13 +15252,13 @@
         },
         {
           "Name": "label",
-          "Value": "img/Avatar/avatar-3.jpg"
+          "Value": "files/Avatars/avatar-3.jpg"
         }
       ]
     },
     {
-      "Route": "img/Avatar/avatar-3.jpg",
-      "AssetFile": "img/Avatar/avatar-3.jpg",
+      "Route": "files/Avatars/avatar-3.jpg",
+      "AssetFile": "files/Avatars/avatar-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15294,8 +15294,8 @@
       ]
     },
     {
-      "Route": "img/Blog/blog-1.jpg",
-      "AssetFile": "img/Blog/blog-1.jpg",
+      "Route": "files/Blogs/blog-1.jpg",
+      "AssetFile": "files/Blogs/blog-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15331,8 +15331,8 @@
       ]
     },
     {
-      "Route": "img/Blog/blog-1.jsrxhmkl60.jpg",
-      "AssetFile": "img/Blog/blog-1.jpg",
+      "Route": "files/Blogs/blog-1.jsrxhmkl60.jpg",
+      "AssetFile": "files/Blogs/blog-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15371,13 +15371,13 @@
         },
         {
           "Name": "label",
-          "Value": "img/Blog/blog-1.jpg"
+          "Value": "files/Blogs/blog-1.jpg"
         }
       ]
     },
     {
-      "Route": "img/Blog/blog-2.cehvc3dh3u.jpg",
-      "AssetFile": "img/Blog/blog-2.jpg",
+      "Route": "files/Blogs/blog-2.cehvc3dh3u.jpg",
+      "AssetFile": "files/Blogs/blog-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15416,13 +15416,13 @@
         },
         {
           "Name": "label",
-          "Value": "img/Blog/blog-2.jpg"
+          "Value": "files/Blogs/blog-2.jpg"
         }
       ]
     },
     {
-      "Route": "img/Blog/blog-2.jpg",
-      "AssetFile": "img/Blog/blog-2.jpg",
+      "Route": "files/Blogs/blog-2.jpg",
+      "AssetFile": "files/Blogs/blog-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15454,6 +15454,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-LA6F0SNcBe+LBhCgQPqkajrurnou/dXKNuHOmJlf1gE="
+        }
+      ]
+    },
+    {
+      "Route": "files/Blogs/blog-3.7vaz278h7g.jpg",
+      "AssetFile": "files/Blogs/blog-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51382"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7vaz278h7g"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ="
+        },
+        {
+          "Name": "label",
+          "Value": "files/Blogs/blog-3.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "files/Blogs/blog-3.jpg",
+      "AssetFile": "files/Blogs/blog-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51382"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/Mau-xe-toyota-veloz-cross-5.jpg",
+      "AssetFile": "files/Car/Mau-xe-toyota-veloz-cross-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A+zq5k3m34n9Ar9QavnFb+Uy7TFfWPzeUZOD8OfJU1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:43:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A+zq5k3m34n9Ar9QavnFb+Uy7TFfWPzeUZOD8OfJU1Y="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/Mau-xe-toyota-veloz-cross-5.px4c4nriyu.jpg",
+      "AssetFile": "files/Car/Mau-xe-toyota-veloz-cross-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A+zq5k3m34n9Ar9QavnFb+Uy7TFfWPzeUZOD8OfJU1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:43:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "px4c4nriyu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A+zq5k3m34n9Ar9QavnFb+Uy7TFfWPzeUZOD8OfJU1Y="
+        },
+        {
+          "Name": "label",
+          "Value": "files/Car/Mau-xe-toyota-veloz-cross-5.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/hyundai-i10-2020-mau-bac-1.2xap6mtkhw.jpg",
+      "AssetFile": "files/Car/hyundai-i10-2020-mau-bac-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67050"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hrGo/Yv0Rvt1yeRtw8bSxs7B9XgGtI2nT78YfNb2K24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:40:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2xap6mtkhw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hrGo/Yv0Rvt1yeRtw8bSxs7B9XgGtI2nT78YfNb2K24="
+        },
+        {
+          "Name": "label",
+          "Value": "files/Car/hyundai-i10-2020-mau-bac-1.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/hyundai-i10-2020-mau-bac-1.jpg",
+      "AssetFile": "files/Car/hyundai-i10-2020-mau-bac-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67050"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hrGo/Yv0Rvt1yeRtw8bSxs7B9XgGtI2nT78YfNb2K24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:40:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hrGo/Yv0Rvt1yeRtw8bSxs7B9XgGtI2nT78YfNb2K24="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/mau-xe-hyundai-i10-1-c560.jpg",
+      "AssetFile": "files/Car/mau-xe-hyundai-i10-1-c560.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "494507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CH+KNyo4W2/PUrmAXJkCFqODVoRp8IfTLfX7UbY6QII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CH+KNyo4W2/PUrmAXJkCFqODVoRp8IfTLfX7UbY6QII="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/mau-xe-hyundai-i10-1-c560.ocbmifje7f.jpg",
+      "AssetFile": "files/Car/mau-xe-hyundai-i10-1-c560.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "494507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CH+KNyo4W2/PUrmAXJkCFqODVoRp8IfTLfX7UbY6QII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ocbmifje7f"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CH+KNyo4W2/PUrmAXJkCFqODVoRp8IfTLfX7UbY6QII="
+        },
+        {
+          "Name": "label",
+          "Value": "files/Car/mau-xe-hyundai-i10-1-c560.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.7lpm4jxfxb.jpg",
+      "AssetFile": "files/Car/ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9VTLW+5dXQbD2HPpqfQZj7kEy+mUaIz6zf3O8NM7W1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7lpm4jxfxb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9VTLW+5dXQbD2HPpqfQZj7kEy+mUaIz6zf3O8NM7W1o="
+        },
+        {
+          "Name": "label",
+          "Value": "files/Car/ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.jpg",
+      "AssetFile": "files/Car/ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9VTLW+5dXQbD2HPpqfQZj7kEy+mUaIz6zf3O8NM7W1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9VTLW+5dXQbD2HPpqfQZj7kEy+mUaIz6zf3O8NM7W1o="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/toyota-veloz-cross-trang-ngoc-trai.ao80d1zjfi.jpeg",
+      "AssetFile": "files/Car/toyota-veloz-cross-trang-ngoc-trai.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6uxcgm2em0FtTplZ+jsbwQaCc74eutq5G57i3gVL+Uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:45:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ao80d1zjfi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6uxcgm2em0FtTplZ+jsbwQaCc74eutq5G57i3gVL+Uk="
+        },
+        {
+          "Name": "label",
+          "Value": "files/Car/toyota-veloz-cross-trang-ngoc-trai.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/toyota-veloz-cross-trang-ngoc-trai.jpeg",
+      "AssetFile": "files/Car/toyota-veloz-cross-trang-ngoc-trai.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6uxcgm2em0FtTplZ+jsbwQaCc74eutq5G57i3gVL+Uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:45:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6uxcgm2em0FtTplZ+jsbwQaCc74eutq5G57i3gVL+Uk="
         }
       ]
     },
@@ -16110,88 +16602,6 @@
         {
           "Name": "label",
           "Value": "img/bg-1.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/blog-3.7vaz278h7g.jpg",
-      "AssetFile": "img/blog-3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51382"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7vaz278h7g"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ="
-        },
-        {
-          "Name": "label",
-          "Value": "img/blog-3.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/blog-3.jpg",
-      "AssetFile": "img/blog-3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51382"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ="
         }
       ]
     },

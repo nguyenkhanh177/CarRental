@@ -1,65 +1,68 @@
 ﻿@model CarRental.Models.TbProductionModel
 
 @{
-    ViewData["Title"] = "Create";
-    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Tạo mẫu xe mới";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
-
-<h4>TbProductionModel</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Idautomaker" class="control-label"></label>
-                <select asp-for="Idautomaker" class ="form-control" asp-items="ViewBag.Idautomaker"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="SeatingCapacity" class="control-label"></label>
-                <input asp-for="SeatingCapacity" class="form-control" />
-                <span asp-validation-for="SeatingCapacity" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Idgearbox" class="control-label"></label>
-                <select asp-for="Idgearbox" class ="form-control" asp-items="ViewBag.Idgearbox"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="Idfuel" class="control-label"></label>
-                <select asp-for="Idfuel" class ="form-control" asp-items="ViewBag.Idfuel"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="Describe" class="control-label"></label>
-                <input asp-for="Describe" class="form-control" />
-                <span asp-validation-for="Describe" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Star" class="control-label"></label>
-                <input asp-for="Star" class="form-control" />
-                <span asp-validation-for="Star" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="IddriverCapabilities" class="control-label"></label>
-                <select asp-for="IddriverCapabilities" class ="form-control" asp-items="ViewBag.IddriverCapabilities"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="ProductionModelName" class="control-label"></label>
-                <input asp-for="ProductionModelName" class="form-control" />
-                <span asp-validation-for="ProductionModelName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
+<div class="container-fluid pt-4 px-4">
+	<div class="row g-4">
+		<div class="col-sm-12 col-xl-12">
+			<div class="bg-secondary rounded h-100 p-4">
+				<h1 class="mb-4">Tạo mẫu xe mới</h1>
+				<form asp-action="Create">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+					<div class="form-group mt-3">
+						<label asp-for="Idautomaker" class="control-label">Hãng xe</label>
+						<select asp-for="Idautomaker" class="form-control text-light bg-body" asp-items="ViewBag.Idautomaker"></select>
+					</div>
+					<div class="form-group mt-3">
+						<label asp-for="ProductionModelName" class="control-label">Tên mẫu xe</label>
+						<input asp-for="ProductionModelName" class="form-control" />
+						<span asp-validation-for="ProductionModelName" class="text-danger"></span>
+					</div>
+					<div class="form-group mt-3">
+						<label asp-for="SeatingCapacity" class="control-label">Chỗ ngồi</label>
+						<input asp-for="SeatingCapacity" class="form-control" />
+						<span asp-validation-for="SeatingCapacity" class="text-danger"></span>
+					</div>
+					<div class="form-group mt-3">
+						<label asp-for="Idgearbox" class="control-label">Hộp số</label>
+						<select asp-for="Idgearbox" class="form-control text-light bg-body" asp-items="ViewBag.Idgearbox"></select>
+					</div>
+					<div class="form-group mt-3">
+						<label asp-for="Idfuel" class="control-label">Nhiên liệu</label>
+						<select asp-for="Idfuel" class="form-control text-light bg-body" asp-items="ViewBag.Idfuel"></select>
+					</div>
+					<div class="form-group mt-3">
+						<label asp-for="Describe" class="control-label">Mô tả</label>
+						<input asp-for="Describe" class="form-control" />
+						<span asp-validation-for="Describe" class="text-danger"></span>
+					</div>
+					<div class="form-group mt-3">
+						<label asp-for="Star" class="control-label">Sao</label>
+						<input asp-for="Star" class="form-control" />
+						<span asp-validation-for="Star" class="text-danger"></span>
+					</div>
+					<div class="form-group mt-3">
+						<label asp-for="IddriverCapabilities" class="control-label">Kiểu lái</label>
+						<select asp-for="IddriverCapabilities" class="form-control text-light bg-body" asp-items="ViewBag.IddriverCapabilities"></select>
+					</div>
+					<div class="form-group mt-3 mt-3">
+						<button type="submit" value="Create" class="btn btn-primary">Tạo mẫu xe</button>
+					</div>
+					<div class="mt-3">
+						<a asp-action="Index">Quay lại danh sách</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
 }

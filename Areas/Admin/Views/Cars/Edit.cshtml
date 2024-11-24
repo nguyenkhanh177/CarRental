@@ -1,0 +1,49 @@
+﻿@model CarRental.Models.TbCar
+
+@{
+    ViewData["Title"] = "Sửa xe";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid pt-4 px-4">
+	<div class="row g-4">
+		<div class="col-sm-12 col-xl-12">
+			<div class="bg-secondary rounded h-100 p-4">
+				<h1 class="mb-4">Sửa xe</h1>
+				<form asp-action="Edit">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+					<input type="hidden" asp-for="Idcar" />
+                    <div class="form-group mt-3">
+                        <label asp-for="IdproductionModel" class="control-label">Mẫu xe</label>
+                        <select asp-for="IdproductionModel" class="form-control text-light bg-body" asp-items="ViewBag.IdproductionModel"></select>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label asp-for="Color" class="control-label">Màu</label>
+                        <input asp-for="Color" class="form-control" />
+                        <span asp-validation-for="Color" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label asp-for="Price" class="control-label">Giá</label>
+                        <input asp-for="Price" class="form-control" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label asp-for="Image" class="control-label">Ảnh</label>
+                        <input asp-for="Image" class="form-control" />
+                        <span asp-validation-for="Image" class="text-danger"></span>
+                    </div>
+					<div class="form-group mt-3">
+						<input type="submit" value="Lưu lại" class="btn btn-primary" />
+					</div>
+					<div class="mt-3">
+						<a asp-action="Index">Quay lại danh sách</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

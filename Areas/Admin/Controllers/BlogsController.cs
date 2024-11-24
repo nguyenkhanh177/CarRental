@@ -59,6 +59,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Title,Idblog,Detail,PublishTime,Description,Image,Idadmin")] TbBlog tbBlog)
         {
+            tbBlog.PublishTime = DateTime.Now;
             if (ModelState.IsValid)
             {
                 _context.Add(tbBlog);
@@ -82,7 +83,7 @@ namespace CarRental.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Idadmin", tbBlog.Idadmin);
+            ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Name", tbBlog.Idadmin);
             return View(tbBlog);
         }
 
@@ -118,7 +119,7 @@ namespace CarRental.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Idadmin", tbBlog.Idadmin);
+            ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Name", tbBlog.Idadmin);
             return View(tbBlog);
         }
 

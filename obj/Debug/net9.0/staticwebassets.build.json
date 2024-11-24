@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qRx4S2+j1MVTugSrrpcAMryh8fzzStcSn3JvME8ABKw=",
+  "Hash": "RNVIRpiOZ1m7lCFM9JvSvwqnRufB0PWlrmnUaoYClWQ=",
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -4616,6 +4616,237 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-1.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Avatars/avatar-1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "twvdm4h7kg",
+      "Integrity": "zRiAC5aSSQp9AaMQ4V7Ov137zrX/2izPUAp86A4Mc2U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Avatars\\avatar-1.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-2.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Avatars/avatar-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xf0ncly021",
+      "Integrity": "A35mCNRhOl+2S7+MT3OWI9oERqh2S9HDqPh83pX80TU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Avatars\\avatar-2.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-3.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Avatars/avatar-3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5pm55uz6is",
+      "Integrity": "1/DVbEV1vJeouv64njigNS6l6inUaWEiUfV3c5t3Fhs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Avatars\\avatar-3.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-1.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Blogs/blog-1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jsrxhmkl60",
+      "Integrity": "81P0rsUv/24l05M064y8VD4O/gne5g+Wdy51w/iVgnA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Blogs\\blog-1.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-2.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Blogs/blog-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cehvc3dh3u",
+      "Integrity": "LA6F0SNcBe+LBhCgQPqkajrurnou/dXKNuHOmJlf1gE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Blogs\\blog-2.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-3.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Blogs/blog-3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7vaz278h7g",
+      "Integrity": "PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Blogs\\blog-3.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\hyundai-i10-2020-mau-bac-1.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Car/hyundai-i10-2020-mau-bac-1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2xap6mtkhw",
+      "Integrity": "hrGo/Yv0Rvt1yeRtw8bSxs7B9XgGtI2nT78YfNb2K24=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Car\\hyundai-i10-2020-mau-bac-1.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\mau-xe-hyundai-i10-1-c560.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Car/mau-xe-hyundai-i10-1-c560#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ocbmifje7f",
+      "Integrity": "CH+KNyo4W2/PUrmAXJkCFqODVoRp8IfTLfX7UbY6QII=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Car\\mau-xe-hyundai-i10-1-c560.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\Mau-xe-toyota-veloz-cross-5.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Car/Mau-xe-toyota-veloz-cross-5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "px4c4nriyu",
+      "Integrity": "A+zq5k3m34n9Ar9QavnFb+Uy7TFfWPzeUZOD8OfJU1Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Car\\Mau-xe-toyota-veloz-cross-5.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Car/ngoai-that-xe-i10-hatchback-mau-xanh-2_orig#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7lpm4jxfxb",
+      "Integrity": "9VTLW+5dXQbD2HPpqfQZj7kEy+mUaIz6zf3O8NM7W1o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Car\\ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\toyota-veloz-cross-trang-ngoc-trai.jpeg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Car/toyota-veloz-cross-trang-ngoc-trai#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ao80d1zjfi",
+      "Integrity": "6uxcgm2em0FtTplZ+jsbwQaCc74eutq5G57i3gVL+Uk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Car\\toyota-veloz-cross-trang-ngoc-trai.jpeg"
+    },
+    {
       "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\about-icon-1.png",
       "SourceId": "CarRental",
       "SourceType": "Discovered",
@@ -4721,69 +4952,6 @@
       "OriginalItemSpec": "wwwroot\\img\\attachment-img.jpg"
     },
     {
-      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Avatar\\avatar-1.jpg",
-      "SourceId": "CarRental",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
-      "BasePath": "_content/CarRental",
-      "RelativePath": "img/Avatar/avatar-1#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "twvdm4h7kg",
-      "Integrity": "zRiAC5aSSQp9AaMQ4V7Ov137zrX/2izPUAp86A4Mc2U=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Avatar\\avatar-1.jpg"
-    },
-    {
-      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Avatar\\avatar-2.jpg",
-      "SourceId": "CarRental",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
-      "BasePath": "_content/CarRental",
-      "RelativePath": "img/Avatar/avatar-2#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "xf0ncly021",
-      "Integrity": "A35mCNRhOl+2S7+MT3OWI9oERqh2S9HDqPh83pX80TU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Avatar\\avatar-2.jpg"
-    },
-    {
-      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Avatar\\avatar-3.jpg",
-      "SourceId": "CarRental",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
-      "BasePath": "_content/CarRental",
-      "RelativePath": "img/Avatar/avatar-3#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5pm55uz6is",
-      "Integrity": "1/DVbEV1vJeouv64njigNS6l6inUaWEiUfV3c5t3Fhs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Avatar\\avatar-3.jpg"
-    },
-    {
       "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\banner-1.jpg",
       "SourceId": "CarRental",
       "SourceType": "Discovered",
@@ -4824,69 +4992,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\bg-1.jpg"
-    },
-    {
-      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Blog\\blog-1.jpg",
-      "SourceId": "CarRental",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
-      "BasePath": "_content/CarRental",
-      "RelativePath": "img/Blog/blog-1#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "jsrxhmkl60",
-      "Integrity": "81P0rsUv/24l05M064y8VD4O/gne5g+Wdy51w/iVgnA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Blog\\blog-1.jpg"
-    },
-    {
-      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Blog\\blog-2.jpg",
-      "SourceId": "CarRental",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
-      "BasePath": "_content/CarRental",
-      "RelativePath": "img/Blog/blog-2#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cehvc3dh3u",
-      "Integrity": "LA6F0SNcBe+LBhCgQPqkajrurnou/dXKNuHOmJlf1gE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Blog\\blog-2.jpg"
-    },
-    {
-      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\blog-3.jpg",
-      "SourceId": "CarRental",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
-      "BasePath": "_content/CarRental",
-      "RelativePath": "img/blog-3#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "7vaz278h7g",
-      "Integrity": "PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\blog-3.jpg"
     },
     {
       "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\car-1.png",
@@ -24078,6 +24183,908 @@
       ]
     },
     {
+      "Route": "files/Avatars/avatar-1.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6026"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zRiAC5aSSQp9AaMQ4V7Ov137zrX/2izPUAp86A4Mc2U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 15:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zRiAC5aSSQp9AaMQ4V7Ov137zrX/2izPUAp86A4Mc2U="
+        }
+      ]
+    },
+    {
+      "Route": "files/Avatars/avatar-1.twvdm4h7kg.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6026"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zRiAC5aSSQp9AaMQ4V7Ov137zrX/2izPUAp86A4Mc2U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 15:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "twvdm4h7kg"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Avatars/avatar-1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zRiAC5aSSQp9AaMQ4V7Ov137zrX/2izPUAp86A4Mc2U="
+        }
+      ]
+    },
+    {
+      "Route": "files/Avatars/avatar-2.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A35mCNRhOl+2S7+MT3OWI9oERqh2S9HDqPh83pX80TU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 15:12:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A35mCNRhOl+2S7+MT3OWI9oERqh2S9HDqPh83pX80TU="
+        }
+      ]
+    },
+    {
+      "Route": "files/Avatars/avatar-2.xf0ncly021.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A35mCNRhOl+2S7+MT3OWI9oERqh2S9HDqPh83pX80TU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 15:12:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xf0ncly021"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Avatars/avatar-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A35mCNRhOl+2S7+MT3OWI9oERqh2S9HDqPh83pX80TU="
+        }
+      ]
+    },
+    {
+      "Route": "files/Avatars/avatar-3.5pm55uz6is.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1/DVbEV1vJeouv64njigNS6l6inUaWEiUfV3c5t3Fhs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 15:12:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5pm55uz6is"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Avatars/avatar-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1/DVbEV1vJeouv64njigNS6l6inUaWEiUfV3c5t3Fhs="
+        }
+      ]
+    },
+    {
+      "Route": "files/Avatars/avatar-3.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1/DVbEV1vJeouv64njigNS6l6inUaWEiUfV3c5t3Fhs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 15:12:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1/DVbEV1vJeouv64njigNS6l6inUaWEiUfV3c5t3Fhs="
+        }
+      ]
+    },
+    {
+      "Route": "files/Blogs/blog-1.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69973"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"81P0rsUv/24l05M064y8VD4O/gne5g+Wdy51w/iVgnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-81P0rsUv/24l05M064y8VD4O/gne5g+Wdy51w/iVgnA="
+        }
+      ]
+    },
+    {
+      "Route": "files/Blogs/blog-1.jsrxhmkl60.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69973"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"81P0rsUv/24l05M064y8VD4O/gne5g+Wdy51w/iVgnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jsrxhmkl60"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Blogs/blog-1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-81P0rsUv/24l05M064y8VD4O/gne5g+Wdy51w/iVgnA="
+        }
+      ]
+    },
+    {
+      "Route": "files/Blogs/blog-2.cehvc3dh3u.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LA6F0SNcBe+LBhCgQPqkajrurnou/dXKNuHOmJlf1gE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cehvc3dh3u"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Blogs/blog-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LA6F0SNcBe+LBhCgQPqkajrurnou/dXKNuHOmJlf1gE="
+        }
+      ]
+    },
+    {
+      "Route": "files/Blogs/blog-2.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LA6F0SNcBe+LBhCgQPqkajrurnou/dXKNuHOmJlf1gE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LA6F0SNcBe+LBhCgQPqkajrurnou/dXKNuHOmJlf1gE="
+        }
+      ]
+    },
+    {
+      "Route": "files/Blogs/blog-3.7vaz278h7g.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51382"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7vaz278h7g"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Blogs/blog-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ="
+        }
+      ]
+    },
+    {
+      "Route": "files/Blogs/blog-3.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51382"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/hyundai-i10-2020-mau-bac-1.2xap6mtkhw.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\hyundai-i10-2020-mau-bac-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67050"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hrGo/Yv0Rvt1yeRtw8bSxs7B9XgGtI2nT78YfNb2K24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:40:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2xap6mtkhw"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Car/hyundai-i10-2020-mau-bac-1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hrGo/Yv0Rvt1yeRtw8bSxs7B9XgGtI2nT78YfNb2K24="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/hyundai-i10-2020-mau-bac-1.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\hyundai-i10-2020-mau-bac-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67050"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hrGo/Yv0Rvt1yeRtw8bSxs7B9XgGtI2nT78YfNb2K24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:40:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hrGo/Yv0Rvt1yeRtw8bSxs7B9XgGtI2nT78YfNb2K24="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/mau-xe-hyundai-i10-1-c560.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\mau-xe-hyundai-i10-1-c560.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "494507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CH+KNyo4W2/PUrmAXJkCFqODVoRp8IfTLfX7UbY6QII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CH+KNyo4W2/PUrmAXJkCFqODVoRp8IfTLfX7UbY6QII="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/mau-xe-hyundai-i10-1-c560.ocbmifje7f.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\mau-xe-hyundai-i10-1-c560.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "494507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CH+KNyo4W2/PUrmAXJkCFqODVoRp8IfTLfX7UbY6QII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ocbmifje7f"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Car/mau-xe-hyundai-i10-1-c560.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CH+KNyo4W2/PUrmAXJkCFqODVoRp8IfTLfX7UbY6QII="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/Mau-xe-toyota-veloz-cross-5.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\Mau-xe-toyota-veloz-cross-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A+zq5k3m34n9Ar9QavnFb+Uy7TFfWPzeUZOD8OfJU1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:43:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A+zq5k3m34n9Ar9QavnFb+Uy7TFfWPzeUZOD8OfJU1Y="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/Mau-xe-toyota-veloz-cross-5.px4c4nriyu.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\Mau-xe-toyota-veloz-cross-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A+zq5k3m34n9Ar9QavnFb+Uy7TFfWPzeUZOD8OfJU1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:43:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "px4c4nriyu"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Car/Mau-xe-toyota-veloz-cross-5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A+zq5k3m34n9Ar9QavnFb+Uy7TFfWPzeUZOD8OfJU1Y="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.7lpm4jxfxb.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9VTLW+5dXQbD2HPpqfQZj7kEy+mUaIz6zf3O8NM7W1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7lpm4jxfxb"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Car/ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9VTLW+5dXQbD2HPpqfQZj7kEy+mUaIz6zf3O8NM7W1o="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9VTLW+5dXQbD2HPpqfQZj7kEy+mUaIz6zf3O8NM7W1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:41:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9VTLW+5dXQbD2HPpqfQZj7kEy+mUaIz6zf3O8NM7W1o="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/toyota-veloz-cross-trang-ngoc-trai.ao80d1zjfi.jpeg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\toyota-veloz-cross-trang-ngoc-trai.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6uxcgm2em0FtTplZ+jsbwQaCc74eutq5G57i3gVL+Uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:45:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ao80d1zjfi"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Car/toyota-veloz-cross-trang-ngoc-trai.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6uxcgm2em0FtTplZ+jsbwQaCc74eutq5G57i3gVL+Uk="
+        }
+      ]
+    },
+    {
+      "Route": "files/Car/toyota-veloz-cross-trang-ngoc-trai.jpeg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\toyota-veloz-cross-trang-ngoc-trai.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6uxcgm2em0FtTplZ+jsbwQaCc74eutq5G57i3gVL+Uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 17:45:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6uxcgm2em0FtTplZ+jsbwQaCc74eutq5G57i3gVL+Uk="
+        }
+      ]
+    },
+    {
       "Route": "img/about-icon-1.h3q3jnnv05.png",
       "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\about-icon-1.png",
       "Selectors": [],
@@ -24488,252 +25495,6 @@
       ]
     },
     {
-      "Route": "img/Avatar/avatar-1.jpg",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Avatar\\avatar-1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6026"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zRiAC5aSSQp9AaMQ4V7Ov137zrX/2izPUAp86A4Mc2U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 15:12:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zRiAC5aSSQp9AaMQ4V7Ov137zrX/2izPUAp86A4Mc2U="
-        }
-      ]
-    },
-    {
-      "Route": "img/Avatar/avatar-1.twvdm4h7kg.jpg",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Avatar\\avatar-1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6026"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zRiAC5aSSQp9AaMQ4V7Ov137zrX/2izPUAp86A4Mc2U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 15:12:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "twvdm4h7kg"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Avatar/avatar-1.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zRiAC5aSSQp9AaMQ4V7Ov137zrX/2izPUAp86A4Mc2U="
-        }
-      ]
-    },
-    {
-      "Route": "img/Avatar/avatar-2.jpg",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Avatar\\avatar-2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6252"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"A35mCNRhOl+2S7+MT3OWI9oERqh2S9HDqPh83pX80TU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 15:12:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-A35mCNRhOl+2S7+MT3OWI9oERqh2S9HDqPh83pX80TU="
-        }
-      ]
-    },
-    {
-      "Route": "img/Avatar/avatar-2.xf0ncly021.jpg",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Avatar\\avatar-2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6252"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"A35mCNRhOl+2S7+MT3OWI9oERqh2S9HDqPh83pX80TU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 15:12:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xf0ncly021"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Avatar/avatar-2.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-A35mCNRhOl+2S7+MT3OWI9oERqh2S9HDqPh83pX80TU="
-        }
-      ]
-    },
-    {
-      "Route": "img/Avatar/avatar-3.5pm55uz6is.jpg",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Avatar\\avatar-3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4731"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1/DVbEV1vJeouv64njigNS6l6inUaWEiUfV3c5t3Fhs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 15:12:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5pm55uz6is"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Avatar/avatar-3.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1/DVbEV1vJeouv64njigNS6l6inUaWEiUfV3c5t3Fhs="
-        }
-      ]
-    },
-    {
-      "Route": "img/Avatar/avatar-3.jpg",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Avatar\\avatar-3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4731"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1/DVbEV1vJeouv64njigNS6l6inUaWEiUfV3c5t3Fhs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 15 Nov 2024 15:12:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1/DVbEV1vJeouv64njigNS6l6inUaWEiUfV3c5t3Fhs="
-        }
-      ]
-    },
-    {
       "Route": "img/banner-1.etc98ag0y1.jpg",
       "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\banner-1.jpg",
       "Selectors": [],
@@ -24894,252 +25655,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-2reExf4LW1rTACmJByw+QZIOB7g0zumoYi+yYPAnZfk="
-        }
-      ]
-    },
-    {
-      "Route": "img/Blog/blog-1.jpg",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Blog\\blog-1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "69973"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"81P0rsUv/24l05M064y8VD4O/gne5g+Wdy51w/iVgnA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-81P0rsUv/24l05M064y8VD4O/gne5g+Wdy51w/iVgnA="
-        }
-      ]
-    },
-    {
-      "Route": "img/Blog/blog-1.jsrxhmkl60.jpg",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Blog\\blog-1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "69973"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"81P0rsUv/24l05M064y8VD4O/gne5g+Wdy51w/iVgnA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jsrxhmkl60"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Blog/blog-1.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-81P0rsUv/24l05M064y8VD4O/gne5g+Wdy51w/iVgnA="
-        }
-      ]
-    },
-    {
-      "Route": "img/Blog/blog-2.cehvc3dh3u.jpg",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Blog\\blog-2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "54283"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LA6F0SNcBe+LBhCgQPqkajrurnou/dXKNuHOmJlf1gE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cehvc3dh3u"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Blog/blog-2.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-LA6F0SNcBe+LBhCgQPqkajrurnou/dXKNuHOmJlf1gE="
-        }
-      ]
-    },
-    {
-      "Route": "img/Blog/blog-2.jpg",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Blog\\blog-2.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "54283"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LA6F0SNcBe+LBhCgQPqkajrurnou/dXKNuHOmJlf1gE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-LA6F0SNcBe+LBhCgQPqkajrurnou/dXKNuHOmJlf1gE="
-        }
-      ]
-    },
-    {
-      "Route": "img/blog-3.7vaz278h7g.jpg",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\blog-3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51382"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7vaz278h7g"
-        },
-        {
-          "Name": "label",
-          "Value": "img/blog-3.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ="
-        }
-      ]
-    },
-    {
-      "Route": "img/blog-3.jpg",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\blog-3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51382"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PWCHGYsGTRac5t1m2t6h4i0ZEHQMBpr4XrJSYSA7OIQ="
         }
       ]
     },

@@ -1,66 +1,67 @@
 ﻿@model IEnumerable<CarRental.Models.TbBlog>
 
 @{
-    ViewData["Title"] = "Index";
-    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Quản lý blogs";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Detail)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PublishTime)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Image)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdadminNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Detail)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PublishTime)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Image)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdadminNavigation.Idadmin)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Idblog">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Idblog">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Idblog">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container-fluid pt-4 px-4">
+	<div class="row g-4">
+		<div class="col-sm-12 col-xl-12">
+			<div class="rounded h-100 p-4">
+				<h1 class="mb-4">Quản lý blogs</h1>
+				<p class="mb-4">
+					<a asp-action="Create">Tạo blog mới</a>
+				</p>
+				<table class="table table-hover table-dark">
+					<thead>
+						<tr>
+							<th scope="col">STT</th>
+							<th scope="col">Tiêu đề</th>
+							<th scope="col">Thời gian đăng bài</th>
+							<th scope="col">Mô tả</th>
+							<th scope="col">Ảnh</th>
+							<th scope="col">Người đăng</th>
+							<th scope="col" style="width:250px"></th>
+						</tr>
+					</thead>
+					<tbody>
+						@{
+							int STT = 0;
+						}
+						@foreach (var item in Model)
+						{
+							STT += 1;
+							<tr>
+								<td>
+									@STT
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.Title)
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.PublishTime)
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.Description)
+								</td>
+								<td>
+									<img src="~/files/blogs/@Html.DisplayFor(modelItem => item.Image)" width="100px" height="50px" />
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.IdadminNavigation.Name)
+								</td>
+								<td>
+									<a class="btn btn-outline-success" asp-action="Edit" asp-route-id="@item.Idblog">Sửa</a> |
+									<a class="btn btn-outline-info" asp-action="Details" asp-route-id="@item.Idblog">Chi tiết</a> |
+									<a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Idblog">Xóa</a>
+								</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>

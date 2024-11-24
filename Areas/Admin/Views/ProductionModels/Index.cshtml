@@ -1,78 +1,73 @@
 ﻿@model IEnumerable<CarRental.Models.TbProductionModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Quản lý mẫu xe";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
-
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.SeatingCapacity)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Describe)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Star)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ProductionModelName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdautomakerNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IddriverCapabilitiesNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdfuelNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdgearboxNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.SeatingCapacity)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Describe)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Star)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProductionModelName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdautomakerNavigation.Idautomaker)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IddriverCapabilitiesNavigation.IddriverCapabilities)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdfuelNavigation.Idfuel)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdgearboxNavigation.Idgearbox)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdproductionModel">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdproductionModel">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdproductionModel">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container-fluid pt-4 px-4 min-vh-100">
+    <div class="row g-4">
+        <div class="col-sm-12 col-xl-12">
+            <div class="rounded h-100 p-4">
+                <h1 class="mb-4">Quản lý mẫu xe</h1>
+                <p class="mb-4">
+                    <a asp-action="Create">Tạo mẫu xe</a>
+                </p>
+                <table class="table table-hover table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">STT</th>
+                            <th scope="col">Hãng xe</th>
+                            <th scope="col">Tên mẫu xe</th>
+                            <th scope="col">Chỗ ngồi</th>
+                            <th scope="col">Hộp số</th>
+                            <th scope="col">Nhiên liệu</th>
+                            <th scope="col">Sao</th>
+                            <th scope="col">Kiểu lái</th>
+                            <th scope="col" style="width:250px"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int STT = 0;
+                        }
+                        @foreach (var item in Model)
+                        {
+                            STT += 1;
+                            <tr>
+                                <td>
+                                    @STT
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.IdautomakerNavigation.AutomakerName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ProductionModelName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.SeatingCapacity)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.IdgearboxNavigation.GearboxName)
+                                </td>                           
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.IdfuelNavigation.FuelName)
+                                </td>                 
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Star)
+                                </td>            
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.IddriverCapabilitiesNavigation.DriverCapabilitiesName)
+                                </td>
+                                <td>
+                                    <a class="btn btn-outline-success" asp-action="Edit" asp-route-id="@item.IdproductionModel">Sửa</a> |
+                                    <a class="btn btn-outline-info" asp-action="Details" asp-route-id="@item.IdproductionModel">Chi tiết</a> |
+                                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.IdproductionModel">Xóa</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

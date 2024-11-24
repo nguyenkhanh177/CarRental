@@ -1,55 +1,61 @@
 ﻿@model CarRental.Models.TbBlog
 
 @{
-    ViewData["Title"] = "Details";
-    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Thông tin blog";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<div class="container-fluid pt-4 px-4">
+	<div class="row g-4">
+		<div class="col-sm-12 col-xl-12">
+			<div class="bg-secondary rounded h-100 p-4">
+				<h1 class="mb-4">Thông tin blog</h1>
+				<dl class="row text-white">
+					<dt class="col-sm-2 mt-3">
+						Tiêu đề
+					</dt>
+					<dd class="col-sm-10 mt-3">
+						@Html.DisplayFor(model => model.Title)
+					</dd>
+					<dt class="col-sm-2 mt-3">
+						Mô tả
+					</dt>
+					<dd class="col-sm-10 mt-3">
+						@Html.DisplayFor(model => model.Description)
+					</dd>
+					<dt class="col-sm-2 mt-3">
+						Nội dung
+					</dt>
+					<dd class="col-sm-10 mt-3">
+						@Html.DisplayFor(model => model.Detail)
+					</dd>
+					<dt class="col-sm-2 mt-3">
+						Thời gian tạo
+					</dt>
+					<dd class="col-sm-10 mt-3">
+						@Html.DisplayFor(model => model.PublishTime)
+					</dd>
+					<dt class="col-sm-2 mt-3">
+						Ảnh
+					</dt>
+					<dd class="col-sm-10 mt-3">
+						<img src="/files/Blogs/@Html.DisplayFor(model => model.Image)" width="300px" height="150px">
+					</dd>
+					<dt class="col-sm-2 mt-3">
+						Người tạo
+					</dt>
+					<dd class="col-sm-10 mt-3">
+						@Html.DisplayFor(model => model.IdadminNavigation.Name)
+					</dd>
+				</dl>
+				<hr style="color:white" />
+				<div>
+					<a asp-action="Edit" asp-route-id="@Model?.Idblog">Sửa</a> |
+					<a asp-action="Index">Quay lại danh sách</a> |
+					<a asp-action="Delete" asp-route-id="@Model?.Idblog">Xóa</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-<div>
-    <h4>TbBlog</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Detail)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Detail)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PublishTime)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PublishTime)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Image)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Image)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdadminNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdadminNavigation.Idadmin)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Idblog">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>

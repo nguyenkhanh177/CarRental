@@ -157,9 +157,7 @@ public partial class CarRentalContext : DbContext
             entity.Property(e => e.Idcar).HasColumnName("IDCar");
             entity.Property(e => e.Color).HasMaxLength(20);
             entity.Property(e => e.IdproductionModel).HasColumnName("IDProductionModel");
-            entity.Property(e => e.Image)
-                .HasMaxLength(50)
-                .IsUnicode(false);
+            entity.Property(e => e.Image).HasMaxLength(50);
 
             entity.HasOne(d => d.IdproductionModelNavigation).WithMany(p => p.TbCars)
                 .HasForeignKey(d => d.IdproductionModel)

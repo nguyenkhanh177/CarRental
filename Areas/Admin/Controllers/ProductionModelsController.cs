@@ -51,10 +51,10 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/ProductionModels/Create
         public IActionResult Create()
         {
-            ViewData["Idautomaker"] = new SelectList(_context.TbAutomakers, "Idautomaker", "Idautomaker");
-            ViewData["IddriverCapabilities"] = new SelectList(_context.TbDriverCapabilities, "IddriverCapabilities", "IddriverCapabilities");
-            ViewData["Idfuel"] = new SelectList(_context.TbFuels, "Idfuel", "Idfuel");
-            ViewData["Idgearbox"] = new SelectList(_context.TbGearboxes, "Idgearbox", "Idgearbox");
+            ViewData["Idautomaker"] = new SelectList(_context.TbAutomakers, "Idautomaker", "AutomakerName");
+            ViewData["IddriverCapabilities"] = new SelectList(_context.TbDriverCapabilities, "IddriverCapabilities", "DriverCapabilitiesName");
+            ViewData["Idfuel"] = new SelectList(_context.TbFuels, "Idfuel", "FuelName");
+            ViewData["Idgearbox"] = new SelectList(_context.TbGearboxes, "Idgearbox", "GearboxName");
             return View();
         }
 
@@ -71,10 +71,10 @@ namespace CarRental.Areas.Admin.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Idautomaker"] = new SelectList(_context.TbAutomakers, "Idautomaker", "Idautomaker", tbProductionModel.Idautomaker);
-            ViewData["IddriverCapabilities"] = new SelectList(_context.TbDriverCapabilities, "IddriverCapabilities", "IddriverCapabilities", tbProductionModel.IddriverCapabilities);
-            ViewData["Idfuel"] = new SelectList(_context.TbFuels, "Idfuel", "Idfuel", tbProductionModel.Idfuel);
-            ViewData["Idgearbox"] = new SelectList(_context.TbGearboxes, "Idgearbox", "Idgearbox", tbProductionModel.Idgearbox);
+            ViewData["Idautomaker"] = new SelectList(_context.TbAutomakers, "Idautomaker", "AutomakerName", tbProductionModel.Idautomaker);
+            ViewData["IddriverCapabilities"] = new SelectList(_context.TbDriverCapabilities, "IddriverCapabilities", "DriverCapabilitiesName", tbProductionModel.IddriverCapabilities);
+            ViewData["Idfuel"] = new SelectList(_context.TbFuels, "Idfuel", "FuelName", tbProductionModel.Idfuel);
+            ViewData["Idgearbox"] = new SelectList(_context.TbGearboxes, "Idgearbox", "GearboxName", tbProductionModel.Idgearbox);
             return View(tbProductionModel);
         }
 
@@ -91,10 +91,10 @@ namespace CarRental.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            ViewData["Idautomaker"] = new SelectList(_context.TbAutomakers, "Idautomaker", "Idautomaker", tbProductionModel.Idautomaker);
-            ViewData["IddriverCapabilities"] = new SelectList(_context.TbDriverCapabilities, "IddriverCapabilities", "IddriverCapabilities", tbProductionModel.IddriverCapabilities);
-            ViewData["Idfuel"] = new SelectList(_context.TbFuels, "Idfuel", "Idfuel", tbProductionModel.Idfuel);
-            ViewData["Idgearbox"] = new SelectList(_context.TbGearboxes, "Idgearbox", "Idgearbox", tbProductionModel.Idgearbox);
+            ViewData["Idautomaker"] = new SelectList(_context.TbAutomakers, "Idautomaker", "AutomakerName", tbProductionModel.Idautomaker);
+            ViewData["IddriverCapabilities"] = new SelectList(_context.TbDriverCapabilities, "IddriverCapabilities", "DriverCapabilitiesName", tbProductionModel.IddriverCapabilities);
+            ViewData["Idfuel"] = new SelectList(_context.TbFuels, "Idfuel", "FuelName", tbProductionModel.Idfuel);
+            ViewData["Idgearbox"] = new SelectList(_context.TbGearboxes, "Idgearbox", "GearboxName", tbProductionModel.Idgearbox);
             return View(tbProductionModel);
         }
 
@@ -130,10 +130,10 @@ namespace CarRental.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Idautomaker"] = new SelectList(_context.TbAutomakers, "Idautomaker", "Idautomaker", tbProductionModel.Idautomaker);
-            ViewData["IddriverCapabilities"] = new SelectList(_context.TbDriverCapabilities, "IddriverCapabilities", "IddriverCapabilities", tbProductionModel.IddriverCapabilities);
-            ViewData["Idfuel"] = new SelectList(_context.TbFuels, "Idfuel", "Idfuel", tbProductionModel.Idfuel);
-            ViewData["Idgearbox"] = new SelectList(_context.TbGearboxes, "Idgearbox", "Idgearbox", tbProductionModel.Idgearbox);
+            ViewData["Idautomaker"] = new SelectList(_context.TbAutomakers, "Idautomaker", "AutomakerName", tbProductionModel.Idautomaker);
+            ViewData["IddriverCapabilities"] = new SelectList(_context.TbDriverCapabilities, "IddriverCapabilities", "DriverCapabilitiesName", tbProductionModel.IddriverCapabilities);
+            ViewData["Idfuel"] = new SelectList(_context.TbFuels, "Idfuel", "FuelName", tbProductionModel.Idfuel);
+            ViewData["Idgearbox"] = new SelectList(_context.TbGearboxes, "Idgearbox", "GearboxName", tbProductionModel.Idgearbox);
             return View(tbProductionModel);
         }
 

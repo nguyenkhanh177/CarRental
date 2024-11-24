@@ -13,6 +13,8 @@ public partial class TbCar
 
     public string Image { get; set; } = null!;
 
+    public int Price { get; set; }
+
     public virtual TbProductionModel? IdproductionModelNavigation { get; set; }
 
     public virtual ICollection<TbBrokenCar> TbBrokenCars { get; set; } = new List<TbBrokenCar>();

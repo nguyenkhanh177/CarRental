@@ -461,24 +461,48 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Avatar\\avatar-1.jpg",
-      "PackagePath": "staticwebassets\\img\\Avatar\\avatar-1.jpg"
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\files\\Avatars\\avatar-1.jpg"
     },
     {
-      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Avatar\\avatar-2.jpg",
-      "PackagePath": "staticwebassets\\img\\Avatar\\avatar-2.jpg"
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\files\\Avatars\\avatar-2.jpg"
     },
     {
-      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Avatar\\avatar-3.jpg",
-      "PackagePath": "staticwebassets\\img\\Avatar\\avatar-3.jpg"
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\files\\Avatars\\avatar-3.jpg"
     },
     {
-      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Blog\\blog-1.jpg",
-      "PackagePath": "staticwebassets\\img\\Blog\\blog-1.jpg"
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\files\\Blogs\\blog-1.jpg"
     },
     {
-      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Blog\\blog-2.jpg",
-      "PackagePath": "staticwebassets\\img\\Blog\\blog-2.jpg"
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\files\\Blogs\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\files\\Blogs\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\Mau-xe-toyota-veloz-cross-5.jpg",
+      "PackagePath": "staticwebassets\\files\\Car\\Mau-xe-toyota-veloz-cross-5.jpg"
+    },
+    {
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\hyundai-i10-2020-mau-bac-1.jpg",
+      "PackagePath": "staticwebassets\\files\\Car\\hyundai-i10-2020-mau-bac-1.jpg"
+    },
+    {
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\mau-xe-hyundai-i10-1-c560.jpg",
+      "PackagePath": "staticwebassets\\files\\Car\\mau-xe-hyundai-i10-1-c560.jpg"
+    },
+    {
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.jpg",
+      "PackagePath": "staticwebassets\\files\\Car\\ngoai-that-xe-i10-hatchback-mau-xanh-2_orig.jpg"
+    },
+    {
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Car\\toyota-veloz-cross-trang-ngoc-trai.jpeg",
+      "PackagePath": "staticwebassets\\files\\Car\\toyota-veloz-cross-trang-ngoc-trai.jpeg"
     },
     {
       "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Thumbs.db",
@@ -511,10 +535,6 @@
     {
       "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\bg-1.jpg",
       "PackagePath": "staticwebassets\\img\\bg-1.jpg"
-    },
-    {
-      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\blog-3.jpg",
-      "PackagePath": "staticwebassets\\img\\blog-3.jpg"
     },
     {
       "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\car-1.png",

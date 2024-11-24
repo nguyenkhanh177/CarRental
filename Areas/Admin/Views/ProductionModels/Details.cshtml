@@ -1,67 +1,72 @@
 ﻿@model CarRental.Models.TbProductionModel
 
 @{
-    ViewData["Title"] = "Details";
-    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "Thông tin mẫu xe";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<div class="container-fluid pt-4 px-4">
+	<div class="row g-4">
+		<div class="col-sm-12 col-xl-12">
+			<div class="bg-secondary rounded h-100 p-4">
+				<h1 class="mb-4">Thông tin mẫu xe</h1>
+				<dl class="row text-white">
+					<dt class="col-sm-2 mt-3">
+						Hãng xe
+					</dt>
+					<dd class="col-sm-10 mt-3">
+						@Html.DisplayFor(model => model.IdautomakerNavigation.AutomakerName)
+					</dd>
+					<dt class="col-sm-2 mt-3">
+						Tên mẫu xe
+					</dt>
+					<dd class="col-sm-10 mt-3">
+						@Html.DisplayFor(model => model.ProductionModelName)
+					</dd>
+					<dt class="col-sm-2 mt-3">
+						Chỗ ngồi
+					<dd class="col-sm-10 mt-3">
+							@Html.DisplayFor(model => model.SeatingCapacity)
+					</dd>
+					<dt class="col-sm-2 mt-3">
+						Hộp số
+					</dt>
+					<dd class="col-sm-10 mt-3">
+							@Html.DisplayFor(model => model.IdgearboxNavigation.GearboxName)
+					</dd>
+					<dt class="col-sm-2 mt-3">
+						Nhiên liệu
+					</dt>
+					<dd class="col-sm-10 mt-3">
+							@Html.DisplayFor(model => model.IdfuelNavigation.FuelName)
+					</dd>
+					<dt class="col-sm-2 mt-3">
+							Mô tả
+					</dt>
+					<dd class="col-sm-10 mt-3">
+							@Html.DisplayFor(model => model.Describe)
+					</dd>
+					<dt class="col-sm-2 mt-3">
+							Sao
+					</dt>
+					<dd class="col-sm-10 mt-3">
+							@Html.DisplayFor(model => model.Star)
+					</dd>
 
-<div>
-    <h4>TbProductionModel</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SeatingCapacity)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SeatingCapacity)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Describe)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Describe)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Star)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Star)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ProductionModelName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ProductionModelName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdautomakerNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdautomakerNavigation.Idautomaker)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IddriverCapabilitiesNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IddriverCapabilitiesNavigation.IddriverCapabilities)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdfuelNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdfuelNavigation.Idfuel)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdgearboxNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdgearboxNavigation.Idgearbox)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdproductionModel">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+					<dt class="col-sm-2 mt-3">
+							Kiểu lái
+					</dt>
+					<dd class="col-sm-10 mt-3">
+							@Html.DisplayFor(model => model.IddriverCapabilitiesNavigation.DriverCapabilitiesName)
+					</dd>
+				</dl>
+				<hr style="color:white" />
+				<div>
+					<a asp-action="Edit" asp-route-id="@Model?.IdproductionModel">Sửa</a> |
+					<a asp-action="Index">Quay lại danh sách</a> |
+					<a asp-action="Delete" asp-route-id="@Model?.IdproductionModel">Xóa</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
