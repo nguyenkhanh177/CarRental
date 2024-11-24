@@ -67,16 +67,10 @@ namespace CarRental.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                try{
-                    _context.Add(tbProductionModel);
-                    await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
-                }
-                catch (Exception ex) {
-                    // Ghi log hoặc xử lý lỗi
-                    ModelState.AddModelError("", "Không thể lưu dữ liệu: " + ex.Message);
-                }
-            } 
+                _context.Add(tbProductionModel);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
             ViewData["Idautomaker"] = new SelectList(_context.TbAutomakers, "Idautomaker", "Idautomaker", tbProductionModel.Idautomaker);
             ViewData["IddriverCapabilities"] = new SelectList(_context.TbDriverCapabilities, "IddriverCapabilities", "IddriverCapabilities", tbProductionModel.IddriverCapabilities);
             ViewData["Idfuel"] = new SelectList(_context.TbFuels, "Idfuel", "Idfuel", tbProductionModel.Idfuel);

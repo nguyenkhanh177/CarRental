@@ -11,7 +11,11 @@ public partial class TbLiquidation
 
     public decimal ClearancePrice { get; set; }
 
-    public int Idreceiver { get; set; }
+    public int? Idreceiver { get; set; }
 
-    public virtual TbReceiver IdreceiverNavigation { get; set; } = null!;
+    public int? Idcar { get; set; }
+
+    public virtual TbCar? IdcarNavigation { get; set; }
+
+    public virtual TbReceiver? IdreceiverNavigation { get; set; }
 }

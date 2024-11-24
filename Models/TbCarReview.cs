@@ -9,7 +9,7 @@ public partial class TbCarReview
 
     public string Review { get; set; } = null!;
 
-    public int Idcustomer { get; set; }
+    public int? Idcustomer { get; set; }
 
     public int Star { get; set; }
 }

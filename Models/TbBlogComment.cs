@@ -9,13 +9,13 @@ public partial class TbBlogComment
 
     public string Detail { get; set; } = null!;
 
-    public int Idcustomer { get; set; }
+    public int? Idcustomer { get; set; }
 
-    public int Idblog { get; set; }
+    public int? Idblog { get; set; }
 
     public DateTime Time { get; set; }
 
-    public virtual TbBlog IdblogNavigation { get; set; } = null!;
+    public virtual TbBlog? IdblogNavigation { get; set; }
 
-    public virtual TbCustomer IdcustomerNavigation { get; set; } = null!;
+    public virtual TbCustomer? IdcustomerNavigation { get; set; }
 }

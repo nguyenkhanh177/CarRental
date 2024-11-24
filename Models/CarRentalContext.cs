@@ -53,9 +53,9 @@ public partial class CarRentalContext : DbContext
 
     public virtual DbSet<TbSupplier> TbSuppliers { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("data source=QUANGLOCPC\\QUANGLOC;initial catalog=CarRental;integrated security=True;TrustServerCertificate=True;");
+//    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+//        => optionsBuilder.UseSqlServer("data source=QUANGLOCPC\\QUANGLOC;initial catalog=CarRental;integrated security=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -111,7 +111,6 @@ public partial class CarRentalContext : DbContext
 
             entity.HasOne(d => d.IdadminNavigation).WithMany(p => p.TbBlogs)
                 .HasForeignKey(d => d.Idadmin)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_Blog_TB_Admin1");
         });
 
@@ -128,12 +127,10 @@ public partial class CarRentalContext : DbContext
 
             entity.HasOne(d => d.IdblogNavigation).WithMany(p => p.TbBlogComments)
                 .HasForeignKey(d => d.Idblog)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_BlogComment_TB_Blog");
 
             entity.HasOne(d => d.IdcustomerNavigation).WithMany(p => p.TbBlogComments)
                 .HasForeignKey(d => d.Idcustomer)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_BlogComment_TB_Customer");
         });
 
@@ -148,7 +145,6 @@ public partial class CarRentalContext : DbContext
 
             entity.HasOne(d => d.IdcarNavigation).WithMany(p => p.TbBrokenCars)
                 .HasForeignKey(d => d.Idcar)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_BrokenCar_TB_Car");
         });
 
@@ -167,7 +163,6 @@ public partial class CarRentalContext : DbContext
 
             entity.HasOne(d => d.IdproductionModelNavigation).WithMany(p => p.TbCars)
                 .HasForeignKey(d => d.IdproductionModel)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_Car_TB_ProductionModel");
         });
 
@@ -205,12 +200,10 @@ public partial class CarRentalContext : DbContext
 
             entity.HasOne(d => d.IdcarNavigation).WithMany(p => p.TbContracts)
                 .HasForeignKey(d => d.Idcar)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_Contract_TB_Car1");
 
             entity.HasOne(d => d.IdcustomerNavigation).WithMany(p => p.TbContracts)
                 .HasForeignKey(d => d.Idcustomer)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_Contract_TB_Customer");
         });
 
@@ -283,12 +276,10 @@ public partial class CarRentalContext : DbContext
 
             entity.HasOne(d => d.IdcarNavigation).WithMany(p => p.TbImportHistories)
                 .HasForeignKey(d => d.Idcar)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_ImportHistory_TB_Car");
 
             entity.HasOne(d => d.IdsupplierNavigation).WithMany(p => p.TbImportHistories)
                 .HasForeignKey(d => d.Idsupplier)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_ImportHistory_TB_Supplier");
         });
 
@@ -300,11 +291,15 @@ public partial class CarRentalContext : DbContext
 
             entity.Property(e => e.Idliquidation).HasColumnName("IDLiquidation");
             entity.Property(e => e.ClearancePrice).HasColumnType("money");
+            entity.Property(e => e.Idcar).HasColumnName("IDCar");
             entity.Property(e => e.Idreceiver).HasColumnName("IDReceiver");
+
+            entity.HasOne(d => d.IdcarNavigation).WithMany(p => p.TbLiquidations)
+                .HasForeignKey(d => d.Idcar)
+                .HasConstraintName("FK_TB_Liquidation_TB_Car");
 
             entity.HasOne(d => d.IdreceiverNavigation).WithMany(p => p.TbLiquidations)
                 .HasForeignKey(d => d.Idreceiver)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_Liquidation_TB_Receiver");
         });
 
@@ -320,12 +315,10 @@ public partial class CarRentalContext : DbContext
 
             entity.HasOne(d => d.IdcontractNavigation).WithMany(p => p.TbMaintenanceHistories)
                 .HasForeignKey(d => d.Idcontract)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_MaintenanceHistory_TB_Contract");
 
             entity.HasOne(d => d.IdstaffNavigation).WithMany(p => p.TbMaintenanceHistories)
                 .HasForeignKey(d => d.Idstaff)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_MaintenanceHistory_TB_Staff");
         });
 
@@ -346,22 +339,18 @@ public partial class CarRentalContext : DbContext
 
             entity.HasOne(d => d.IdautomakerNavigation).WithMany(p => p.TbProductionModels)
                 .HasForeignKey(d => d.Idautomaker)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_ProductionModel_TB_Automaker");
 
             entity.HasOne(d => d.IddriverCapabilitiesNavigation).WithMany(p => p.TbProductionModels)
                 .HasForeignKey(d => d.IddriverCapabilities)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_ProductionModel_TB_DriverCapabilities");
 
             entity.HasOne(d => d.IdfuelNavigation).WithMany(p => p.TbProductionModels)
                 .HasForeignKey(d => d.Idfuel)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_ProductionModel_TB_Fuel");
 
             entity.HasOne(d => d.IdgearboxNavigation).WithMany(p => p.TbProductionModels)
                 .HasForeignKey(d => d.Idgearbox)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_TB_ProductionModel_TB_Gearbox");
         });
 
@@ -373,16 +362,10 @@ public partial class CarRentalContext : DbContext
 
             entity.Property(e => e.Idreceiver).HasColumnName("IDReceiver");
             entity.Property(e => e.Gmail).HasMaxLength(50);
-            entity.Property(e => e.Idcar).HasColumnName("IDCar");
             entity.Property(e => e.NameReceiver).HasMaxLength(50);
             entity.Property(e => e.Phone)
                 .HasMaxLength(10)
                 .IsFixedLength();
-
-            entity.HasOne(d => d.IdcarNavigation).WithMany(p => p.TbReceivers)
-                .HasForeignKey(d => d.Idcar)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_TB_Receiver_TB_Car");
         });
 
         modelBuilder.Entity<TbStaff>(entity =>

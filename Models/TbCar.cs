@@ -7,13 +7,13 @@ public partial class TbCar
 {
     public int Idcar { get; set; }
 
-    public int IdproductionModel { get; set; }
+    public int? IdproductionModel { get; set; }
 
     public string Color { get; set; } = null!;
 
     public string Image { get; set; } = null!;
 
-    public virtual TbProductionModel IdproductionModelNavigation { get; set; } = null!;
+    public virtual TbProductionModel? IdproductionModelNavigation { get; set; }
 
     public virtual ICollection<TbBrokenCar> TbBrokenCars { get; set; } = new List<TbBrokenCar>();
 
@@ -21,5 +21,5 @@ public partial class TbCar
 
     public virtual ICollection<TbImportHistory> TbImportHistories { get; set; } = new List<TbImportHistory>();
 
-    public virtual ICollection<TbReceiver> TbReceivers { get; set; } = new List<TbReceiver>();
+    public virtual ICollection<TbLiquidation> TbLiquidations { get; set; } = new List<TbLiquidation>();
 }

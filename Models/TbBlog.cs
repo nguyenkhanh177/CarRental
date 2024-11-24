@@ -17,9 +17,9 @@ public partial class TbBlog
 
     public string Image { get; set; } = null!;
 
-    public int Idadmin { get; set; }
+    public int? Idadmin { get; set; }
 
-    public virtual TbAdmin IdadminNavigation { get; set; } = null!;
+    public virtual TbAdmin? IdadminNavigation { get; set; }
 
     public virtual ICollection<TbBlogComment> TbBlogComments { get; set; } = new List<TbBlogComment>();
 }

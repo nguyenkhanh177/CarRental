@@ -48,7 +48,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Blogs/Create
         public IActionResult Create()
         {
-            ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Idadmin");
+            ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Name");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace CarRental.Areas.Admin.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Idadmin", tbBlog.Idadmin);
+            ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Name", tbBlog.Idadmin);
             return View(tbBlog);
         }
 

@@ -7,9 +7,9 @@ public partial class TbContract
 {
     public int Idcontract { get; set; }
 
-    public int Idcustomer { get; set; }
+    public int? Idcustomer { get; set; }
 
-    public int Idcar { get; set; }
+    public int? Idcar { get; set; }
 
     public DateOnly RentalDate { get; set; }
 
@@ -23,9 +23,9 @@ public partial class TbContract
 
     public virtual TbAdmin? IdadminNavigation { get; set; }
 
-    public virtual TbCar IdcarNavigation { get; set; } = null!;
+    public virtual TbCar? IdcarNavigation { get; set; }
 
-    public virtual TbCustomer IdcustomerNavigation { get; set; } = null!;
+    public virtual TbCustomer? IdcustomerNavigation { get; set; }
 
     public virtual ICollection<TbMaintenanceHistory> TbMaintenanceHistories { get; set; } = new List<TbMaintenanceHistory>();
 }
