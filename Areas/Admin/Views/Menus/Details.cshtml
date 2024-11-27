@@ -1,4 +1,4 @@
-﻿@model CarRental.Models.TbBlog
+﻿@model CarRental.Models.TbMenu
 
 @{
     ViewData["Title"] = "Details";
@@ -8,7 +8,7 @@
 <h1>Details</h1>
 
 <div>
-    <h4>TbBlog</h4>
+    <h4>TbMenu</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -18,32 +18,26 @@
             @Html.DisplayFor(model => model.Title)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Detail)
+            @Html.DisplayNameFor(model => model.Alias)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Detail)
+            @Html.DisplayFor(model => model.Alias)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PublishTime)
+            @Html.DisplayNameFor(model => model.Position)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PublishTime)
+            @Html.DisplayFor(model => model.Position)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
+            @Html.DisplayNameFor(model => model.ParentMenu)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Image)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Image)
+            @Html.DisplayFor(model => model.ParentMenu)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.Idblog">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model?.Idmenu">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>

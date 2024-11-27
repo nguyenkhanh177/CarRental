@@ -45,6 +45,8 @@ public partial class CarRentalContext : DbContext
 
     public virtual DbSet<TbMaintenanceHistory> TbMaintenanceHistories { get; set; }
 
+    public virtual DbSet<TbMenu> TbMenus { get; set; }
+
     public virtual DbSet<TbProductionModel> TbProductionModels { get; set; }
 
     public virtual DbSet<TbReceiver> TbReceivers { get; set; }
@@ -318,6 +320,19 @@ public partial class CarRentalContext : DbContext
             entity.HasOne(d => d.IdstaffNavigation).WithMany(p => p.TbMaintenanceHistories)
                 .HasForeignKey(d => d.Idstaff)
                 .HasConstraintName("FK_TB_MaintenanceHistory_TB_Staff");
+        });
+
+        modelBuilder.Entity<TbMenu>(entity =>
+        {
+            entity.HasKey(e => e.Idmenu);
+
+            entity.ToTable("TB_Menu");
+
+            entity.Property(e => e.Idmenu).HasColumnName("IDMenu");
+            entity.Property(e => e.Alias)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.Title).HasMaxLength(50);
         });
 
         modelBuilder.Entity<TbProductionModel>(entity =>

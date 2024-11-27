@@ -1,0 +1,48 @@
+﻿@model IEnumerable<CarRental.Models.TbMenu>
+
+<div class="navbar-nav mx-auto py-0">
+	@foreach (var item in Model.Where(m=>m.ParentMenu == 0))
+	{
+		var dropdown = Model.Where(m => m.ParentMenu == item.Idmenu);
+		if (dropdown.Count() == 0)
+		{
+			if (ViewBag.Active == item.Alias)
+			{
+				<a href="/@item.Alias" class="nav-item nav-link active">@item.Title</a>
+			}
+			else
+			{
+				<a href="/@item.Alias" class="nav-item nav-link">@item.Title</a>
+			}
+		}
+		else
+		{
+			<div class="nav-item dropdown">
+				@if (dropdown.Any(m => m.Alias == ViewBag.Active))
+
+				{
+					<a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">@item.Title</a>
+				}
+				else
+				{
+					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">@item.Title</a>
+				}
+				<div class="dropdown-menu m-0">
+					@foreach (var items in dropdown)
+					{
+						if (items.Alias == ViewBag.Active)
+						{
+							<a href="@items.Alias" class="dropdown-item active">@items.Title</a>
+						}
+						else
+						{
+							<a href="@items.Alias" class="dropdown-item">@items.Title</a>
+						}
+					}
+				</div>
+			</div>
+
+		}
+	}
+
+</div>

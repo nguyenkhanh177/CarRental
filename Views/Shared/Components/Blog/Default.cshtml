@@ -10,34 +10,28 @@
 		</div>
 		<div class="row g-4">
 			@{
-				if (Model == null || Model.Count() == 0)
+				foreach (var item in Model)
 				{
-					<div>Không có blog nào ở đây</div>
-				}
-				else
-				{
-					foreach (var item in Model)
-					{
-						string sURL = $"/blog/{item.Idblog}.html";
-						<div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-							<div class="blog-item">
-								<div class="blog-img">
-									<img src="/files/blogs/@item.Image" class="img-fluid rounded-top w-100" alt="Image">
+					string sURL = $"/blog/{item.Idblog}.html";
+					<div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="blog-item">
+							<div class="blog-img">
+								<img src="/files/blogs/@item.Image" class="img-fluid rounded-top w-100" alt="Image">
+							</div>
+							<div class="blog-content rounded-bottom p-4">
+								<div class="blog-date">@item.PublishTime.ToString("dd/MM/yyyy")</div>
+								<div class="blog-comment my-3">
+									<div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">@item.IdadminNavigation.Name</span></div>
+									<div class="small"><span class="fa fa-comment-alt text-primary"></span><span class="ms-2">@item.TbBlogComments.Count() Comments</span></div>
 								</div>
-								<div class="blog-content rounded-bottom p-4">
-									<div class="blog-date">@item.PublishTime.ToString("dd/MM/yyyy")</div>
-									<div class="blog-comment my-3">
-										<div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">@item.IdadminNavigation.Name</span></div>
-										<div class="small"><span class="fa fa-comment-alt text-primary"></span><span class="ms-2">@item.TbBlogComments.Count() Comments</span></div>
-									</div>
-									<a href="@sURL" class="h4 d-block mb-3">@item.Title</a>
-									<p class="mb-3">@item.Description</p>
-									<a href="@sURL" class="">Đọc thêm  <i class="fa fa-arrow-right"></i></a>
-								</div>
+								<a href="@sURL" class="h4 d-block mb-3" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;overflow: hidden; line-height: 1.5em; height: calc(1.5em * 2)">@item.Title</a>
+								<p class="mb-3" style="display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;overflow: hidden; line-height: 1.5em; height: calc(1.5em * 5)">@item.Description</p>
+								<a href="@sURL" class="">Đọc thêm  <i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>
-					}
+					</div>
 				}
+
 			}
 		</div>
 	</div>
