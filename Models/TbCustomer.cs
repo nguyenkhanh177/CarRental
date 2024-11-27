@@ -7,17 +7,17 @@ public partial class TbCustomer
 {
     public int Idcustomer { get; set; }
 
-    public int Idcard { get; set; }
+    public string Idcard { get; set; } = null!;
 
     public string Name { get; set; } = null!;
 
     public string Phone { get; set; } = null!;
 
-    public string Email { get; set; } = null!;
+    public string? Email { get; set; }
 
     public string Address { get; set; } = null!;
 
-    public DateOnly Birth { get; set; }
+    public DateOnly? Birth { get; set; }
 
     public string Username { get; set; } = null!;
 

@@ -660,8 +660,6 @@ D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\compressed\j5cdv629fu-xhbu0o0ue
 D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\compressed\qv29y0mzcu-8otopfxis6.gz
 D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\compressed\ay9fml3zig-apjpr24drr.gz
 D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\compressed\feomsgriib-v5kyrhpytd.gz
-D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\compressed\frk2xl7eef-n94lga9lck.gz
-D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\compressed\ys9bfuvxwj-n94lga9lck.gz
 D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\staticwebassets.build.json
 D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\staticwebassets.development.json
 D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -677,3 +675,6 @@ D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\refint\CarRental.dll
 D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\CarRental.pdb
 D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\CarRental.genruntimeconfig.cache
 D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\ref\CarRental.dll
+D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout_UnSign.cshtml.rz.scp.css
+D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\compressed\frk2xl7eef-g1rft4fad1.gz
+D:\VisualStudio\UDWeb\CarRental\obj\Debug\net9.0\compressed\ys9bfuvxwj-g1rft4fad1.gz

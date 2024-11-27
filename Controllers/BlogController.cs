@@ -39,7 +39,7 @@ namespace CarRental.Controllers
                 {
                     Idblog = idblogdetail,
                     Detail = detail,
-                    Idcustomer = 1,
+                    Idcustomer = Function._IdCustomer,
                     Time = DateTime.Now
                 };
 

@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\CarRental.bundle.scp.css",
-      "PackagePath": "staticwebassets\\CarRental.n94lga9lck.bundle.scp.css"
+      "PackagePath": "staticwebassets\\CarRental.g1rft4fad1.bundle.scp.css"
     },
     {
       "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\Admin\\css\\bootstrap.min.css",
@@ -459,6 +459,10 @@
     {
       "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\AvatarDefault.jpg",
+      "PackagePath": "staticwebassets\\files\\Avatars\\AvatarDefault.jpg"
     },
     {
       "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\avatar-1.jpg",

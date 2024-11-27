@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RNVIRpiOZ1m7lCFM9JvSvwqnRufB0PWlrmnUaoYClWQ=",
+  "Hash": "pIKUx2fj05wrhxPYR2wWuaYgICDa/YXd0Ff7NxcxVuY=",
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -1004,12 +1004,12 @@
       "OriginalItemSpec": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\frk2xl7eef-n94lga9lck.gz",
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\frk2xl7eef-g1rft4fad1.gz",
       "SourceId": "CarRental",
       "SourceType": "Computed",
       "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CarRental",
-      "RelativePath": "CarRental#[.{fingerprint=n94lga9lck}]?.styles.css.gz",
+      "RelativePath": "CarRental#[.{fingerprint=g1rft4fad1}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -1018,8 +1018,8 @@
       "RelatedAsset": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\scopedcss\\bundle\\CarRental.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "afxjdg97sg",
-      "Integrity": "9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec=",
+      "Fingerprint": "ycgwt5izyw",
+      "Integrity": "LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\scopedcss\\bundle\\CarRental.styles.css"
@@ -2054,12 +2054,12 @@
       "OriginalItemSpec": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\ys9bfuvxwj-n94lga9lck.gz",
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\ys9bfuvxwj-g1rft4fad1.gz",
       "SourceId": "CarRental",
       "SourceType": "Computed",
       "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CarRental",
-      "RelativePath": "CarRental#[.{fingerprint=n94lga9lck}]!.bundle.scp.css.gz",
+      "RelativePath": "CarRental#[.{fingerprint=g1rft4fad1}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -2068,8 +2068,8 @@
       "RelatedAsset": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\CarRental.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "afxjdg97sg",
-      "Integrity": "9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec=",
+      "Fingerprint": "ycgwt5izyw",
+      "Integrity": "LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\CarRental.bundle.scp.css"
@@ -2194,8 +2194,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "n94lga9lck",
-      "Integrity": "21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM=",
+      "Fingerprint": "g1rft4fad1",
+      "Integrity": "XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\scopedcss\\bundle\\CarRental.styles.css"
@@ -2215,8 +2215,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "n94lga9lck",
-      "Integrity": "21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM=",
+      "Fingerprint": "g1rft4fad1",
+      "Integrity": "XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\CarRental.bundle.scp.css"
@@ -4677,6 +4677,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\Avatars\\avatar-3.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\AvatarDefault.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Avatars/AvatarDefault#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nouiz1hqkl",
+      "Integrity": "KV3suYE+tayO2ik3OBwvHheiyGdXH+HJRu9/1F1PE0A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Avatars\\AvatarDefault.jpg"
     },
     {
       "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Blogs\\blog-1.jpg",
@@ -15313,7 +15334,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 May 2022 13:44:16 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15350,7 +15371,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 May 2022 13:44:16 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22396,12 +22417,12 @@
     },
     {
       "Route": "CarRental.bundle.scp.css",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\ys9bfuvxwj-n94lga9lck.gz",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\ys9bfuvxwj-g1rft4fad1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001615508885"
+          "Quality": "0,001461988304"
         }
       ],
       "ResponseHeaders": [
@@ -22411,15 +22432,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "618"
+          "Value": "683"
         },
         {
           "Name": "ETag",
-          "Value": "\"9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec=\""
+          "Value": "\"LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 16 Nov 2024 18:27:54 GMT"
+          "Value": "Wed, 27 Nov 2024 09:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22439,13 +22460,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM=\""
+          "Value": "W/\"XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM="
+          "Value": "sha256-XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM="
         }
       ]
     },
@@ -22460,7 +22481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2266"
+          "Value": "3400"
         },
         {
           "Name": "Content-Type",
@@ -22468,11 +22489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM=\""
+          "Value": "\"XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 16 Nov 2024 18:27:54 GMT"
+          "Value": "Wed, 27 Nov 2024 09:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22482,13 +22503,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM="
+          "Value": "sha256-XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM="
         }
       ]
     },
     {
       "Route": "CarRental.bundle.scp.css.gz",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\ys9bfuvxwj-n94lga9lck.gz",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\ys9bfuvxwj-g1rft4fad1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22497,7 +22518,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "618"
+          "Value": "683"
         },
         {
           "Name": "Content-Type",
@@ -22505,11 +22526,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec=\""
+          "Value": "\"LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 16 Nov 2024 18:27:54 GMT"
+          "Value": "Wed, 27 Nov 2024 09:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22527,18 +22548,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec="
+          "Value": "sha256-LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8="
         }
       ]
     },
     {
-      "Route": "CarRental.n94lga9lck.bundle.scp.css",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\ys9bfuvxwj-n94lga9lck.gz",
+      "Route": "CarRental.g1rft4fad1.bundle.scp.css",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\ys9bfuvxwj-g1rft4fad1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001615508885"
+          "Quality": "0,001461988304"
         }
       ],
       "ResponseHeaders": [
@@ -22548,15 +22569,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "618"
+          "Value": "683"
         },
         {
           "Name": "ETag",
-          "Value": "\"9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec=\""
+          "Value": "\"LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 16 Nov 2024 18:27:54 GMT"
+          "Value": "Wed, 27 Nov 2024 09:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22576,13 +22597,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM=\""
+          "Value": "W/\"XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n94lga9lck"
+          "Value": "g1rft4fad1"
         },
         {
           "Name": "label",
@@ -22590,12 +22611,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM="
+          "Value": "sha256-XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM="
         }
       ]
     },
     {
-      "Route": "CarRental.n94lga9lck.bundle.scp.css",
+      "Route": "CarRental.g1rft4fad1.bundle.scp.css",
       "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\CarRental.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22605,7 +22626,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2266"
+          "Value": "3400"
         },
         {
           "Name": "Content-Type",
@@ -22613,11 +22634,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM=\""
+          "Value": "\"XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 16 Nov 2024 18:27:54 GMT"
+          "Value": "Wed, 27 Nov 2024 09:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22627,7 +22648,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n94lga9lck"
+          "Value": "g1rft4fad1"
         },
         {
           "Name": "label",
@@ -22635,13 +22656,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM="
+          "Value": "sha256-XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM="
         }
       ]
     },
     {
-      "Route": "CarRental.n94lga9lck.bundle.scp.css.gz",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\ys9bfuvxwj-n94lga9lck.gz",
+      "Route": "CarRental.g1rft4fad1.bundle.scp.css.gz",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\ys9bfuvxwj-g1rft4fad1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22650,7 +22671,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "618"
+          "Value": "683"
         },
         {
           "Name": "Content-Type",
@@ -22658,11 +22679,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec=\""
+          "Value": "\"LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 16 Nov 2024 18:27:54 GMT"
+          "Value": "Wed, 27 Nov 2024 09:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22680,7 +22701,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n94lga9lck"
+          "Value": "g1rft4fad1"
         },
         {
           "Name": "label",
@@ -22688,18 +22709,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec="
+          "Value": "sha256-LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8="
         }
       ]
     },
     {
-      "Route": "CarRental.n94lga9lck.styles.css",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\frk2xl7eef-n94lga9lck.gz",
+      "Route": "CarRental.g1rft4fad1.styles.css",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\frk2xl7eef-g1rft4fad1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001615508885"
+          "Quality": "0,001461988304"
         }
       ],
       "ResponseHeaders": [
@@ -22709,15 +22730,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "618"
+          "Value": "683"
         },
         {
           "Name": "ETag",
-          "Value": "\"9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec=\""
+          "Value": "\"LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 16 Nov 2024 18:27:54 GMT"
+          "Value": "Wed, 27 Nov 2024 09:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22737,13 +22758,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM=\""
+          "Value": "W/\"XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n94lga9lck"
+          "Value": "g1rft4fad1"
         },
         {
           "Name": "label",
@@ -22751,12 +22772,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM="
+          "Value": "sha256-XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM="
         }
       ]
     },
     {
-      "Route": "CarRental.n94lga9lck.styles.css",
+      "Route": "CarRental.g1rft4fad1.styles.css",
       "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\scopedcss\\bundle\\CarRental.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22766,7 +22787,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2266"
+          "Value": "3400"
         },
         {
           "Name": "Content-Type",
@@ -22774,11 +22795,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM=\""
+          "Value": "\"XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 16 Nov 2024 18:27:54 GMT"
+          "Value": "Wed, 27 Nov 2024 09:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22788,7 +22809,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n94lga9lck"
+          "Value": "g1rft4fad1"
         },
         {
           "Name": "label",
@@ -22796,13 +22817,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM="
+          "Value": "sha256-XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM="
         }
       ]
     },
     {
-      "Route": "CarRental.n94lga9lck.styles.css.gz",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\frk2xl7eef-n94lga9lck.gz",
+      "Route": "CarRental.g1rft4fad1.styles.css.gz",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\frk2xl7eef-g1rft4fad1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22811,7 +22832,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "618"
+          "Value": "683"
         },
         {
           "Name": "Content-Type",
@@ -22819,11 +22840,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec=\""
+          "Value": "\"LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 16 Nov 2024 18:27:54 GMT"
+          "Value": "Wed, 27 Nov 2024 09:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22841,7 +22862,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n94lga9lck"
+          "Value": "g1rft4fad1"
         },
         {
           "Name": "label",
@@ -22849,18 +22870,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec="
+          "Value": "sha256-LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8="
         }
       ]
     },
     {
       "Route": "CarRental.styles.css",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\frk2xl7eef-n94lga9lck.gz",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\frk2xl7eef-g1rft4fad1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001615508885"
+          "Quality": "0,001461988304"
         }
       ],
       "ResponseHeaders": [
@@ -22870,15 +22891,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "618"
+          "Value": "683"
         },
         {
           "Name": "ETag",
-          "Value": "\"9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec=\""
+          "Value": "\"LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 16 Nov 2024 18:27:54 GMT"
+          "Value": "Wed, 27 Nov 2024 09:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22898,13 +22919,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM=\""
+          "Value": "W/\"XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM="
+          "Value": "sha256-XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM="
         }
       ]
     },
@@ -22919,7 +22940,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2266"
+          "Value": "3400"
         },
         {
           "Name": "Content-Type",
@@ -22927,11 +22948,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM=\""
+          "Value": "\"XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 16 Nov 2024 18:27:54 GMT"
+          "Value": "Wed, 27 Nov 2024 09:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22941,13 +22962,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-21DSR5DO1O1vzeJEPpB1Ygc8nNSdsxL1OEkBV1cbzfM="
+          "Value": "sha256-XIyhLjxgY6C4p9RRRdm7e23GygLQmkCj9B39DkoIFoM="
         }
       ]
     },
     {
       "Route": "CarRental.styles.css.gz",
-      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\frk2xl7eef-n94lga9lck.gz",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\obj\\Debug\\net9.0\\compressed\\frk2xl7eef-g1rft4fad1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22956,7 +22977,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "618"
+          "Value": "683"
         },
         {
           "Name": "Content-Type",
@@ -22964,11 +22985,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec=\""
+          "Value": "\"LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 16 Nov 2024 18:27:54 GMT"
+          "Value": "Wed, 27 Nov 2024 09:19:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22986,7 +23007,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9uwMBvVCYJEvrKE3eWaYg0RfCZv7+I/DdvNLjQEF7Ec="
+          "Value": "sha256-LpT4kWJe+t6BZDEq3RN9LArMu7LN7yDMYjsuArqE3L8="
         }
       ]
     },
@@ -24425,6 +24446,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1/DVbEV1vJeouv64njigNS6l6inUaWEiUfV3c5t3Fhs="
+        }
+      ]
+    },
+    {
+      "Route": "files/Avatars/AvatarDefault.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\AvatarDefault.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KV3suYE+tayO2ik3OBwvHheiyGdXH+HJRu9/1F1PE0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 11:04:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KV3suYE+tayO2ik3OBwvHheiyGdXH+HJRu9/1F1PE0A="
+        }
+      ]
+    },
+    {
+      "Route": "files/Avatars/AvatarDefault.nouiz1hqkl.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Avatars\\AvatarDefault.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KV3suYE+tayO2ik3OBwvHheiyGdXH+HJRu9/1F1PE0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 11:04:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nouiz1hqkl"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Avatars/AvatarDefault.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KV3suYE+tayO2ik3OBwvHheiyGdXH+HJRu9/1F1PE0A="
         }
       ]
     },
@@ -38182,7 +38285,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38243,7 +38346,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38288,7 +38391,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38343,7 +38446,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38396,7 +38499,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38433,7 +38536,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38733,7 +38836,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38794,7 +38897,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38839,7 +38942,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38939,7 +39042,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38992,7 +39095,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -39029,7 +39132,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -49403,7 +49506,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -49448,7 +49551,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Oct 2024 10:21:42 GMT"
+          "Value": "Wed, 27 Nov 2024 09:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
