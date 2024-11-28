@@ -24,9 +24,9 @@
 
 		<div class="blog-detail-item">
 			<div class="blog-img">
-				<img class="img-full" src="/files/blogs/@Model.Image" alt="Blog Image" width="100%">
+				<img class="img-full" src="@Model.Image" alt="Blog Image" width="100%">
 			</div>
-			<div class="blog-content text-start pb-0">
+			<div class="blog-content text-start pb-0 m-5">
 				<div class="blog-meta text-dim-gray pb-3">
 					<div class="d-flex justify-content-between p-3">
 						<div class="text-primary"><i class="fa-solid fa-calendar-days"></i> @Model.PublishTime.ToString("dd/MM/yyyy")</div>
@@ -50,49 +50,70 @@
 					</p>
 					<span class="text-primary float-end">@Model.IdadminNavigation.Name</span>
 
-					<hr class="m-5" />
 
-					<div class="blog-comment pt-10">
-						<h4 class="heading mb-7"> @Model.TbBlogComments.Count() comment</h4>
+				</div>
+				<!--Start comment-->
+				<hr class="m-5" />
 
-						@foreach (var item in Model.TbBlogComments)
+				<div class="blog-comment pt-10">
+					<h4 class="heading mb-7"> @Model.TbBlogComments.Count() comment</h4>
+
+					@foreach (var item in Model.TbBlogComments)
+					{
+						if (Function.IsLogin() && Function._IdCustomer == item.Idcustomer)
 						{
-							<div class="d-flex justify-content-lg-start m-3 border border-4 rounded-3">
+							<div class="d-flex justify-content-between m-3 border border-4 rounded-3">
 
-								<img src="@item.IdcustomerNavigation.Avatar" alt="Avatar" width="80px" height="80px" class="rounded-circle m-3" />
-								<div>
-									<div class="m-1"><strong class="text-primary"><i class="fa-solid fa-user"> </i>@item.IdcustomerNavigation.Name</strong> - <strong><i class="fa-solid fa-calendar-days"></i> @item.Time.ToString("HH:mm dd/MM/yyyy")</strong></div>
-									<p class="user-comment mb-0">@item.Detail</p>
+								<div class="my-2">
+									<img style="float:left" src="@item.IdcustomerNavigation.Avatar" alt="Avatar" width="80px" height="80px" class="rounded-circle m-3" />
+									<div style="float:right">
+										<div class="m-1 d-flex justify-content-between " style="width:20vw"><strong class="text-primary mr-3"><i class="fa-solid fa-user"> </i>@item.IdcustomerNavigation.Name</strong><strong class="ml-4"><i class="fa-solid fa-calendar-days"></i> @item.Time.ToString("HH:mm dd/MM/yyyy")</strong></div>
+										<p class="user-comment mb-0">@item.Detail</p>
+									</div>
+								</div>
+								<div style=" " class="mx-2">
+									<a  asp-action="DeleteComment" asp-route-id="@item.Idcomment" >Xóa</a>
 								</div>
 							</div>
-
-
-
-						}
-					</div>
-
-					<div>
-						<br />
-						@if (!Function.IsLogin())
-						{
-							<h4 class="text-center m-3"><a href="/LogIn" class="text-primary" >Đăng nhập</a> để bình luận</h4>
 						}
 						else
 						{
-							<h4 class="text-primary m-3">Để lại một bình luận</h4>
-							<form asp-action="comment" method="post">
-								<div>
-									<div class="form-group m-3">
-										<textarea asp-action="comment" name="Detail" placeholder="Nội dung bình luận" class="w-100 rounded-3 border border-3" style="height:200px"></textarea>
-									</div>
-									<div class="w-100 d-flex justify-content-center form-group">
-										<button type="submit" value="submit" class="btn btn-primary" name="submit">Bình luận</button>
+							<div class="d-flex justify-content-between m-3 border border-4 rounded-3">
+
+								<div class="my-2">
+									<img style="float:left" src="@item.IdcustomerNavigation.Avatar" alt="Avatar" width="80px" height="80px" class="rounded-circle m-3" />
+									<div style="float:right">
+										<div class="m-1 d-flex justify-content-between " style="width:20vw"><strong class="text-primary mr-3"><i class="fa-solid fa-user"> </i>@item.IdcustomerNavigation.Name</strong><strong class="ml-4"><i class="fa-solid fa-calendar-days"></i> @item.Time.ToString("HH:mm dd/MM/yyyy")</strong></div>
+										<p class="user-comment mb-0">@item.Detail</p>
 									</div>
 								</div>
-							</form>
+							</div>
+
 						}
-					</div>
+					}
 				</div>
+				<div>
+					<br />
+					@if (!Function.IsLogin())
+					{
+						<h4 class="text-center m-3"><a href="/LogIn" class="text-primary">Đăng nhập</a> để bình luận</h4>
+					}
+					else
+					{
+						<h4 class="text-primary m-3">Để lại một bình luận</h4>
+						<form asp-action="comment" method="post">
+							<div>
+								<div class="form-group m-3">
+									<textarea asp-action="comment" name="Detail" placeholder="Nội dung bình luận" class="w-100 rounded-3 border border-3" style="height:200px"></textarea>
+								</div>
+								<div class="w-100 d-flex justify-content-center form-group">
+									<button type="submit" value="submit" class="btn btn-primary" name="submit">Bình luận</button>
+								</div>
+							</div>
+						</form>
+					}
+				</div>
+				<!--End comment-->
 			</div>
 		</div>
 	</div>

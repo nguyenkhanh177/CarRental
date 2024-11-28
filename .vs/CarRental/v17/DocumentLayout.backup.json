@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\VisualStudio\\UDWeb\\CarRental\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\views\\blog\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:views\\blog\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\areas\\admin\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\areas\\admin\\views\\menus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\menus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\utilities\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:utilities\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\udweb\\carrental\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,67 +66,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LogInController.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Controllers\\LogInController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LogInController.cs",
-              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Controllers\\LogInController.cs",
-              "RelativeToolTip": "Controllers\\LogInController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T17:04:59.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T16:58:48.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Function.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Utilities\\Function.cs",
-              "RelativeDocumentMoniker": "Utilities\\Function.cs",
-              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Utilities\\Function.cs",
-              "RelativeToolTip": "Utilities\\Function.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Title": "BlogsController.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Areas\\Admin\\Controllers\\BlogsController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BlogsController.cs",
+              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Areas\\Admin\\Controllers\\BlogsController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\BlogsController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAuwJkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T16:55:33.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T16:55:17.675Z",
+              "WhenOpened": "2024-11-28T09:03:38.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Areas\\Admin\\Views\\Menus\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Menus\\Delete.cshtml",
+              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Areas\\Admin\\Views\\Menus\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Menus\\Delete.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T09:03:10.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T08:27:22.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T06:03:29.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BlogController.cs",
+              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "Controllers\\BlogController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAwEQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T16:35:43.924Z",
+              "WhenOpened": "2024-11-27T17:26:06.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Blog\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blog\\Detail.cshtml",
+              "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Blog\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Blog\\Detail.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T17:19:00.492Z",
               "EditorCaption": ""
             }
           ]

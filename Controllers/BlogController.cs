@@ -3,13 +3,14 @@ using CarRental.Utilities;
 using CarRental.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
 namespace CarRental.Controllers
 {
     public class BlogController : Controller
     {
         private readonly CarRentalContext _context;
 
-        static int idblogdetail;
+        static int? idblogdetail;
         public BlogController(CarRentalContext context)
         {
             _context = context;
@@ -56,9 +57,16 @@ namespace CarRental.Controllers
             return View();
         }
 
-
-
-
-
+        public async Task<IActionResult> DeleteComment(int id)
+        {
+            var comment = await _context.TbBlogComments.FindAsync(id);
+            if (comment != null)
+            {
+                idblogdetail = comment.Idblog;
+                _context.Remove(comment);
+                _context.SaveChanges();
+            }
+            return Redirect($"/blog/{idblogdetail}.html");
+        }
     }
 }

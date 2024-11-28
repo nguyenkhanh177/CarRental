@@ -150,6 +150,7 @@ namespace CarRental.Areas.Admin.Controllers
             var tbBlog = await _context.TbBlogs.FindAsync(id);
             if (tbBlog != null)
             {
+                _context.TbBlogComments.RemoveRange(tbBlog.TbBlogComments);
                 _context.TbBlogs.Remove(tbBlog);
             }
 
