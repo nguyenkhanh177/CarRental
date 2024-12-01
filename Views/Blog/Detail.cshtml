@@ -4,7 +4,140 @@
 	Layout = "~/Views/Shared/_Layout.cshtml";
 	ViewBag.Title = @Model.Title;
 	ViewBag.Active = "Blog";
+	List<TbBlog> blogOther = ViewBag.BlogOther;
 }
+
+<style>
+	/* Main content styling */
+	main {
+		display: flex;
+		font-family: 'Arial', sans-serif;
+		line-height: 1.6;
+		color: #333;
+		background-color: #f4f4f4;
+		padding: 20px;
+	}
+
+	/* Content wrapper for blog post and comments */
+	.content-wrapper {
+		flex: 1;
+		margin-right: 20px; /* Space between content and sidebar */
+	}
+
+	/* Blog post styling */
+	.blog-post {
+		background: #fff;
+		border-radius: 8px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		padding: 20px;
+	}
+
+	.blog-image {
+		width: 100%;
+		height: auto;
+		border-radius: 8px;
+	}
+
+	.blog-title {
+		font-size: 1.8em;
+		margin: 10px 0;
+	}
+
+	.blog-content {
+		margin: 10px 0;
+	}
+
+	.blog-meta {
+		font-size: 0.9em;
+		color: #666;
+	}
+
+	/* Comments section */
+	.comments-section {
+		margin-top: 30px;
+		padding: 10px;
+		background:;
+		border-radius: 8px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	}
+
+		.comments-section h3 {
+			margin-bottom: 10px;
+		}
+
+	.comment {
+		display: flex;
+		gap: 10px;
+		border-bottom: 1px solid #ddd;
+		padding: 10px 0;
+	}
+
+	.commenter-pic {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+
+	.comment-details {
+		flex-grow: 1;
+	}
+
+	.commenter-name {
+		font-weight: bold;
+		color: #0056b3;
+	}
+
+	.comment-date {
+		font-size: 0.8em;
+		color: #999;
+	}
+
+	.comment-entry-form {
+		margin-top: 20px;
+	}
+
+		.comment-entry-form textarea {
+			width: 100%;
+			height: 80px;
+			border-radius: 5px;
+			padding: 10px;
+			border: 1px solid #ccc;
+		}
+
+	/* Other blogs styling */
+	.other-blogs {
+		width: 250px; /* Fixed width for the sidebar */
+	}
+
+		.other-blogs h3 {
+			margin-bottom: 10px;
+		}
+
+	nav ul {
+		list-style-type: none;
+		display: flex;
+		flex-direction: column; /* Stack items vertically */
+		padding: 0;
+	}
+
+	nav li {
+		margin-bottom: 10px; /* Spacing between items */
+	}
+
+	nav a {
+		display: flex;
+		align-items: center; /* Center text and image vertically */
+		text-decoration: none;
+	}
+
+	.other-blog-image {
+		width: 50px; /* Fixed width for the blog image */
+		height: 40px; /* Fixed height for the blog image */
+		border-radius: 4px;
+		margin-right: 10px; /* Space between image and text */
+	}
+
+</style>
 
 <!-- Header Start -->
 <div class="container-fluid bg-breadcrumb">
@@ -19,104 +152,74 @@
 
 <!-- Header End -->
 
-<div class="container-fluid blog py-5">
-	<div class="container py-5">
-
-		<div class="blog-detail-item">
-			<div class="blog-img">
-				<img class="img-full" src="@Model.Image" alt="Blog Image" width="100%">
+<main>
+	<div class="content-wrapper">
+		<!-- Main blog post -->
+		<article class="blog-post">
+			<img src="@Model.Image" alt="Main Blog Image" class="blog-image">
+			<h2 class="blog-title">@Model.Title</h2>
+			<p class="blog-content">
+				@Html.DisplayFor(modelitem => modelitem.Detail)
+			</p>
+			<div class="blog-meta">
+				<span class="blog-time">Đăng ngày: @Model.PublishTime.ToString("dd/MM/yyyy")</span>
+				<span class="blog-author">By: John Doe</span>
 			</div>
-			<div class="blog-content text-start pb-0 m-5">
-				<div class="blog-meta text-dim-gray pb-3">
-					<div class="d-flex justify-content-between p-3">
-						<div class="text-primary"><i class="fa-solid fa-calendar-days"></i> @Model.PublishTime.ToString("dd/MM/yyyy")</div>
+		</article>
 
-						<div class="text-primary">
-							<a href="javascript:void(0)"> <i class="fa-solid fa-comment"></i> @Model.TbBlogComments.Count() bình luận</a>
-						</div>
-						<div class="text-primary">
-							<a href="javascript:void(0)"> <i class="fa-solid fa-share"></i> Chia sẻ</a>
-						</div>
-
+		<!-- Comment Section -->
+		<section class="comments-section">
+			<h3>@Model.TbBlogComments.Count() bình luận</h3>
+			@foreach (var item in Model.TbBlogComments)
+			{
+				<div class="comment">
+					<img src="@item.IdcustomerNavigation.Avatar" alt="Commenter 1" class="commenter-pic">
+					<div class="comment-details">
+						<p class="commenter-name">@item.IdcustomerNavigation.Name</p>
+						<p class="comment-date">@item.Time.ToString("dd/MM/yyyy")</p>
+						<p class="comment-text">@item.Detail</p>
+						@if (Function.IsLogin() && Function._IdCustomer == item.Idcustomer)
+						{
+							<a asp-action="DeleteComment" asp-route-id="@item.Idcomment">Xóa</a>
+						}
 					</div>
 				</div>
-				<h5 class="title mb-4 text-primary fw-bold">
-					@Model.Title
-				</h5>
-
-				<div class="inner-content">
-					<p class="mb-0">
-						@Html.DisplayFor(m => m.Detail)
-					</p>
-					<span class="text-primary float-end">@Model.IdadminNavigation.Name</span>
+			}
 
 
-				</div>
-				<!--Start comment-->
-				<hr class="m-5" />
-
-				<div class="blog-comment pt-10">
-					<h4 class="heading mb-7"> @Model.TbBlogComments.Count() comment</h4>
-
-					@foreach (var item in Model.TbBlogComments)
-					{
-						if (Function.IsLogin() && Function._IdCustomer == item.Idcustomer)
-						{
-							<div class="d-flex justify-content-between m-3 border border-4 rounded-3">
-
-								<div class="my-2">
-									<img style="float:left" src="@item.IdcustomerNavigation.Avatar" alt="Avatar" width="80px" height="80px" class="rounded-circle m-3" />
-									<div style="float:right">
-										<div class="m-1 d-flex justify-content-between " style="width:20vw"><strong class="text-primary mr-3"><i class="fa-solid fa-user"> </i>@item.IdcustomerNavigation.Name</strong><strong class="ml-4"><i class="fa-solid fa-calendar-days"></i> @item.Time.ToString("HH:mm dd/MM/yyyy")</strong></div>
-										<p class="user-comment mb-0">@item.Detail</p>
-									</div>
-								</div>
-								<div style=" " class="mx-2">
-									<a  asp-action="DeleteComment" asp-route-id="@item.Idcomment" >Xóa</a>
-								</div>
-							</div>
-						}
-						else
-						{
-							<div class="d-flex justify-content-between m-3 border border-4 rounded-3">
-
-								<div class="my-2">
-									<img style="float:left" src="@item.IdcustomerNavigation.Avatar" alt="Avatar" width="80px" height="80px" class="rounded-circle m-3" />
-									<div style="float:right">
-										<div class="m-1 d-flex justify-content-between " style="width:20vw"><strong class="text-primary mr-3"><i class="fa-solid fa-user"> </i>@item.IdcustomerNavigation.Name</strong><strong class="ml-4"><i class="fa-solid fa-calendar-days"></i> @item.Time.ToString("HH:mm dd/MM/yyyy")</strong></div>
-										<p class="user-comment mb-0">@item.Detail</p>
-									</div>
-								</div>
-							</div>
-
-						}
-					}
-				</div>
-				<div>
-					<br />
-					@if (!Function.IsLogin())
-					{
-						<h4 class="text-center m-3"><a href="/LogIn" class="text-primary">Đăng nhập</a> để bình luận</h4>
-					}
-					else
-					{
-						<h4 class="text-primary m-3">Để lại một bình luận</h4>
-						<form asp-action="comment" method="post">
-							<div>
-								<div class="form-group m-3">
-									<textarea asp-action="comment" name="Detail" placeholder="Nội dung bình luận" class="w-100 rounded-3 border border-3" style="height:200px"></textarea>
-								</div>
-								<div class="w-100 d-flex justify-content-center form-group">
-									<button type="submit" value="submit" class="btn btn-primary" name="submit">Bình luận</button>
-								</div>
-							</div>
-						</form>
-					}
-				</div>
-				<!--End comment-->
-			</div>
-		</div>
+			<!-- Comment Entry Form -->
+			@if (!Function.IsLogin())
+			{
+				<h4 class="mt-3" ><a href="/Login">Đăng nhập </a> để gửi bình luận</h4>
+			}
+			else
+			{
+				<form asp-action="comment" class="comment-entry-form">
+					<h4>Để lại một bình luận</h4>
+					<textarea name="Detail" placeholder="Viết bình luận vào đây"></textarea>
+					<button class="btn btn-primary" name="submit" type="submit">Bình luận</button>
+				</form>
+			}
+		</section>
 	</div>
-</div>
+
+	<!-- Navigation for Other Blogs -->
+	<aside class="other-blogs">
+		<h4>Các blog khác</h4>
+		<nav>
+			<ul>
+				@foreach (var item in blogOther)
+				{
+					string sURL = $"/blog/{item.Idblog}.html";
+					<li>
+						<a href="@sURL">
+							<img src="@item.Image" class="other-blog-image">@item.Title
+						</a>
+					</li>
+				}
+			</ul>
+		</nav>
+	</aside>
+</main>
 
 

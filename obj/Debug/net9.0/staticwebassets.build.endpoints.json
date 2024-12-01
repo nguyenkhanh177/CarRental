@@ -8,7 +8,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000036489692"
+          "Quality": "0.000036489692"
         }
       ],
       "ResponseHeaders": [
@@ -145,7 +145,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000036489692"
+          "Quality": "0.000036489692"
         }
       ],
       "ResponseHeaders": [
@@ -306,7 +306,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000793650794"
+          "Quality": "0.000793650794"
         }
       ],
       "ResponseHeaders": [
@@ -467,7 +467,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000793650794"
+          "Quality": "0.000793650794"
         }
       ],
       "ResponseHeaders": [
@@ -850,7 +850,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000808407437"
+          "Quality": "0.000808407437"
         }
       ],
       "ResponseHeaders": [
@@ -987,7 +987,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000808407437"
+          "Quality": "0.000808407437"
         }
       ],
       "ResponseHeaders": [
@@ -1148,7 +1148,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000015088190"
+          "Quality": "0.000015088190"
         }
       ],
       "ResponseHeaders": [
@@ -1285,7 +1285,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000015088190"
+          "Quality": "0.000015088190"
         }
       ],
       "ResponseHeaders": [
@@ -1446,7 +1446,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000827814570"
+          "Quality": "0.000827814570"
         }
       ],
       "ResponseHeaders": [
@@ -1607,7 +1607,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000827814570"
+          "Quality": "0.000827814570"
         }
       ],
       "ResponseHeaders": [
@@ -1744,7 +1744,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001302083333"
+          "Quality": "0.001302083333"
         }
       ],
       "ResponseHeaders": [
@@ -1905,7 +1905,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001302083333"
+          "Quality": "0.001302083333"
         }
       ],
       "ResponseHeaders": [
@@ -2206,7 +2206,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000884955752"
+          "Quality": "0.000884955752"
         }
       ],
       "ResponseHeaders": [
@@ -2343,7 +2343,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000884955752"
+          "Quality": "0.000884955752"
         }
       ],
       "ResponseHeaders": [
@@ -2504,7 +2504,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001095290252"
+          "Quality": "0.001095290252"
         }
       ],
       "ResponseHeaders": [
@@ -2641,7 +2641,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001095290252"
+          "Quality": "0.001095290252"
         }
       ],
       "ResponseHeaders": [
@@ -2802,7 +2802,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001915708812"
+          "Quality": "0.001915708812"
         }
       ],
       "ResponseHeaders": [
@@ -2963,7 +2963,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001915708812"
+          "Quality": "0.001915708812"
         }
       ],
       "ResponseHeaders": [
@@ -3100,7 +3100,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,002288329519"
+          "Quality": "0.002288329519"
         }
       ],
       "ResponseHeaders": [
@@ -3261,7 +3261,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,002288329519"
+          "Quality": "0.002288329519"
         }
       ],
       "ResponseHeaders": [
@@ -3398,7 +3398,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001915708812"
+          "Quality": "0.001915708812"
         }
       ],
       "ResponseHeaders": [
@@ -3535,7 +3535,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,002283105023"
+          "Quality": "0.002283105023"
         }
       ],
       "ResponseHeaders": [
@@ -3696,7 +3696,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,002283105023"
+          "Quality": "0.002283105023"
         }
       ],
       "ResponseHeaders": [
@@ -3833,7 +3833,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001915708812"
+          "Quality": "0.001915708812"
         }
       ],
       "ResponseHeaders": [
@@ -4076,7 +4076,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000054019015"
+          "Quality": "0.000054019015"
         }
       ],
       "ResponseHeaders": [
@@ -4237,7 +4237,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000054019015"
+          "Quality": "0.000054019015"
         }
       ],
       "ResponseHeaders": [
@@ -4374,7 +4374,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000091516427"
+          "Quality": "0.000091516427"
         }
       ],
       "ResponseHeaders": [
@@ -4511,7 +4511,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000091516427"
+          "Quality": "0.000091516427"
         }
       ],
       "ResponseHeaders": [
@@ -4672,7 +4672,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000624609619"
+          "Quality": "0.000624609619"
         }
       ],
       "ResponseHeaders": [
@@ -4833,7 +4833,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000624609619"
+          "Quality": "0.000624609619"
         }
       ],
       "ResponseHeaders": [
@@ -4970,7 +4970,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000625000000"
+          "Quality": "0.000625000000"
         }
       ],
       "ResponseHeaders": [
@@ -5107,7 +5107,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000625000000"
+          "Quality": "0.000625000000"
         }
       ],
       "ResponseHeaders": [
@@ -5268,7 +5268,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000107261611"
+          "Quality": "0.000107261611"
         }
       ],
       "ResponseHeaders": [
@@ -5429,7 +5429,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000107261611"
+          "Quality": "0.000107261611"
         }
       ],
       "ResponseHeaders": [
@@ -5566,7 +5566,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000014717786"
+          "Quality": "0.000014717786"
         }
       ],
       "ResponseHeaders": [
@@ -5703,7 +5703,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000014717786"
+          "Quality": "0.000014717786"
         }
       ],
       "ResponseHeaders": [
@@ -5864,7 +5864,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000056280955"
+          "Quality": "0.000056280955"
         }
       ],
       "ResponseHeaders": [
@@ -6025,7 +6025,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000056280955"
+          "Quality": "0.000056280955"
         }
       ],
       "ResponseHeaders": [
@@ -6162,7 +6162,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000082433435"
+          "Quality": "0.000082433435"
         }
       ],
       "ResponseHeaders": [
@@ -6323,7 +6323,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000082433435"
+          "Quality": "0.000082433435"
         }
       ],
       "ResponseHeaders": [
@@ -6542,7 +6542,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000363108206"
+          "Quality": "0.000363108206"
         }
       ],
       "ResponseHeaders": [
@@ -6679,7 +6679,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000363108206"
+          "Quality": "0.000363108206"
         }
       ],
       "ResponseHeaders": [
@@ -13564,7 +13564,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001461988304"
+          "Quality": "0.001461988304"
         }
       ],
       "ResponseHeaders": [
@@ -13725,7 +13725,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001461988304"
+          "Quality": "0.001461988304"
         }
       ],
       "ResponseHeaders": [
@@ -13862,7 +13862,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000041942790"
+          "Quality": "0.000041942790"
         }
       ],
       "ResponseHeaders": [
@@ -13999,7 +13999,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000041942790"
+          "Quality": "0.000041942790"
         }
       ],
       "ResponseHeaders": [
@@ -14160,7 +14160,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,004237288136"
+          "Quality": "0.004237288136"
         }
       ],
       "ResponseHeaders": [
@@ -14321,7 +14321,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,004237288136"
+          "Quality": "0.004237288136"
         }
       ],
       "ResponseHeaders": [
@@ -14458,7 +14458,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000294637596"
+          "Quality": "0.000294637596"
         }
       ],
       "ResponseHeaders": [
@@ -14619,7 +14619,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000294637596"
+          "Quality": "0.000294637596"
         }
       ],
       "ResponseHeaders": [
@@ -14756,7 +14756,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000411015208"
+          "Quality": "0.000411015208"
         }
       ],
       "ResponseHeaders": [
@@ -14917,7 +14917,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000411015208"
+          "Quality": "0.000411015208"
         }
       ],
       "ResponseHeaders": [
@@ -17924,7 +17924,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001342281879"
+          "Quality": "0.001342281879"
         }
       ],
       "ResponseHeaders": [
@@ -18085,7 +18085,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001342281879"
+          "Quality": "0.001342281879"
         }
       ],
       "ResponseHeaders": [
@@ -18222,7 +18222,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,005235602094"
+          "Quality": "0.005235602094"
         }
       ],
       "ResponseHeaders": [
@@ -18359,7 +18359,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,005235602094"
+          "Quality": "0.005235602094"
         }
       ],
       "ResponseHeaders": [
@@ -18520,7 +18520,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000337268128"
+          "Quality": "0.000337268128"
         }
       ],
       "ResponseHeaders": [
@@ -18657,7 +18657,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000380372765"
+          "Quality": "0.000380372765"
         }
       ],
       "ResponseHeaders": [
@@ -18818,7 +18818,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000380372765"
+          "Quality": "0.000380372765"
         }
       ],
       "ResponseHeaders": [
@@ -18955,7 +18955,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000337268128"
+          "Quality": "0.000337268128"
         }
       ],
       "ResponseHeaders": [
@@ -19198,7 +19198,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000144175317"
+          "Quality": "0.000144175317"
         }
       ],
       "ResponseHeaders": [
@@ -19335,7 +19335,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000031371565"
+          "Quality": "0.000031371565"
         }
       ],
       "ResponseHeaders": [
@@ -19472,7 +19472,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000031371565"
+          "Quality": "0.000031371565"
         }
       ],
       "ResponseHeaders": [
@@ -19633,7 +19633,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000165152766"
+          "Quality": "0.000165152766"
         }
       ],
       "ResponseHeaders": [
@@ -19794,7 +19794,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000165152766"
+          "Quality": "0.000165152766"
         }
       ],
       "ResponseHeaders": [
@@ -19886,7 +19886,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000071189578"
+          "Quality": "0.000071189578"
         }
       ],
       "ResponseHeaders": [
@@ -20092,7 +20092,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000071189578"
+          "Quality": "0.000071189578"
         }
       ],
       "ResponseHeaders": [
@@ -20229,7 +20229,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000144175317"
+          "Quality": "0.000144175317"
         }
       ],
       "ResponseHeaders": [
@@ -20390,7 +20390,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000144133756"
+          "Quality": "0.000144133756"
         }
       ],
       "ResponseHeaders": [
@@ -20482,7 +20482,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000031409995"
+          "Quality": "0.000031409995"
         }
       ],
       "ResponseHeaders": [
@@ -20688,7 +20688,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000031409995"
+          "Quality": "0.000031409995"
         }
       ],
       "ResponseHeaders": [
@@ -20825,7 +20825,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000144133756"
+          "Quality": "0.000144133756"
         }
       ],
       "ResponseHeaders": [
@@ -20986,7 +20986,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000165125495"
+          "Quality": "0.000165125495"
         }
       ],
       "ResponseHeaders": [
@@ -21123,7 +21123,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000071037863"
+          "Quality": "0.000071037863"
         }
       ],
       "ResponseHeaders": [
@@ -21260,7 +21260,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000071037863"
+          "Quality": "0.000071037863"
         }
       ],
       "ResponseHeaders": [
@@ -21421,7 +21421,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000165125495"
+          "Quality": "0.000165125495"
         }
       ],
       "ResponseHeaders": [
@@ -21582,7 +21582,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000498753117"
+          "Quality": "0.000498753117"
         }
       ],
       "ResponseHeaders": [
@@ -21719,7 +21719,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000045556011"
+          "Quality": "0.000045556011"
         }
       ],
       "ResponseHeaders": [
@@ -21880,7 +21880,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000045556011"
+          "Quality": "0.000045556011"
         }
       ],
       "ResponseHeaders": [
@@ -22017,7 +22017,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000553709856"
+          "Quality": "0.000553709856"
         }
       ],
       "ResponseHeaders": [
@@ -22154,7 +22154,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000104953820"
+          "Quality": "0.000104953820"
         }
       ],
       "ResponseHeaders": [
@@ -22291,7 +22291,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000104953820"
+          "Quality": "0.000104953820"
         }
       ],
       "ResponseHeaders": [
@@ -22452,7 +22452,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000553709856"
+          "Quality": "0.000553709856"
         }
       ],
       "ResponseHeaders": [
@@ -22613,7 +22613,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000498753117"
+          "Quality": "0.000498753117"
         }
       ],
       "ResponseHeaders": [
@@ -22774,7 +22774,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000503271263"
+          "Quality": "0.000503271263"
         }
       ],
       "ResponseHeaders": [
@@ -22935,7 +22935,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000503271263"
+          "Quality": "0.000503271263"
         }
       ],
       "ResponseHeaders": [
@@ -23027,7 +23027,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000045535267"
+          "Quality": "0.000045535267"
         }
       ],
       "ResponseHeaders": [
@@ -23233,7 +23233,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000045535267"
+          "Quality": "0.000045535267"
         }
       ],
       "ResponseHeaders": [
@@ -23370,7 +23370,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000545553737"
+          "Quality": "0.000545553737"
         }
       ],
       "ResponseHeaders": [
@@ -23507,7 +23507,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000103114044"
+          "Quality": "0.000103114044"
         }
       ],
       "ResponseHeaders": [
@@ -23644,7 +23644,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000103114044"
+          "Quality": "0.000103114044"
         }
       ],
       "ResponseHeaders": [
@@ -23805,7 +23805,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000545553737"
+          "Quality": "0.000545553737"
         }
       ],
       "ResponseHeaders": [
@@ -23966,7 +23966,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000124146493"
+          "Quality": "0.000124146493"
         }
       ],
       "ResponseHeaders": [
@@ -24103,7 +24103,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000031147796"
+          "Quality": "0.000031147796"
         }
       ],
       "ResponseHeaders": [
@@ -24264,7 +24264,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000031147796"
+          "Quality": "0.000031147796"
         }
       ],
       "ResponseHeaders": [
@@ -24401,7 +24401,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000140213124"
+          "Quality": "0.000140213124"
         }
       ],
       "ResponseHeaders": [
@@ -24562,7 +24562,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000140213124"
+          "Quality": "0.000140213124"
         }
       ],
       "ResponseHeaders": [
@@ -24699,7 +24699,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000069594265"
+          "Quality": "0.000069594265"
         }
       ],
       "ResponseHeaders": [
@@ -24836,7 +24836,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000069594265"
+          "Quality": "0.000069594265"
         }
       ],
       "ResponseHeaders": [
@@ -24997,7 +24997,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000124921924"
+          "Quality": "0.000124921924"
         }
       ],
       "ResponseHeaders": [
@@ -25089,7 +25089,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000031190543"
+          "Quality": "0.000031190543"
         }
       ],
       "ResponseHeaders": [
@@ -25295,7 +25295,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000031190543"
+          "Quality": "0.000031190543"
         }
       ],
       "ResponseHeaders": [
@@ -25432,7 +25432,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000140706346"
+          "Quality": "0.000140706346"
         }
       ],
       "ResponseHeaders": [
@@ -25524,7 +25524,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000069715561"
+          "Quality": "0.000069715561"
         }
       ],
       "ResponseHeaders": [
@@ -25730,7 +25730,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000069715561"
+          "Quality": "0.000069715561"
         }
       ],
       "ResponseHeaders": [
@@ -25867,7 +25867,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000140706346"
+          "Quality": "0.000140706346"
         }
       ],
       "ResponseHeaders": [
@@ -26028,7 +26028,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000124921924"
+          "Quality": "0.000124921924"
         }
       ],
       "ResponseHeaders": [
@@ -26189,7 +26189,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000124146493"
+          "Quality": "0.000124146493"
         }
       ],
       "ResponseHeaders": [
@@ -26350,7 +26350,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000037524860"
+          "Quality": "0.000037524860"
         }
       ],
       "ResponseHeaders": [
@@ -26442,7 +26442,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000010168802"
+          "Quality": "0.000010168802"
         }
       ],
       "ResponseHeaders": [
@@ -26648,7 +26648,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000010168802"
+          "Quality": "0.000010168802"
         }
       ],
       "ResponseHeaders": [
@@ -26785,7 +26785,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000041844506"
+          "Quality": "0.000041844506"
         }
       ],
       "ResponseHeaders": [
@@ -26946,7 +26946,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000041844506"
+          "Quality": "0.000041844506"
         }
       ],
       "ResponseHeaders": [
@@ -27038,7 +27038,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000013350065"
+          "Quality": "0.000013350065"
         }
       ],
       "ResponseHeaders": [
@@ -27244,7 +27244,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000013350065"
+          "Quality": "0.000013350065"
         }
       ],
       "ResponseHeaders": [
@@ -27381,7 +27381,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000037524860"
+          "Quality": "0.000037524860"
         }
       ],
       "ResponseHeaders": [
@@ -27542,7 +27542,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000037757221"
+          "Quality": "0.000037757221"
         }
       ],
       "ResponseHeaders": [
@@ -27634,7 +27634,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000010173043"
+          "Quality": "0.000010173043"
         }
       ],
       "ResponseHeaders": [
@@ -27840,7 +27840,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000010173043"
+          "Quality": "0.000010173043"
         }
       ],
       "ResponseHeaders": [
@@ -27977,7 +27977,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000037757221"
+          "Quality": "0.000037757221"
         }
       ],
       "ResponseHeaders": [
@@ -28138,7 +28138,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000041783312"
+          "Quality": "0.000041783312"
         }
       ],
       "ResponseHeaders": [
@@ -28299,7 +28299,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000041783312"
+          "Quality": "0.000041783312"
         }
       ],
       "ResponseHeaders": [
@@ -28391,7 +28391,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000009870499"
+          "Quality": "0.000009870499"
         }
       ],
       "ResponseHeaders": [
@@ -28597,7 +28597,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000009870499"
+          "Quality": "0.000009870499"
         }
       ],
       "ResponseHeaders": [
@@ -28734,7 +28734,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000034680076"
+          "Quality": "0.000034680076"
         }
       ],
       "ResponseHeaders": [
@@ -28895,7 +28895,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000023011253"
+          "Quality": "0.000023011253"
         }
       ],
       "ResponseHeaders": [
@@ -29056,7 +29056,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000023011253"
+          "Quality": "0.000023011253"
         }
       ],
       "ResponseHeaders": [
@@ -29193,7 +29193,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000010393822"
+          "Quality": "0.000010393822"
         }
       ],
       "ResponseHeaders": [
@@ -29354,7 +29354,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000010393822"
+          "Quality": "0.000010393822"
         }
       ],
       "ResponseHeaders": [
@@ -29491,7 +29491,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000044462229"
+          "Quality": "0.000044462229"
         }
       ],
       "ResponseHeaders": [
@@ -29652,7 +29652,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000044462229"
+          "Quality": "0.000044462229"
         }
       ],
       "ResponseHeaders": [
@@ -29744,7 +29744,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000011841326"
+          "Quality": "0.000011841326"
         }
       ],
       "ResponseHeaders": [
@@ -29950,7 +29950,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000011841326"
+          "Quality": "0.000011841326"
         }
       ],
       "ResponseHeaders": [
@@ -30087,7 +30087,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000035583390"
+          "Quality": "0.000035583390"
         }
       ],
       "ResponseHeaders": [
@@ -30179,7 +30179,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000014837676"
+          "Quality": "0.000014837676"
         }
       ],
       "ResponseHeaders": [
@@ -30385,7 +30385,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000014837676"
+          "Quality": "0.000014837676"
         }
       ],
       "ResponseHeaders": [
@@ -30522,7 +30522,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000054338966"
+          "Quality": "0.000054338966"
         }
       ],
       "ResponseHeaders": [
@@ -30683,7 +30683,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000054338966"
+          "Quality": "0.000054338966"
         }
       ],
       "ResponseHeaders": [
@@ -30820,7 +30820,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000018150138"
+          "Quality": "0.000018150138"
         }
       ],
       "ResponseHeaders": [
@@ -30957,7 +30957,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000018150138"
+          "Quality": "0.000018150138"
         }
       ],
       "ResponseHeaders": [
@@ -31118,7 +31118,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000035583390"
+          "Quality": "0.000035583390"
         }
       ],
       "ResponseHeaders": [
@@ -31279,7 +31279,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000034680076"
+          "Quality": "0.000034680076"
         }
       ],
       "ResponseHeaders": [
@@ -31371,7 +31371,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000014769303"
+          "Quality": "0.000014769303"
         }
       ],
       "ResponseHeaders": [
@@ -31577,7 +31577,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000014769303"
+          "Quality": "0.000014769303"
         }
       ],
       "ResponseHeaders": [
@@ -31714,7 +31714,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000062976258"
+          "Quality": "0.000062976258"
         }
       ],
       "ResponseHeaders": [
@@ -31875,7 +31875,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000062976258"
+          "Quality": "0.000062976258"
         }
       ],
       "ResponseHeaders": [
@@ -32012,7 +32012,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000018616427"
+          "Quality": "0.000018616427"
         }
       ],
       "ResponseHeaders": [
@@ -32149,7 +32149,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000018616427"
+          "Quality": "0.000018616427"
         }
       ],
       "ResponseHeaders": [
@@ -32310,7 +32310,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000984251969"
+          "Quality": "0.000984251969"
         }
       ],
       "ResponseHeaders": [
@@ -32447,7 +32447,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000984251969"
+          "Quality": "0.000984251969"
         }
       ],
       "ResponseHeaders": [
@@ -32608,7 +32608,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000816326531"
+          "Quality": "0.000816326531"
         }
       ],
       "ResponseHeaders": [
@@ -32745,7 +32745,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001297016861"
+          "Quality": "0.001297016861"
         }
       ],
       "ResponseHeaders": [
@@ -32882,7 +32882,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001297016861"
+          "Quality": "0.001297016861"
         }
       ],
       "ResponseHeaders": [
@@ -33043,7 +33043,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000816326531"
+          "Quality": "0.000816326531"
         }
       ],
       "ResponseHeaders": [
@@ -33204,7 +33204,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001468428781"
+          "Quality": "0.001468428781"
         }
       ],
       "ResponseHeaders": [
@@ -33365,7 +33365,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001468428781"
+          "Quality": "0.001468428781"
         }
       ],
       "ResponseHeaders": [
@@ -33502,7 +33502,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000213128730"
+          "Quality": "0.000213128730"
         }
       ],
       "ResponseHeaders": [
@@ -33663,7 +33663,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000213128730"
+          "Quality": "0.000213128730"
         }
       ],
       "ResponseHeaders": [
@@ -33800,7 +33800,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000452898551"
+          "Quality": "0.000452898551"
         }
       ],
       "ResponseHeaders": [
@@ -33961,7 +33961,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000452898551"
+          "Quality": "0.000452898551"
         }
       ],
       "ResponseHeaders": [
@@ -34098,7 +34098,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001490312966"
+          "Quality": "0.001490312966"
         }
       ],
       "ResponseHeaders": [
@@ -34235,7 +34235,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001490312966"
+          "Quality": "0.001490312966"
         }
       ],
       "ResponseHeaders": [
@@ -34396,7 +34396,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000071612718"
+          "Quality": "0.000071612718"
         }
       ],
       "ResponseHeaders": [
@@ -34557,7 +34557,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000071612718"
+          "Quality": "0.000071612718"
         }
       ],
       "ResponseHeaders": [
@@ -34694,7 +34694,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000155738981"
+          "Quality": "0.000155738981"
         }
       ],
       "ResponseHeaders": [
@@ -34855,7 +34855,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000155738981"
+          "Quality": "0.000155738981"
         }
       ],
       "ResponseHeaders": [
@@ -34992,7 +34992,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000072212594"
+          "Quality": "0.000072212594"
         }
       ],
       "ResponseHeaders": [
@@ -35153,7 +35153,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000072212594"
+          "Quality": "0.000072212594"
         }
       ],
       "ResponseHeaders": [
@@ -35290,7 +35290,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000126246686"
+          "Quality": "0.000126246686"
         }
       ],
       "ResponseHeaders": [
@@ -35427,7 +35427,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000126246686"
+          "Quality": "0.000126246686"
         }
       ],
       "ResponseHeaders": [
@@ -35588,7 +35588,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001492537313"
+          "Quality": "0.001492537313"
         }
       ],
       "ResponseHeaders": [
@@ -35749,7 +35749,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001492537313"
+          "Quality": "0.001492537313"
         }
       ],
       "ResponseHeaders": [
@@ -35886,7 +35886,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000011625068"
+          "Quality": "0.000011625068"
         }
       ],
       "ResponseHeaders": [
@@ -36047,7 +36047,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000011625068"
+          "Quality": "0.000011625068"
         }
       ],
       "ResponseHeaders": [
@@ -36184,7 +36184,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000018118568"
+          "Quality": "0.000018118568"
         }
       ],
       "ResponseHeaders": [
@@ -36345,7 +36345,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000032304959"
+          "Quality": "0.000032304959"
         }
       ],
       "ResponseHeaders": [
@@ -36506,7 +36506,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000032304959"
+          "Quality": "0.000032304959"
         }
       ],
       "ResponseHeaders": [
@@ -36643,7 +36643,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000018118568"
+          "Quality": "0.000018118568"
         }
       ],
       "ResponseHeaders": [
@@ -36780,7 +36780,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001133786848"
+          "Quality": "0.001133786848"
         }
       ],
       "ResponseHeaders": [
@@ -36941,7 +36941,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001133786848"
+          "Quality": "0.001133786848"
         }
       ],
       "ResponseHeaders": [
@@ -37406,7 +37406,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000337040782"
+          "Quality": "0.000337040782"
         }
       ],
       "ResponseHeaders": [
@@ -37543,7 +37543,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000337040782"
+          "Quality": "0.000337040782"
         }
       ],
       "ResponseHeaders": [
@@ -37868,7 +37868,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000877192982"
+          "Quality": "0.000877192982"
         }
       ],
       "ResponseHeaders": [
@@ -38005,7 +38005,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001089324619"
+          "Quality": "0.001089324619"
         }
       ],
       "ResponseHeaders": [
@@ -38142,7 +38142,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001089324619"
+          "Quality": "0.001089324619"
         }
       ],
       "ResponseHeaders": [
@@ -38303,7 +38303,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000877192982"
+          "Quality": "0.000877192982"
         }
       ],
       "ResponseHeaders": [
@@ -38464,7 +38464,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001890359168"
+          "Quality": "0.001890359168"
         }
       ],
       "ResponseHeaders": [
@@ -38601,7 +38601,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,002267573696"
+          "Quality": "0.002267573696"
         }
       ],
       "ResponseHeaders": [
@@ -38738,7 +38738,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,002267573696"
+          "Quality": "0.002267573696"
         }
       ],
       "ResponseHeaders": [
@@ -38899,7 +38899,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001890359168"
+          "Quality": "0.001890359168"
         }
       ],
       "ResponseHeaders": [
@@ -39060,7 +39060,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001886792453"
+          "Quality": "0.001886792453"
         }
       ],
       "ResponseHeaders": [
@@ -39221,7 +39221,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001886792453"
+          "Quality": "0.001886792453"
         }
       ],
       "ResponseHeaders": [
@@ -39358,7 +39358,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,002267573696"
+          "Quality": "0.002267573696"
         }
       ],
       "ResponseHeaders": [
@@ -39495,7 +39495,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,002267573696"
+          "Quality": "0.002267573696"
         }
       ],
       "ResponseHeaders": [
@@ -39738,7 +39738,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000053464500"
+          "Quality": "0.000053464500"
         }
       ],
       "ResponseHeaders": [
@@ -39899,7 +39899,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000053464500"
+          "Quality": "0.000053464500"
         }
       ],
       "ResponseHeaders": [
@@ -40036,7 +40036,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000091457838"
+          "Quality": "0.000091457838"
         }
       ],
       "ResponseHeaders": [
@@ -40173,7 +40173,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000091457838"
+          "Quality": "0.000091457838"
         }
       ],
       "ResponseHeaders": [
@@ -40416,7 +40416,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000361925443"
+          "Quality": "0.000361925443"
         }
       ],
       "ResponseHeaders": [
@@ -40577,7 +40577,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000361925443"
+          "Quality": "0.000361925443"
         }
       ],
       "ResponseHeaders": [
@@ -40714,7 +40714,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000236350745"
+          "Quality": "0.000236350745"
         }
       ],
       "ResponseHeaders": [
@@ -40875,7 +40875,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000236350745"
+          "Quality": "0.000236350745"
         }
       ],
       "ResponseHeaders": [
@@ -41012,7 +41012,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000353232073"
+          "Quality": "0.000353232073"
         }
       ],
       "ResponseHeaders": [
@@ -41149,7 +41149,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,000353232073"
+          "Quality": "0.000353232073"
         }
       ],
       "ResponseHeaders": [

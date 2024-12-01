@@ -16,10 +16,15 @@ namespace CarRental.Controllers
             _context = context;
         }
 
-        [Route("/blog/{id}.html")]
-        public async Task<IActionResult> Detail(int id)
+        public IActionResult Index()
         {
-            idblogdetail = id;
+
+            return View();
+        }
+
+        [Route("/blog/{id}.html")]
+        public async Task<IActionResult> Detail(int? id)
+        {
             if (id == null || _context.TbBlogs == null)
             { return RedirectToAction("Index", "404"); }
             var blog = _context.TbBlogs.Include(m => m.TbBlogComments).ThenInclude(m => m.IdcustomerNavigation).Where(m => m.Idblog == id).Include(m => m.IdadminNavigation).FirstOrDefault(m => m.Idblog == id);
@@ -27,6 +32,8 @@ namespace CarRental.Controllers
             {
                 return RedirectToAction("Index", "404");
             }
+            idblogdetail = id;
+            ViewBag.BlogOther = _context.TbBlogs.Where(i => i.Idblog != id).Take(15).OrderByDescending(i => i.PublishTime).ToList();
             return View(blog);
         }
 
@@ -49,12 +56,6 @@ namespace CarRental.Controllers
 
             }
             return RedirectToAction("Detail", new { id = idblogdetail });
-        }
-
-        public IActionResult Index()
-        {
-
-            return View();
         }
 
         public async Task<IActionResult> DeleteComment(int id)
