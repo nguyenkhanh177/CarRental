@@ -37,6 +37,11 @@ namespace CarRental.Controllers
             return View(blog);
         }
 
+        public IActionResult Login()
+        {
+            Function._ReturnLink = $"/blog/{idblogdetail}.html";
+            return RedirectToAction("Index", "Login");
+        }
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> comment(string detail, int id)

@@ -6,13 +6,17 @@ namespace CarRental.Utilities
     public class Function
     {
 
+        //Customer
         public static int _IdCustomer = 0;
         public static string _IdCard = string.Empty;
         public static string _Phone = string.Empty;
         public static string _Username = string.Empty;
         public static string _Password = string.Empty;
         public static string _Name = string.Empty;
+
+        //Other
         public static string _Message = string.Empty;
+        public static string _ReturnLink = string.Empty;
         public string TitleToAlias(string Title)
         {
             return SlugGenerator.SlugGenerator.GenerateSlug(Title);

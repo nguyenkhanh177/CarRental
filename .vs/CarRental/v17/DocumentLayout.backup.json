@@ -66,8 +66,7 @@
               "RelativeToolTip": "Models\\TbBlog.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:58:07.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T16:58:07.502Z"
             },
             {
               "$type": "Document",
@@ -77,7 +76,7 @@
               "RelativeDocumentMoniker": "Views\\Blog\\Detail.cshtml",
               "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Views\\Blog\\Detail.cshtml",
               "RelativeToolTip": "Views\\Blog\\Detail.cshtml",
-              "ViewState": "AgIAALkAAAAAAAAAAAAAAMkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAALkAAAAAAAAAAAAAAMAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-01T16:41:08.727Z",
               "EditorCaption": ""
@@ -90,7 +89,7 @@
               "RelativeDocumentMoniker": "Controllers\\BlogController.cs",
               "ToolTip": "D:\\VisualStudio\\UDWeb\\CarRental\\Controllers\\BlogController.cs",
               "RelativeToolTip": "Controllers\\BlogController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAuwEUAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T15:33:29.36Z",
               "EditorCaption": ""

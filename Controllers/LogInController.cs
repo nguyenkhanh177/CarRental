@@ -37,7 +37,12 @@ namespace CarRental.Controllers
             Function._Phone = check.Phone;
             Function._Message = string.Empty;
             Function._Name = check.Name;
-            return RedirectToAction("Index", "Home");
+            if(string.IsNullOrEmpty(Function._ReturnLink))
+            { return RedirectToAction("Index", "Home"); }
+            else
+            {
+                return Redirect(Function._ReturnLink);  
+            }
         }
 
 
