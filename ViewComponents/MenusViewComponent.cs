@@ -1,4 +1,5 @@
 ﻿using CarRental.Models;
+using CarRental.Utilities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 namespace CarRental.ViewComponents

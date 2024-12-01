@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
+using CarRental.Utilities;
 namespace CarRental.Controllers
 {
     public class ServiceController : Controller
@@ -8,5 +8,12 @@ namespace CarRental.Controllers
         {
             return View();
         }
+
+        public IActionResult Login()
+        {
+            Function._ReturnLink = "/Service";
+            return RedirectToAction("Index", "Login");
+        }
     }
+
 }

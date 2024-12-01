@@ -21,6 +21,11 @@ namespace CarRental.Controllers
 
             return View();
         }
+        public IActionResult Login()
+        {
+            Function._ReturnLink = "/Blog";
+            return RedirectToAction("Index", "Login");
+        }
 
         [Route("/blog/{id}.html")]
         public async Task<IActionResult> Detail(int? id)
@@ -37,7 +42,7 @@ namespace CarRental.Controllers
             return View(blog);
         }
 
-        public IActionResult Login()
+        public IActionResult LoginDetail()
         {
             Function._ReturnLink = $"/blog/{idblogdetail}.html";
             return RedirectToAction("Index", "Login");

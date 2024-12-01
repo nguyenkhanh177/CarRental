@@ -1,48 +1,78 @@
 ﻿@model IEnumerable<CarRental.Models.TbMenu>
-
-<div class="navbar-nav mx-auto py-0">
-	@foreach (var item in Model.Where(m=>m.ParentMenu == 0))
-	{
-		var dropdown = Model.Where(m => m.ParentMenu == item.Idmenu);
-		if (dropdown.Count() == 0)
-		{
-			if (ViewBag.Active == item.Alias)
-			{
-				<a href="/@item.Alias" class="nav-item nav-link active">@item.Title</a>
-			}
-			else
-			{
-				<a href="/@item.Alias" class="nav-item nav-link">@item.Title</a>
-			}
-		}
-		else
-		{
-			<div class="nav-item dropdown">
-				@if (dropdown.Any(m => m.Alias == ViewBag.Active))
-
-				{
-					<a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">@item.Title</a>
-				}
-				else
-				{
-					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">@item.Title</a>
-				}
-				<div class="dropdown-menu m-0">
-					@foreach (var items in dropdown)
+@using CarRental.Utilities;
+<div class="container-fluid nav-bar sticky-top px-0 px-lg-4 py-2 py-lg-0">
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a href="" class="navbar-brand p-0">
+				<h1 class="display-6 text-primary"><i class="fas fa-car-alt me-3"></i>Cental</h1>
+				<!-- <img src="img/logo.png" alt="Logo"> -->
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+				<span class="fa fa-bars"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<div class="navbar-nav mx-auto py-0">
+					@foreach (var item in Model.Where(m => m.ParentMenu == 0))
 					{
-						if (items.Alias == ViewBag.Active)
+						var dropdown = Model.Where(m => m.ParentMenu == item.Idmenu);
+						if (dropdown.Count() == 0)
 						{
-							<a href="@items.Alias" class="dropdown-item active">@items.Title</a>
+							if (ViewBag.Active == item.Alias)
+							{
+								<a href="/@item.Alias" class="nav-item nav-link active">@item.Title</a>
+							}
+							else
+							{
+								<a href="/@item.Alias" class="nav-item nav-link">@item.Title</a>
+							}
 						}
 						else
 						{
-							<a href="@items.Alias" class="dropdown-item">@items.Title</a>
+							<div class="nav-item dropdown">
+								@if (dropdown.Any(m => m.Alias == ViewBag.Active))
+
+								{
+									<a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">@item.Title</a>
+								}
+								else
+								{
+									<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">@item.Title</a>
+								}
+								<div class="dropdown-menu m-0">
+									@foreach (var items in dropdown)
+									{
+										if (items.Alias == ViewBag.Active)
+										{
+											<a href="@items.Alias" class="dropdown-item active">@items.Title</a>
+										}
+										else
+										{
+											<a href="@items.Alias" class="dropdown-item">@items.Title</a>
+										}
+									}
+								</div>
+							</div>
+
 						}
 					}
+
 				</div>
+
+				@if (!Function.IsLogin())
+				{
+					<a asp-action="Login" class="btn btn-primary rounded-pill py-2 px-4">Đăng nhập</a>
+				}
+				else
+				{
+					<div class="nav-item dropdown">
+						<a href="#" class="btn btn-secondary rounded-pill nav-link dropdown-toggle py-2 px-4" data-bs-toggle="dropdown">Xin chào @Function._Name</a>
+						<div class="dropdown-menu m-0">
+							<a href="#" class="dropdown-item">Thông tin tài khoản</a>
+							<a href="/Home/LogOut" class="dropdown-item">Đăng xuất</a>
+						</div>
+					</div>
+				}
 			</div>
-
-		}
-	}
-
+		</nav>
+	</div>
 </div>

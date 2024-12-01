@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
+using CarRental.Utilities;
 namespace CarRental.Controllers
 {
     public class FeatureController : Controller
@@ -7,6 +7,11 @@ namespace CarRental.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+        public IActionResult Login()
+        {
+            Function._ReturnLink = "/Feature";
+            return RedirectToAction("Index", "Login");
         }
     }
 }
