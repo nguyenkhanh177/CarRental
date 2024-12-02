@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "z6akveGbVPi9rgWwGSnBfCZVNZ2h0zmWwpXWFPcfdXM=",
+  "Hash": "bSvTP0FIT3B+DAh2Icb4/Gj6NTlI3NvR7HIo0LeaeUY=",
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -4866,6 +4866,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\Car\\toyota-veloz-cross-trang-ngoc-trai.jpeg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\ceometa-1728007143-1728007163-2729-1728007217.png",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Testimonial/ceometa-1728007143-1728007163-2729-1728007217#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6bzzzonn3c",
+      "Integrity": "gjAfDJJNAnlybh7rsYCrDpPnEM1m0sU36s0tUqp6OcY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Testimonial\\ceometa-1728007143-1728007163-2729-1728007217.png"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\Elon_Musk_Royal_Society_crop.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Testimonial/Elon_Musk_Royal_Society_crop#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p4p8u4s89p",
+      "Integrity": "x6BZ5JNai8SWn6/qTtEJvuAasPdyPLHSvsx6fDFahaQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Testimonial\\Elon_Musk_Royal_Society_crop.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\images.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Testimonial/images#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lmrhve6415",
+      "Integrity": "HX0Urtxt0UlYtPlFxvWe44DcWQiibYdcEzYXv+wqkyM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Testimonial\\images.jpg"
+    },
+    {
+      "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\screen-shot-2024-01-06-at-11-53-25.png",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "files/Testimonial/screen-shot-2024-01-06-at-11-53-25#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "klhu6dpvhk",
+      "Integrity": "aOGy0LGmGLaONQEQiq3ZwhVg/YoreJm8Ge8zX/GDrYk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Testimonial\\screen-shot-2024-01-06-at-11-53-25.png"
     },
     {
       "Identity": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\about-icon-1.png",
@@ -25184,6 +25268,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-6uxcgm2em0FtTplZ+jsbwQaCc74eutq5G57i3gVL+Uk="
+        }
+      ]
+    },
+    {
+      "Route": "files/Testimonial/ceometa-1728007143-1728007163-2729-1728007217.6bzzzonn3c.png",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\ceometa-1728007143-1728007163-2729-1728007217.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1135063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gjAfDJJNAnlybh7rsYCrDpPnEM1m0sU36s0tUqp6OcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 08:27:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6bzzzonn3c"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Testimonial/ceometa-1728007143-1728007163-2729-1728007217.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gjAfDJJNAnlybh7rsYCrDpPnEM1m0sU36s0tUqp6OcY="
+        }
+      ]
+    },
+    {
+      "Route": "files/Testimonial/ceometa-1728007143-1728007163-2729-1728007217.png",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\ceometa-1728007143-1728007163-2729-1728007217.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1135063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gjAfDJJNAnlybh7rsYCrDpPnEM1m0sU36s0tUqp6OcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 08:27:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gjAfDJJNAnlybh7rsYCrDpPnEM1m0sU36s0tUqp6OcY="
+        }
+      ]
+    },
+    {
+      "Route": "files/Testimonial/Elon_Musk_Royal_Society_crop.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\Elon_Musk_Royal_Society_crop.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x6BZ5JNai8SWn6/qTtEJvuAasPdyPLHSvsx6fDFahaQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 08:27:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x6BZ5JNai8SWn6/qTtEJvuAasPdyPLHSvsx6fDFahaQ="
+        }
+      ]
+    },
+    {
+      "Route": "files/Testimonial/Elon_Musk_Royal_Society_crop.p4p8u4s89p.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\Elon_Musk_Royal_Society_crop.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x6BZ5JNai8SWn6/qTtEJvuAasPdyPLHSvsx6fDFahaQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 08:27:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p4p8u4s89p"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Testimonial/Elon_Musk_Royal_Society_crop.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x6BZ5JNai8SWn6/qTtEJvuAasPdyPLHSvsx6fDFahaQ="
+        }
+      ]
+    },
+    {
+      "Route": "files/Testimonial/images.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\images.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HX0Urtxt0UlYtPlFxvWe44DcWQiibYdcEzYXv+wqkyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 08:28:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HX0Urtxt0UlYtPlFxvWe44DcWQiibYdcEzYXv+wqkyM="
+        }
+      ]
+    },
+    {
+      "Route": "files/Testimonial/images.lmrhve6415.jpg",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\images.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HX0Urtxt0UlYtPlFxvWe44DcWQiibYdcEzYXv+wqkyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 08:28:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lmrhve6415"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Testimonial/images.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HX0Urtxt0UlYtPlFxvWe44DcWQiibYdcEzYXv+wqkyM="
+        }
+      ]
+    },
+    {
+      "Route": "files/Testimonial/screen-shot-2024-01-06-at-11-53-25.klhu6dpvhk.png",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\screen-shot-2024-01-06-at-11-53-25.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "638767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aOGy0LGmGLaONQEQiq3ZwhVg/YoreJm8Ge8zX/GDrYk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 08:24:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "klhu6dpvhk"
+        },
+        {
+          "Name": "label",
+          "Value": "files/Testimonial/screen-shot-2024-01-06-at-11-53-25.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aOGy0LGmGLaONQEQiq3ZwhVg/YoreJm8Ge8zX/GDrYk="
+        }
+      ]
+    },
+    {
+      "Route": "files/Testimonial/screen-shot-2024-01-06-at-11-53-25.png",
+      "AssetFile": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\screen-shot-2024-01-06-at-11-53-25.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "638767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aOGy0LGmGLaONQEQiq3ZwhVg/YoreJm8Ge8zX/GDrYk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 08:24:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aOGy0LGmGLaONQEQiq3ZwhVg/YoreJm8Ge8zX/GDrYk="
         }
       ]
     },

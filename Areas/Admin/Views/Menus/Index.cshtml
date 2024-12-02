@@ -22,6 +22,7 @@
 							<th scope="col">Đường dẫn</th>
 							<th scope="col">Vị trí</th>
 							<th scope="col">Menu cha</th>
+							<th scope="col">Đường dẫn nhanh</th>
 							<th scope="col" style="width:250px"></th>
 						</tr>
 					</thead>
@@ -51,6 +52,9 @@
 										<p>Không có</p>
 									</td>
 									<td>
+										@Html.DisplayFor(modelItem => item.IsQuickLink)
+									</td>
+									<td>
 										<a class="btn btn-outline-success" asp-action="Edit" asp-route-id="@item.Idmenu">Sửa</a> |
 										<a class="btn btn-outline-info" asp-action="Details" asp-route-id="@item.Idmenu">Chi tiết</a> |
 										<a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Idmenu">Xóa</a>
@@ -74,6 +78,9 @@
 									</td>
 									<td class="text-primary">
 										@Html.DisplayFor(modelItem => menus.Where(m => m.Idmenu == item.ParentMenu).FirstOrDefault().Title)
+									</td>
+									<td>
+										@Html.DisplayFor(modelItem => item.IsQuickLink)
 									</td>
 									<td>
 										<a class="btn btn-outline-success" asp-action="Edit" asp-route-id="@item.Idmenu">Sửa</a> |

@@ -10,7 +10,7 @@ namespace CarRental.Controllers
     {
         private readonly CarRentalContext _context;
 
-        static int? idblogdetail;
+        static int? idblogdetail = 0;
         public BlogController(CarRentalContext context)
         {
             _context = context;
@@ -18,12 +18,16 @@ namespace CarRental.Controllers
 
         public IActionResult Index()
         {
-
+            idblogdetail = 0;
             return View();
         }
         public IActionResult Login()
         {
-            Function._ReturnLink = "/Blog";
+            if (idblogdetail == 0)
+            {
+                Function._ReturnLink = "/Blog";
+            }
+            else { Function._ReturnLink = $"/Blog/{idblogdetail}"; };
             return RedirectToAction("Index", "Login");
         }
 

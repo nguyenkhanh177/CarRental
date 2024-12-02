@@ -10,23 +10,22 @@ using CarRental.Models;
 namespace CarRental.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class MenusController : Controller
+    public class TestimonialsController : Controller
     {
         private readonly CarRentalContext _context;
 
-        public MenusController(CarRentalContext context)
+        public TestimonialsController(CarRentalContext context)
         {
             _context = context;
         }
 
-        // GET: Admin/Menus
+        // GET: Admin/Testimonials
         public async Task<IActionResult> Index()
         {
-            ViewData["Menu"] = _context.TbMenus.ToList();
-            return View(await _context.TbMenus.ToListAsync());
+            return View(await _context.TbTestimonials.ToListAsync());
         }
 
-        // GET: Admin/Menus/Details/5
+        // GET: Admin/Testimonials/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -34,41 +33,39 @@ namespace CarRental.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var tbMenu = await _context.TbMenus
-                .FirstOrDefaultAsync(m => m.Idmenu == id);
-            if (tbMenu == null)
+            var tbTestimonial = await _context.TbTestimonials
+                .FirstOrDefaultAsync(m => m.Idtestimonial == id);
+            if (tbTestimonial == null)
             {
                 return NotFound();
             }
 
-            return View(tbMenu);
+            return View(tbTestimonial);
         }
 
-        // GET: Admin/Menus/Create
+        // GET: Admin/Testimonials/Create
         public IActionResult Create()
         {
-            ViewData["Menu"] = new SelectList(_context.TbMenus.Where(m => m.ParentMenu == 0), "Idmenu", "Title");
             return View();
         }
 
-        // POST: Admin/Menus/Create
+        // POST: Admin/Testimonials/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Idmenu,Title,Alias,Position,ParentMenu,IsQuickLink")] TbMenu tbMenu)
+        public async Task<IActionResult> Create([Bind("Idtestimonial,Name,Profession,Detail,Star,Image")] TbTestimonial tbTestimonial)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(tbMenu);
+                _context.Add(tbTestimonial);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Menu"] = new SelectList(_context.TbMenus.Where(m => m.ParentMenu == 0 ), "Idmenu", "Title", tbMenu.Idmenu);
-            return View(tbMenu);
+            return View(tbTestimonial);
         }
 
-        // GET: Admin/Menus/Edit/5
+        // GET: Admin/Testimonials/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -76,23 +73,22 @@ namespace CarRental.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var tbMenu = await _context.TbMenus.FindAsync(id);
-            if (tbMenu == null)
+            var tbTestimonial = await _context.TbTestimonials.FindAsync(id);
+            if (tbTestimonial == null)
             {
                 return NotFound();
             }
-            ViewData["Menu"] = new SelectList(_context.TbMenus.Where(m=>m.ParentMenu == 0 && m.Idmenu != id), "Idmenu", "Title");
-            return View(tbMenu);
+            return View(tbTestimonial);
         }
 
-        // POST: Admin/Menus/Edit/5
+        // POST: Admin/Testimonials/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Idmenu,Title,Alias,Position,ParentMenu,IsQuickLink")] TbMenu tbMenu)
+        public async Task<IActionResult> Edit(int id, [Bind("Idtestimonial,Name,Profession,Detail,Star,Image")] TbTestimonial tbTestimonial)
         {
-            if (id != tbMenu.Idmenu)
+            if (id != tbTestimonial.Idtestimonial)
             {
                 return NotFound();
             }
@@ -101,12 +97,12 @@ namespace CarRental.Areas.Admin.Controllers
             {
                 try
                 {
-                    _context.Update(tbMenu);
+                    _context.Update(tbTestimonial);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!TbMenuExists(tbMenu.Idmenu))
+                    if (!TbTestimonialExists(tbTestimonial.Idtestimonial))
                     {
                         return NotFound();
                     }
@@ -117,11 +113,10 @@ namespace CarRental.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Menu"] = new SelectList(_context.TbMenus.Where(m => m.ParentMenu == 0 && m.Idmenu != id), "Idmenu", "Title", tbMenu.Idmenu);
-            return View(tbMenu);
+            return View(tbTestimonial);
         }
 
-        // GET: Admin/Menus/Delete/5
+        // GET: Admin/Testimonials/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -129,34 +124,34 @@ namespace CarRental.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var tbMenu = await _context.TbMenus
-                .FirstOrDefaultAsync(m => m.Idmenu == id);
-            if (tbMenu == null)
+            var tbTestimonial = await _context.TbTestimonials
+                .FirstOrDefaultAsync(m => m.Idtestimonial == id);
+            if (tbTestimonial == null)
             {
                 return NotFound();
             }
 
-            return View(tbMenu);
+            return View(tbTestimonial);
         }
 
-        // POST: Admin/Menus/Delete/5
+        // POST: Admin/Testimonials/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var tbMenu = await _context.TbMenus.FindAsync(id);
-            if (tbMenu != null)
+            var tbTestimonial = await _context.TbTestimonials.FindAsync(id);
+            if (tbTestimonial != null)
             {
-                _context.TbMenus.Remove(tbMenu);
+                _context.TbTestimonials.Remove(tbTestimonial);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool TbMenuExists(int id)
+        private bool TbTestimonialExists(int id)
         {
-            return _context.TbMenus.Any(e => e.Idmenu == id);
+            return _context.TbTestimonials.Any(e => e.Idtestimonial == id);
         }
     }
 }

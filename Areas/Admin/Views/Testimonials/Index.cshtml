@@ -1,0 +1,67 @@
+﻿@model IEnumerable<CarRental.Models.TbTestimonial>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid pt-4 px-4">
+	<div class="row g-4">
+		<div class="col-sm-12 col-xl-12">
+			<div class="rounded h-100 p-4">
+				<h1 class="mb-4">Quản lý đánh giá</h1>
+				<p class="mb-4">
+					<a asp-action="Create">Thêm đánh giá</a>
+				</p>
+				<table class="table table-hover table-dark">
+					<thead>
+						<tr>
+							<th scope="col">STT</th>
+							<th scope="col">Tên</th>
+							<th scope="col">Doanh nghiệp</th>
+							<th scope="col">Chi tiết</th>
+							<th scope="col">Sao</th>
+							<th scope="col">Ảnh</th>
+							<th scope="col" style="width:250px"></th>
+						</tr>
+					</thead>
+					<tbody>
+						@{
+							int STT = 0;
+						}
+						@foreach (var item in Model)
+						{
+							STT += 1;
+							<tr>
+								<td>
+									@STT
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.Name)
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.Profession)
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.Detail)
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.Star)
+								</td>
+								<td>
+									<img src="@Html.DisplayFor(modelItem => item.Image)" width="100px" height="50px" />
+								</td>
+								<td>
+									<a class="btn btn-outline-success" asp-action="Edit" asp-route-id="@item.Idtestimonial">Sửa</a> |
+									<a class="btn btn-outline-info" asp-action="Details" asp-route-id="@item.Idtestimonial">Chi tiết</a> |
+									<a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Idtestimonial">Xóa</a>
+								</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+

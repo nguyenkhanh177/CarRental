@@ -509,6 +509,22 @@
       "PackagePath": "staticwebassets\\files\\Car\\toyota-veloz-cross-trang-ngoc-trai.jpeg"
     },
     {
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\Elon_Musk_Royal_Society_crop.jpg",
+      "PackagePath": "staticwebassets\\files\\Testimonial\\Elon_Musk_Royal_Society_crop.jpg"
+    },
+    {
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\ceometa-1728007143-1728007163-2729-1728007217.png",
+      "PackagePath": "staticwebassets\\files\\Testimonial\\ceometa-1728007143-1728007163-2729-1728007217.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\images.jpg",
+      "PackagePath": "staticwebassets\\files\\Testimonial\\images.jpg"
+    },
+    {
+      "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\files\\Testimonial\\screen-shot-2024-01-06-at-11-53-25.png",
+      "PackagePath": "staticwebassets\\files\\Testimonial\\screen-shot-2024-01-06-at-11-53-25.png"
+    },
+    {
       "Id": "D:\\VisualStudio\\UDWeb\\CarRental\\wwwroot\\img\\Thumbs.db",
       "PackagePath": "staticwebassets\\img\\Thumbs.db"
     },

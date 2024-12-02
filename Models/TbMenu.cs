@@ -14,4 +14,6 @@ public partial class TbMenu
     public int? Position { get; set; }
 
     public int? ParentMenu { get; set; }
+
+    public bool IsQuickLink { get; set; }
 }

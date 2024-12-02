@@ -1,0 +1,11 @@
+﻿@model IEnumerable<TbMenu>
+<div class="col-md-6 col-lg-6 col-xl-3">
+	<div class="footer-item d-flex flex-column">
+		<h4 class="text-white mb-4">Liên kết nhanh</h4>
+		@foreach (var item in Model)
+		{
+			string url = $"/{item.Alias}";
+			<a href="@url"><i class="fas fa-angle-right me-2"></i> @item.Title</a>
+		}
+	</div>
+</div>

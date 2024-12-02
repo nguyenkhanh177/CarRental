@@ -86,17 +86,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-6 col-xl-3">
-					<div class="footer-item d-flex flex-column">
-						<h4 class="text-white mb-4">Quick Links</h4>
-						<a href="/home"><i class="fas fa-angle-right me-2"></i> Trang chủ</a>
-						<a href="/about"><i class="fas fa-angle-right me-2"></i> Giới thiệu</a>
-						<a href="/cars"><i class="fas fa-angle-right me-2"></i> Xe</a>
-						<a href="/ourteam"><i class="fas fa-angle-right me-2"></i> Chúng tôi</a>
-						<a href="/contact"><i class="fas fa-angle-right me-2"></i> Liên lạc</a>
-						<a href="/testimonial"><i class="fas fa-angle-right me-2"></i>Đánh giá</a>
-					</div>
-				</div>
+				@await Component.InvokeAsync("QuickLink")
 				<div class="col-md-6 col-lg-6 col-xl-3">
 					<div class="footer-item d-flex flex-column">
 						<h4 class="text-white mb-4">Business Hours</h4>

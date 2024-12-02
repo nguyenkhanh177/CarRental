@@ -13,7 +13,7 @@ public partial class TbBlog
 
     public DateTime PublishTime { get; set; }
 
-    public string Description { get; set; } = null!;  
+    public string Description { get; set; } = null!;
 
     public string Image { get; set; } = null!;
 

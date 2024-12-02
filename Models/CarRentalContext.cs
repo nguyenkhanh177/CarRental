@@ -55,6 +55,8 @@ public partial class CarRentalContext : DbContext
 
     public virtual DbSet<TbSupplier> TbSuppliers { get; set; }
 
+    public virtual DbSet<TbTestimonial> TbTestimonials { get; set; }
+
 //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
 //        => optionsBuilder.UseSqlServer("data source=QUANGLOCPC\\QUANGLOC;initial catalog=CarRental;integrated security=True;TrustServerCertificate=True;");
@@ -410,6 +412,19 @@ public partial class CarRentalContext : DbContext
             entity.Property(e => e.Idsupplier).HasColumnName("IDSupplier");
             entity.Property(e => e.Branch).HasMaxLength(50);
             entity.Property(e => e.SupplierName).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<TbTestimonial>(entity =>
+        {
+            entity.HasKey(e => e.Idtestimonial);
+
+            entity.ToTable("TB_Testimonial");
+
+            entity.Property(e => e.Idtestimonial).HasColumnName("IDTestimonial");
+            entity.Property(e => e.Detail).HasMaxLength(300);
+            entity.Property(e => e.Image).HasMaxLength(300);
+            entity.Property(e => e.Name).HasMaxLength(50);
+            entity.Property(e => e.Profession).HasMaxLength(50);
         });
 
         OnModelCreatingPartial(modelBuilder);
