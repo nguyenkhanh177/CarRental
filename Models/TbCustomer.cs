@@ -27,5 +27,7 @@ public partial class TbCustomer
 
     public virtual ICollection<TbBlogComment> TbBlogComments { get; set; } = new List<TbBlogComment>();
 
+    public virtual ICollection<TbBooking> TbBookings { get; set; } = new List<TbBooking>();
+
     public virtual ICollection<TbContract> TbContracts { get; set; } = new List<TbContract>();
 }

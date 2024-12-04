@@ -1,4 +1,5 @@
 ﻿@using CarRental.Utilities
+@model TbBooking
 @{
 	Layout = "~/Views/Shared/_Layout.cshtml";
 	ViewBag.Title = "Trang chủ";
@@ -21,68 +22,61 @@
 						<div class="row g-5">
 							<div class="col-lg-6 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s" style="animation-delay: 1s;">
 								<div class="bg-secondary rounded p-5">
-									<h4 class="text-white mb-4">THƯỢNG LỘ BÌNH AN</h4>
-									<form>
-										<div class="row g-3">
-											<div class="col-12">
-												<select class="form-select" aria-label="Default select example">
-													<option selected>Chọn hãng xe</option>
-													<option value="1">Xe nhà tui</option>
-													<option value="2">Audi A1 S-Line</option>
-													<option value="3">Toyota Camry</option>
-													<option value="4">BMW 320 ModernLine</option>
-												</select>
-											</div>
-											<div class="col-12">
-												<select class="form-select" aria-label="Default select example">
-													<option selected>Chọn xe</option>
-													<option value="1">VW Golf VII</option>
-													<option value="2">Audi A1 S-Line</option>
-													<option value="3">Toyota Camry</option>
-													<option value="4">BMW 320 ModernLine</option>
-												</select>
-											</div>
-											<div class="col-12">
-												<select class="form-select" aria-label="Default select example">
-													<option selected>Chọn màu xe</option>
-													<option value="1">Đen</option>
-													<option value="2">Đỏ</option>
-													<option value="3">Trắng</option>
-													<option value="4">Hồng</option>
-												</select>
-											</div>
+									@if (Function.IsLogin())
+									{
+										<h4 class="text-white mb-4">THƯỢNG LỘ BÌNH AN</h4>
+										<form asp-action="Index" asp-controller="Home">
+											<div class="row g-3">
+												<div class="col-12">
+													<select id="carModel" name="IdproductionModel" class="form-select" aria-label="Default select example" asp-items="ViewBag.ProductionModel">
+														<option selected value="0">Chọn xe</option>
+													</select>
+												</div>
+												<div class="col-12">
+													<select id="carColor" name="Color" class="form-select" aria-label="Default select example">
+														<option selected value="0">Chọn màu xe</option>
+													</select>
+												</div>
 
-											<div class="col-12">
-												<div class="input-group">
-													<div class="col-3 d-flex align-items-center bg-light text-body rounded-start p-2">
-														<span class="fas fa-map-marker-alt"></span><span class="ms-1">Điểm nhận xe</span>
+												<div class="col-12">
+													<div class="input-group">
+														<div class="col-3 d-flex align-items-center bg-light text-body rounded-start p-2">
+															<span class="fas fa-map-marker-alt"></span><span class="ms-1">Cơ sở</span>
+														</div>
+														<select asp-for="Idbranch" class="form-select" aria-label="Default select example" asp-items=ViewBag.Branch>
+															<option selected value="0">Chọn cơ sở</option>
+														</select>
 													</div>
-													<input class="form-control" type="text" placeholder="Nhập địa chỉ" aria-label="Enter a City or Airport">
+												</div>
+												<div class="col-12">
+													<div class="input-group">
+														<div class="d-flex align-items-center bg-light text-body rounded-start p-2">
+															<span class="fas fa-calendar-alt"></span><span class="ms-1">Pick Up</span>
+														</div>
+														<input class="form-control" type="date" id="pickUpDate" name="pickUpDate" required>
+														<select class="form-select ms-3" id="pickUpTime" name="pickUpTime" aria-label="Pick up time" required>
+															<option value="00:00" selected>12:00 AM</option>
+															<option value="01:00">1:00 AM</option>
+															<option value="02:00">2:00 AM</option>
+															<option value="03:00">3:00 AM</option>
+															<option value="04:00">4:00 AM</option>
+															<option value="05:00">5:00 AM</option>
+															<option value="06:00">6:00 AM</option>
+															<option value="07:00">7:00 AM</option>
+														</select>
+													</div>
+												</div>
+
+												<div class="col-12">
+													<button class="btn btn-light w-100 py-2">Đặt ngay</button>
 												</div>
 											</div>
-											<div class="col-12">
-												<div class="input-group">
-													<div class="col-3 d-flex align-items-center bg-light text-body rounded-start p-2">
-														<span class="fas fa-calendar-alt"></span><span class="ms-1">Ngày nhận xe</span>
-													</div>
-													<input class="form-control" type="date">
-
-												</div>
-											</div>
-											<div class="col-12">
-												<div class="input-group">
-													<div class="col-3 d-flex align-items-center bg-light text-body rounded-start p-2">
-														<span class="fas fa-calendar-alt"></span><span class="ms-1">Drop off</span>
-													</div>
-													<input class="form-control" type="date">
-
-												</div>
-											</div>
-											<div class="col-12">
-												<button class="btn btn-light w-100 py-2">Book Now</button>
-											</div>
-										</div>
-									</form>
+										</form>
+									}
+									else
+									{
+										<h4 class="mt-3"><a asp-action="Login" name="Login">Đăng nhập </a> để đặt xe</h4>
+									}
 								</div>
 							</div>
 							<div class="col-lg-6 d-none d-lg-flex fadeInRight animated" data-animation="fadeInRight" data-delay="1s" style="animation-delay: 1s;">
@@ -388,3 +382,4 @@
 <!-- Testimonial Start -->
 @await Component.InvokeAsync("Testimonial");
 <!-- Testimonial End -->
+

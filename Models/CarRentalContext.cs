@@ -23,6 +23,10 @@ public partial class CarRentalContext : DbContext
 
     public virtual DbSet<TbBlogComment> TbBlogComments { get; set; }
 
+    public virtual DbSet<TbBooking> TbBookings { get; set; }
+
+    public virtual DbSet<TbBranch> TbBranches { get; set; }
+
     public virtual DbSet<TbBrokenCar> TbBrokenCars { get; set; }
 
     public virtual DbSet<TbCar> TbCars { get; set; }
@@ -46,6 +50,8 @@ public partial class CarRentalContext : DbContext
     public virtual DbSet<TbMaintenanceHistory> TbMaintenanceHistories { get; set; }
 
     public virtual DbSet<TbMenu> TbMenus { get; set; }
+
+    public virtual DbSet<TbNotificalAdmin> TbNotificalAdmins { get; set; }
 
     public virtual DbSet<TbProductionModel> TbProductionModels { get; set; }
 
@@ -136,6 +142,42 @@ public partial class CarRentalContext : DbContext
             entity.HasOne(d => d.IdcustomerNavigation).WithMany(p => p.TbBlogComments)
                 .HasForeignKey(d => d.Idcustomer)
                 .HasConstraintName("FK_TB_BlogComment_TB_Customer");
+        });
+
+        modelBuilder.Entity<TbBooking>(entity =>
+        {
+            entity.HasKey(e => e.Idbooking);
+
+            entity.ToTable("TB_Booking");
+
+            entity.Property(e => e.Idbooking).HasColumnName("IDBooking");
+            entity.Property(e => e.AppointmentTime).HasColumnType("datetime");
+            entity.Property(e => e.Idbranch).HasColumnName("IDBranch");
+            entity.Property(e => e.Idcar).HasColumnName("IDCar");
+            entity.Property(e => e.Idcustomer).HasColumnName("IDCustomer");
+
+            entity.HasOne(d => d.IdbranchNavigation).WithMany(p => p.TbBookings)
+                .HasForeignKey(d => d.Idbranch)
+                .HasConstraintName("FK_TB_Booking_TB_Branch");
+
+            entity.HasOne(d => d.IdcarNavigation).WithMany(p => p.TbBookings)
+                .HasForeignKey(d => d.Idcar)
+                .HasConstraintName("FK_TB_Booking_TB_Car");
+
+            entity.HasOne(d => d.IdcustomerNavigation).WithMany(p => p.TbBookings)
+                .HasForeignKey(d => d.Idcustomer)
+                .HasConstraintName("FK_TB_Booking_TB_Customer");
+        });
+
+        modelBuilder.Entity<TbBranch>(entity =>
+        {
+            entity.HasKey(e => e.Idbranch);
+
+            entity.ToTable("TB_Branch");
+
+            entity.Property(e => e.Idbranch).HasColumnName("IDBranch");
+            entity.Property(e => e.Adress).HasMaxLength(500);
+            entity.Property(e => e.NameBranch).HasMaxLength(200);
         });
 
         modelBuilder.Entity<TbBrokenCar>(entity =>
@@ -338,6 +380,16 @@ public partial class CarRentalContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.Title).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<TbNotificalAdmin>(entity =>
+        {
+            entity.HasKey(e => e.Idnotifical);
+
+            entity.ToTable("TB_NotificalAdmin");
+
+            entity.Property(e => e.Idnotifical).HasColumnName("IDNotifical");
+            entity.Property(e => e.Time).HasColumnType("datetime");
         });
 
         modelBuilder.Entity<TbProductionModel>(entity =>

@@ -17,6 +17,8 @@ public partial class TbCar
 
     public virtual TbProductionModel? IdproductionModelNavigation { get; set; }
 
+    public virtual ICollection<TbBooking> TbBookings { get; set; } = new List<TbBooking>();
+
     public virtual ICollection<TbBrokenCar> TbBrokenCars { get; set; } = new List<TbBrokenCar>();
 
     public virtual ICollection<TbContract> TbContracts { get; set; } = new List<TbContract>();

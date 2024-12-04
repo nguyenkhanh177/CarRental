@@ -152,6 +152,32 @@
 
 	<!-- Template Javascript -->
 	<script src="~/js/main.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			var selectedColor = "@ViewBag.Color"; if (selectedColor) { $('#carColor').append('<option value="' + selectedColor + '" selected>' + selectedColor + '</option>'); }
+			// Sự kiện thay đổi selectbox mẫu xe
+			$('#carModel').change(function() {
+				var modelId = $(this).val(); if (modelId) {
+					$.ajax({
+						url: '/Home/GetCarColors',
+						method: 'GET',
+						data: { modelId: modelId },
+						success: function(data) {
+							var colorSelect = $('#carColor'); c
+							olorSelect.empty();
+							colorSelect.append('<option value="">Chọn màu xe</option>');
+							$.each(data, function(index, color) {
+								var selected = color == selectedColor ? "selected" : "";
+								colorSelect.append('<option value="' + color + '" ' + selected + '>' + color + '</option>');
+							});
+						},
+					});
+				}
+				else { $('#carColor').empty(); $('#carColor').append('<option value="">Chọn màu xe</option>'); }
+			});
+		});
+	</script>
 </body>
 
 </html>
