@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CarRental.Models;
+using CarRental.Utilities;
 
 namespace CarRental.Areas.Admin.Controllers
 {
@@ -22,6 +23,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Menus
         public async Task<IActionResult> Index()
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             ViewData["Menu"] = _context.TbMenus.ToList();
             return View(await _context.TbMenus.ToListAsync());
         }
@@ -29,6 +31,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Menus/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id == null)
             {
                 return NotFound();
@@ -47,6 +50,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Menus/Create
         public IActionResult Create()
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             ViewData["Menu"] = new SelectList(_context.TbMenus.Where(m => m.ParentMenu == 0), "Idmenu", "Title");
             return View();
         }
@@ -58,6 +62,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Idmenu,Title,Alias,Position,ParentMenu,IsQuickLink")] TbMenu tbMenu)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (ModelState.IsValid)
             {
                 _context.Add(tbMenu);
@@ -71,6 +76,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Menus/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id == null)
             {
                 return NotFound();
@@ -92,6 +98,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Idmenu,Title,Alias,Position,ParentMenu,IsQuickLink")] TbMenu tbMenu)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id != tbMenu.Idmenu)
             {
                 return NotFound();
@@ -124,6 +131,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Menus/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id == null)
             {
                 return NotFound();
@@ -144,6 +152,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             var tbMenu = await _context.TbMenus.FindAsync(id);
             if (tbMenu != null)
             {

@@ -43,13 +43,18 @@ namespace CarRental.Controllers
             {
                 booking.Idcar = checkcar.Idcar;
             }
-            booking.IsConfirm = false;
+            booking.BookingTime = DateTime.Now;
             booking.Idcustomer = Function._IdCustomer;
+            var checkbooking = _context.TbBookings.FirstOrDefault(i=>(i.Idcustomer ==  booking.Idcustomer)&&(i.IsConfirm == null));
+            if (checkbooking != null) {
+                Function._Message = "Bạn đang có một đơn chưa được duyệt";
+                return View();
+            }
             if (ModelState.IsValid)
             {
                 _context.Add(booking);
                 await _context.SaveChangesAsync();
-
+                Function._Message = string.Empty;
                 TbNotificalAdmin tbNotificalAdmin = new TbNotificalAdmin();
                 tbNotificalAdmin.Time = DateTime.Now;
                 tbNotificalAdmin.Detail = $"{Function._Name} có id {Function._IdCustomer} đã đặt một đơn.";
@@ -80,9 +85,11 @@ namespace CarRental.Controllers
         }
 
 
+
         public IActionResult Login()
         {
             Function._ReturnLink = "/Home";
+            Function._Message = string.Empty;
             return RedirectToAction("Index", "Login");
         }
         public IActionResult LogOut()
@@ -90,7 +97,6 @@ namespace CarRental.Controllers
             Function._IdCustomer = 0;
             Function._IdCard = string.Empty;
             Function._Phone = string.Empty;
-            Function._Password = string.Empty;
             Function._Username = string.Empty;
             Function._Message = string.Empty;
             Function._Name = string.Empty;

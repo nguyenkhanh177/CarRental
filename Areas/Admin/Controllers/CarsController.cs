@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CarRental.Models;
+using CarRental.Utilities;
 
 namespace CarRental.Areas.Admin.Controllers
 {
@@ -22,6 +23,8 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Cars
         public async Task<IActionResult> Index()
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
+
             var carRentalContext = _context.TbCars.Include(t => t.IdproductionModelNavigation);
             return View(await carRentalContext.ToListAsync());
         }
@@ -29,6 +32,8 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Cars/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
+
             if (id == null)
             {
                 return NotFound();
@@ -48,6 +53,8 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Cars/Create
         public IActionResult Create()
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
+
             ViewData["IdproductionModel"] = new SelectList(_context.TbProductionModels, "IdproductionModel", "ProductionModelName");
             return View();
         }
@@ -59,6 +66,8 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Idcar,IdproductionModel,Color,Image,Price")] TbCar tbCar)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
+
             if (ModelState.IsValid)
             {
                 _context.Add(tbCar);
@@ -72,6 +81,8 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Cars/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
+
             if (id == null)
             {
                 return NotFound();
@@ -93,6 +104,8 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Idcar,IdproductionModel,Color,Image,Price")] TbCar tbCar)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
+
             if (id != tbCar.Idcar)
             {
                 return NotFound();
@@ -125,6 +138,8 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Cars/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
+
             if (id == null)
             {
                 return NotFound();
@@ -146,6 +161,8 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
+
             var tbCar = await _context.TbCars.FindAsync(id);
             if (tbCar != null)
             {
@@ -158,6 +175,7 @@ namespace CarRental.Areas.Admin.Controllers
 
         private bool TbCarExists(int id)
         {
+
             return _context.TbCars.Any(e => e.Idcar == id);
         }
     }

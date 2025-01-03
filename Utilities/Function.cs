@@ -1,20 +1,23 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
-using System.Text.Json.Serialization.Metadata;
 namespace CarRental.Utilities
 {
     public class Function
     {
 
+        public static int _AdminId = 0;
+        public static string _AdminPhone = string.Empty;
+        public static string _AdminEmail = string.Empty;
+        public static string _AdminUsername = string.Empty;
+        public static string _AdminName = string.Empty;
+        public static string _AdminAvatar = string.Empty;
         //Customer
         public static int _IdCustomer = 0;
         public static string _IdCard = string.Empty;
         public static string _Phone = string.Empty;
         public static string _Username = string.Empty;
-        public static string _Password = string.Empty;
         public static string _Name = string.Empty;
 
-        //Other
         public static string _Message = string.Empty;
         public static string _ReturnLink = string.Empty;
         public string TitleToAlias(string Title)
@@ -47,9 +50,18 @@ namespace CarRental.Utilities
 
         }
 
+        public static bool AdminIsLogin()
+        {
+            if (Function._AdminId == 0 || string.IsNullOrEmpty(Function._AdminName) ||string.IsNullOrEmpty(Function._AdminUsername))
+            {
+                return false;
+            }
+            return true;
+        }
+
         public static bool IsLogin()
         {
-            if( Function._IdCustomer == 0 || string.IsNullOrEmpty(Function._Phone) || string.IsNullOrEmpty(Function._IdCard) || string.IsNullOrEmpty(Function._Username) || string.IsNullOrEmpty(Function._Name))
+            if( Function._IdCustomer == 0 || string.IsNullOrEmpty(Function._IdCard) || string.IsNullOrEmpty(Function._Username) || string.IsNullOrEmpty(Function._Name))
             {
                 return false;
             }

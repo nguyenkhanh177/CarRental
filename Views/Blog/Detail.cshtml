@@ -159,7 +159,7 @@
 			<img src="@Model.Image" alt="Main Blog Image" class="blog-image">
 			<h2 class="blog-title">@Model.Title</h2>
 			<p class="blog-content">
-				@Html.DisplayFor(modelitem => modelitem.Detail)
+				@Html.Raw(Model.Detail)
 			</p>
 			<div class="blog-meta">
 				<span class="blog-time">Đăng ngày: @Model.PublishTime.ToString("dd/MM/yyyy")</span>

@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CarRental.Models;
-
+using CarRental.Utilities;
 namespace CarRental.Areas.Admin.Controllers
 {
     [Area("Admin")]
@@ -22,6 +22,8 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Blogs
         public async Task<IActionResult> Index()
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
+
             var carRentalContext = _context.TbBlogs.Include(t => t.IdadminNavigation);
             return View(await carRentalContext.ToListAsync());
         }
@@ -29,6 +31,8 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Blogs/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
+
             if (id == null)
             {
                 return NotFound();
@@ -48,6 +52,8 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Blogs/Create
         public IActionResult Create()
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
+
             ViewData["Idadmin"] = new SelectList(_context.TbAdmins, "Idadmin", "Name");
             return View();
         }
@@ -59,6 +65,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Title,Idblog,Detail,PublishTime,Description,Image,Idadmin")] TbBlog tbBlog)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             tbBlog.PublishTime = DateTime.Now;
             if (ModelState.IsValid)
             {
@@ -73,6 +80,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Blogs/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id == null)
             {
                 return NotFound();
@@ -94,6 +102,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Title,Idblog,Detail,PublishTime,Description,Image,Idadmin")] TbBlog tbBlog)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id != tbBlog.Idblog)
             {
                 return NotFound();
@@ -126,6 +135,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Blogs/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id == null)
             {
                 return NotFound();
@@ -147,6 +157,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             var tbBlog = await _context.TbBlogs.FindAsync(id);
             if (tbBlog != null)
             {

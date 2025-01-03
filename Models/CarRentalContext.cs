@@ -82,9 +82,9 @@ public partial class CarRentalContext : DbContext
             entity.Property(e => e.Email)
                 .HasMaxLength(30)
                 .IsUnicode(false);
-            entity.Property(e => e.Name).HasMaxLength(30);
+            entity.Property(e => e.Name).HasMaxLength(50);
             entity.Property(e => e.Password)
-                .HasMaxLength(10)
+                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.Phone)
                 .HasMaxLength(11)
@@ -152,6 +152,7 @@ public partial class CarRentalContext : DbContext
 
             entity.Property(e => e.Idbooking).HasColumnName("IDBooking");
             entity.Property(e => e.AppointmentTime).HasColumnType("datetime");
+            entity.Property(e => e.BookingTime).HasColumnType("datetime");
             entity.Property(e => e.Idbranch).HasColumnName("IDBranch");
             entity.Property(e => e.Idcar).HasColumnName("IDCar");
             entity.Property(e => e.Idcustomer).HasColumnName("IDCustomer");
@@ -269,9 +270,9 @@ public partial class CarRentalContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("IDCard");
-            entity.Property(e => e.Name).HasMaxLength(30);
+            entity.Property(e => e.Name).HasMaxLength(50);
             entity.Property(e => e.Password)
-                .HasMaxLength(50)
+                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.Phone)
                 .HasMaxLength(11)

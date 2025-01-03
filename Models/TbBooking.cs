@@ -13,9 +13,11 @@ public partial class TbBooking
 
     public int? Idcar { get; set; }
 
-    public bool IsConfirm { get; set; }
+    public bool? IsConfirm { get; set; }
 
     public int? Idbranch { get; set; }
+
+    public DateTime? BookingTime { get; set; }
 
     public virtual TbBranch? IdbranchNavigation { get; set; }
 

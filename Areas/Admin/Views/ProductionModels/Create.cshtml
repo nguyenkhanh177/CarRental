@@ -36,7 +36,7 @@
 					</div>
 					<div class="form-group mt-3">
 						<label asp-for="Describe" class="control-label">Mô tả</label>
-						<input asp-for="Describe" class="form-control" />
+						<textarea asp-for="Describe" class="form-control" ></textarea>
 						<span asp-validation-for="Describe" class="text-danger"></span>
 					</div>
 					<div class="form-group mt-3">
@@ -66,3 +66,20 @@
 		await Html.RenderPartialAsync("_ValidationScriptsPartial");
 	}
 }
+@{
+	var summerNote = new CarRental.Areas.Admin.Models.SummerNote("#Describe");
+	// var summerNote2 = new CarRental.Areas.Admin.Models.SummerNote("#Description");
+	<partial name="_SummerNote" model="summerNote" />
+	// <partial name="_SummerNote" model="summerNote2" />
+}
+
+<script>
+	// Lấy đối tượng input và thẻ img
+	const imagePathInput = document.getElementById('file_input');
+	const previewImage = document.getElementById('image');
+	// Lắng nghe sự kiện thay đổi giá trị của ô input
+	imagePathInput.addEventListener('input', function() {
+		// Cập nhật thuộc tính src của thẻ img với giá trị từ ô input
+		previewImage.src = imagePathInput.value;
+	});
+</script>

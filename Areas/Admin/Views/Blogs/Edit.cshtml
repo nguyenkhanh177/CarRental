@@ -26,14 +26,20 @@
 					</div>
 					<div class="form-group mt-3">
 						<label asp-for="Detail" class="control-label">Nội dung</label>
-						<input asp-for="Detail" class="form-control" />
+						<textarea asp-for="Detail" class="form-control" ></textarea>
 						<span asp-validation-for="Detail" class="text-danger"></span>
 					</div>
 
 					<div class="form-group mt-3">
-						<label asp-for="Image" class="control-label">Ảnh</label>
-						<input asp-for="Image" class="form-control" />
+						<label class="control-label">Ảnh</label>
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<button type="button" class="btn btn-primary" onclick="openDialog()">Chọn ảnh</button>
+							</div>
+							<input type="text" class="form-control" id="file_input" asp-for="Image" aria-describedby="button-addon2">
+						</div>
 						<span asp-validation-for="Image" class="text-danger"></span>
+						<img id="image" src="" />
 					</div>
 					<div class="form-group mt-3">
 						<label asp-for="Idadmin" class="control-label">Người tạo</label>
@@ -55,7 +61,23 @@
 	</div>
 </div>
 <!-- Form End -->
+@{
+	var summerNote = new CarRental.Areas.Admin.Models.SummerNote("#Detail");
+	// var summerNote2 = new CarRental.Areas.Admin.Models.SummerNote("#Description");
+	<partial name="_SummerNote" model="summerNote" />
+	// <partial name="_SummerNote" model="summerNote2" />
+}
 
+<script>
+	// Lấy đối tượng input và thẻ img
+	const imagePathInput = document.getElementById('file_input');
+	const previewImage = document.getElementById('image');
+	// Lắng nghe sự kiện thay đổi giá trị của ô input
+	imagePathInput.addEventListener('input', function() {
+		// Cập nhật thuộc tính src của thẻ img với giá trị từ ô input
+		previewImage.src = imagePathInput.value;
+	});
+</script>
 
 @section Scripts {
 	@{

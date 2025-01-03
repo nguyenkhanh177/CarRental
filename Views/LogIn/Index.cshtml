@@ -16,7 +16,7 @@
 					</a>
 					<h3>Đăng nhập</h3>
 				</div>
-				<form asp-action="Index" asp-asp-controller="LogIn">
+				<form asp-action="Index" asp-controller="LogIn">
 					<div class="form-floating mb-3">
 						<input asp-for="Username" type="text" class="form-control" id="floatingInput" placeholder="" required>
 						<label asp-for="Username">Tên tài khoản</label>
@@ -34,7 +34,7 @@
 						<a href="">Quên mật khẩu</a>
 					</div>
 					<button type="submit" class="btn btn-primary py-3 w-100 mb-4">Đăng nhập</button>
-					<p class="text-center mb-0">Bạn chưa có tài khoản? <a href="/register">Đăng ký</a></p>
+					<p>Chưa có tài khoản? <a href="/register">Đăng ký</a></p>
 				</form>
 			</div>
 		</div>

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CarRental.Models;
+using CarRental.Utilities;
 
 namespace CarRental.Areas.Admin.Controllers
 {
@@ -22,6 +23,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/ProductionModels
         public async Task<IActionResult> Index()
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             var carRentalContext = _context.TbProductionModels.Include(t => t.IdautomakerNavigation).Include(t => t.IddriverCapabilitiesNavigation).Include(t => t.IdfuelNavigation).Include(t => t.IdgearboxNavigation);
             return View(await carRentalContext.ToListAsync());
         }
@@ -29,6 +31,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/ProductionModels/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id == null)
             {
                 return NotFound();
@@ -51,6 +54,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/ProductionModels/Create
         public IActionResult Create()
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             ViewData["Idautomaker"] = new SelectList(_context.TbAutomakers, "Idautomaker", "AutomakerName");
             ViewData["IddriverCapabilities"] = new SelectList(_context.TbDriverCapabilities, "IddriverCapabilities", "DriverCapabilitiesName");
             ViewData["Idfuel"] = new SelectList(_context.TbFuels, "Idfuel", "FuelName");
@@ -65,6 +69,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("IdproductionModel,Idautomaker,SeatingCapacity,Idgearbox,Idfuel,Describe,Star,IddriverCapabilities,ProductionModelName")] TbProductionModel tbProductionModel)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (ModelState.IsValid)
             {
                 _context.Add(tbProductionModel);
@@ -81,6 +86,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/ProductionModels/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id == null)
             {
                 return NotFound();
@@ -105,6 +111,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("IdproductionModel,Idautomaker,SeatingCapacity,Idgearbox,Idfuel,Describe,Star,IddriverCapabilities,ProductionModelName")] TbProductionModel tbProductionModel)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id != tbProductionModel.IdproductionModel)
             {
                 return NotFound();
@@ -140,6 +147,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/ProductionModels/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id == null)
             {
                 return NotFound();
@@ -164,6 +172,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             var tbProductionModel = await _context.TbProductionModels.FindAsync(id);
             if (tbProductionModel != null)
             {

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CarRental.Models;
+using CarRental.Utilities;
 
 namespace CarRental.Areas.Admin.Controllers
 {
@@ -22,12 +23,14 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Testimonials
         public async Task<IActionResult> Index()
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             return View(await _context.TbTestimonials.ToListAsync());
         }
 
         // GET: Admin/Testimonials/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id == null)
             {
                 return NotFound();
@@ -46,6 +49,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Testimonials/Create
         public IActionResult Create()
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             return View();
         }
 
@@ -56,6 +60,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Idtestimonial,Name,Profession,Detail,Star,Image")] TbTestimonial tbTestimonial)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (ModelState.IsValid)
             {
                 _context.Add(tbTestimonial);
@@ -68,6 +73,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Testimonials/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id == null)
             {
                 return NotFound();
@@ -88,6 +94,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Idtestimonial,Name,Profession,Detail,Star,Image")] TbTestimonial tbTestimonial)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id != tbTestimonial.Idtestimonial)
             {
                 return NotFound();
@@ -119,6 +126,7 @@ namespace CarRental.Areas.Admin.Controllers
         // GET: Admin/Testimonials/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             if (id == null)
             {
                 return NotFound();
@@ -139,6 +147,7 @@ namespace CarRental.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (!Function.AdminIsLogin()) return Redirect("/Admin/Login");
             var tbTestimonial = await _context.TbTestimonials.FindAsync(id);
             if (tbTestimonial != null)
             {
