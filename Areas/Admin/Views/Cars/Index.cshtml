@@ -45,7 +45,7 @@
 									@Html.DisplayFor(modelItem => item.Price)
 								</td>
 								<td>
-									<img src="~/files/car/@Html.DisplayFor(modelItem => item.Image)" width="100px" height="50px" />
+									<img src="@Html.DisplayFor(modelItem => item.Image)" width="100px" height="50px" />
 								</td>
 								<td>
 									<a class="btn btn-outline-success" asp-action="Edit" asp-route-id="@item.Idcar">Sửa</a> |
