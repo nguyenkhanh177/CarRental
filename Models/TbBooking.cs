@@ -19,6 +19,8 @@ public partial class TbBooking
 
     public DateTime? BookingTime { get; set; }
 
+    public string? Reason { get; set; }
+
     public virtual TbBranch? IdbranchNavigation { get; set; }
 
     public virtual TbCar? IdcarNavigation { get; set; }

@@ -34,5 +34,41 @@ namespace CarRental.Areas.Admin.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        [HttpPost]
+        public IActionResult Confirm(int Id)
+        {
+            var item = _context.TbBookings.FirstOrDefault(i => i.Idbooking == Id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            item.IsConfirm = true;
+            _context.Update(item);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        [HttpPost]
+        public IActionResult Refuse(int Id, string Message)
+        {
+
+            var item = _context.TbBookings.FirstOrDefault(i => i.Idbooking == Id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+
+            item.IsConfirm = false;
+            item.Reason = Message;
+            _context.Update(item);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Home");
+
+        }
+
+
+
     }
 }

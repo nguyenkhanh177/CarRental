@@ -55,14 +55,18 @@
 														</div>
 														<input class="form-control" type="date" id="pickUpDate" name="pickUpDate" required>
 														<select class="form-select ms-3" id="pickUpTime" name="pickUpTime" aria-label="Pick up time" required>
-															<option value="00:00" selected>12:00 AM</option>
-															<option value="01:00">1:00 AM</option>
-															<option value="02:00">2:00 AM</option>
-															<option value="03:00">3:00 AM</option>
-															<option value="04:00">4:00 AM</option>
-															<option value="05:00">5:00 AM</option>
-															<option value="06:00">6:00 AM</option>
-															<option value="07:00">7:00 AM</option>
+															<option value="07:00" selected>7:00 AM</option>
+															<option value="08:00">8:00 AM</option>
+															<option value="09:00">9:00 AM</option>
+															<option value="10:00">10:00 AM</option>
+															<option value="11:00">11:00 AM</option>
+															<option value="12:00">12:00 AM</option>
+															<option value="13:00">1:00 PM</option>
+															<option value="14:00">2:00 PM</option>
+															<option value="15:00">3:00 PM</option>
+															<option value="16:00">4:00 PM</option>
+															<option value="17:00">5:00 PM</option>
+															<option value="18:00">6:00 PM</option>
 														</select>
 													</div>
 												</div>
@@ -70,7 +74,7 @@
 												<div class="col-12">
 													<button class="btn btn-light w-100 py-2">Đặt ngay</button>
 												</div>
-												@Function._Message;
+												<h5 class="text-danger">@Function._Message</h5>
 											</div>
 										</form>
 									}

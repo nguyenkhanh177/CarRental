@@ -17,269 +17,269 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarRental
 build_property.RootNamespace = CarRental
-build_property.ProjectDir = D:\VisualStudio\UDWeb\CarRental\
+build_property.ProjectDir = C:\Users\NKAQuoc002\Code\Carental\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.RazorLangVersion = 8.0
+build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\VisualStudio\UDWeb\CarRental
+build_property.MSBuildProjectDirectory = C:\Users\NKAQuoc002\Code\Carental
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Account/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Blogs/Create.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Blogs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Blogs/Delete.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Blogs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Blogs/Details.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Blogs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Blogs/Edit.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Blogs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Blogs/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Blogs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Cars/Create.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Cars/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2Fyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Cars/Delete.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Cars/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2Fyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Cars/Details.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Cars/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2Fyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Cars/Edit.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Cars/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2Fyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Cars/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Cars/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2Fyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/FileManager/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/FileManager/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmlsZU1hbmFnZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Home/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Login/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Menus/Create.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Menus/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Menus/Delete.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Menus/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Menus/Details.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Menus/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Menus/Edit.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Menus/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Menus/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Menus/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/ProductionModels/Create.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/ProductionModels/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdGlvbk1vZGVsc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/ProductionModels/Delete.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/ProductionModels/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdGlvbk1vZGVsc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/ProductionModels/Details.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/ProductionModels/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdGlvbk1vZGVsc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/ProductionModels/Edit.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/ProductionModels/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdGlvbk1vZGVsc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/ProductionModels/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/ProductionModels/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdGlvbk1vZGVsc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Shared/Components/Notifical/Default.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Shared/Components/Notifical/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcTm90aWZpY2FsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Shared/Error.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Shared/_SummerNote.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Shared/_SummerNote.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TdW1tZXJOb3RlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Testimonials/Create.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Testimonials/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdGltb25pYWxzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Testimonials/Delete.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Testimonials/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdGltb25pYWxzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Testimonials/Details.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Testimonials/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdGltb25pYWxzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Testimonials/Edit.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Testimonials/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdGltb25pYWxzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Testimonials/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Testimonials/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdGltb25pYWxzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/About/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Blog/Detail.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Blog/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Blog/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Cars/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Cars/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Contact/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Feature/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Feature/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Home/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/LogIn/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/LogIn/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nSW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/OurTeam/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/OurTeam/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3VyVGVhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Register/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Service/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/Components/Blog/Default.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/Components/Blog/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmxvZ1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/Components/Car/Default.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/Components/Car/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FyXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/Components/FactCounter/Default.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/Components/FactCounter/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRmFjdENvdW50ZXJcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/Components/Features/Default.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/Components/Features/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRmVhdHVyZXNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/Components/Menus/Default.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/Components/Menus/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudXNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/Components/QuickLink/Default.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/Components/QuickLink/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUXVpY2tMaW5rXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/Components/Services/Default.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/Components/Services/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VydmljZXNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/Components/StepsStart/Default.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/Components/StepsStart/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3RlcHNTdGFydFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/Components/Testimonial/Default.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/Components/Testimonial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVGVzdGltb25pYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/Error.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Testimonial/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Testimonial/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/_404/Index.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/_404/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcXzQwNFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/_ViewImports.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Views/_ViewStart.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/UDWeb/CarRental/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dflcaoz5gm
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/_Layout.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pihumplo1e
 
-[D:/VisualStudio/UDWeb/CarRental/Views/Shared/_Layout_UnSign.cshtml]
+[C:/Users/NKAQuoc002/Code/Carental/Views/Shared/_Layout_UnSign.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfVW5TaWduLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-mszbab5qtx

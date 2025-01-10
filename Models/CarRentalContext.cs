@@ -65,7 +65,7 @@ public partial class CarRentalContext : DbContext
 
 //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-//        => optionsBuilder.UseSqlServer("data source=QUANGLOCPC\\QUANGLOC;initial catalog=CarRental;integrated security=True;TrustServerCertificate=True;");
+//        => optionsBuilder.UseSqlServer("data source= HONEY\\MSSQLSERVER01; initial catalog=CarRental; integrated security=True; TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -156,6 +156,7 @@ public partial class CarRentalContext : DbContext
             entity.Property(e => e.Idbranch).HasColumnName("IDBranch");
             entity.Property(e => e.Idcar).HasColumnName("IDCar");
             entity.Property(e => e.Idcustomer).HasColumnName("IDCustomer");
+            entity.Property(e => e.Reason).HasMaxLength(100);
 
             entity.HasOne(d => d.IdbranchNavigation).WithMany(p => p.TbBookings)
                 .HasForeignKey(d => d.Idbranch)
