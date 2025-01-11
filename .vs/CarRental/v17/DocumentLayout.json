@@ -3,36 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\NKAQuoc002\\Code\\Carental\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\views\\shared\\components\\blog\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:views\\shared\\components\\blog\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\blogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\blogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\blogs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\blogs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\views\\shared\\components\\car\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:views\\shared\\components\\car\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\blogs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\blogs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\blogs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\blogs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\blogs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\blogs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\controllers\\newadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\controllers\\newadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\newadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\newadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\views\\shared\\_layout_unsign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:views\\shared\\_layout_unsign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\models\\tbadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:models\\tbadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\models\\tbbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:models\\tbbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|c:\\users\\nkaquoc002\\code\\carental\\areas\\admin\\views\\menus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:areas\\admin\\views\\menus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -77,107 +113,228 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-10T10:17:36.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TbBooking.cs",
-              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Models\\TbBooking.cs",
-              "RelativeDocumentMoniker": "Models\\TbBooking.cs",
-              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Models\\TbBooking.cs",
-              "RelativeToolTip": "Models\\TbBooking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T09:53:59.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookingsController.cs",
-              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Controllers\\BookingsController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BookingsController.cs",
-              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Controllers\\BookingsController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\BookingsController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T09:52:08.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwEQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T09:51:31.169Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHkAAAAVAAAAAAAAAA==",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Views\\Shared\\Components\\Blog\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Blog\\Default.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Views\\Shared\\Components\\Blog\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Blog\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T09:46:18.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T09:42:59.561Z",
+              "WhenOpened": "2025-01-10T13:18:13.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MenusController.cs",
-              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Controllers\\MenusController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\MenusController.cs",
-              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Controllers\\MenusController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\MenusController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:37:06.057Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Blogs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Blogs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Blogs\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Blogs\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:11:12.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Views\\Shared\\Components\\Car\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Car\\Default.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Views\\Shared\\Components\\Car\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Car\\Default.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:17:33.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Blogs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Blogs\\Details.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Blogs\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Blogs\\Details.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:11:26.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Blogs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Blogs\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Blogs\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Blogs\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:11:21.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Blogs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Blogs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Blogs\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Blogs\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:11:21.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Blogs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Blogs\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Blogs\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Blogs\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:11:19.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Menus\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Menus\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Menus\\Delete.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Menus\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Cars\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Cars\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Cars\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Cars\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T11:36:58.283Z",
+              "WhenOpened": "2025-01-10T13:11:04.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Cars\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Cars\\Details.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Cars\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Cars\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:10:55.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Cars\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Cars\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Cars\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Cars\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:10:50.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Cars\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Cars\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Cars\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Cars\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:10:41.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout_UnSign.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Views\\Shared\\_Layout_UnSign.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout_UnSign.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Views\\Shared\\_Layout_UnSign.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout_UnSign.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T12:20:33.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\NewAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\NewAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\NewAdmin\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\NewAdmin\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T12:14:21.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NewAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Controllers\\NewAdminController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\NewAdminController.cs",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Controllers\\NewAdminController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\NewAdminController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:13:34.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TbAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Models\\TbAdmin.cs",
+              "RelativeDocumentMoniker": "Models\\TbAdmin.cs",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Models\\TbAdmin.cs",
+              "RelativeToolTip": "Models\\TbAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:09:48.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:08:35.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\NKAQuoc002\\Code\\Carental\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAKMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T12:06:37.513Z",
               "EditorCaption": ""
             }
           ]

@@ -134,6 +134,7 @@ C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\snote\lang\summernote-hr-HR.
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\elFinder\js\i18n\elfinder.ca.js
+C:\Users\NKAQuoc002\Code\Carental\wwwroot\toastr\toastr.min.css
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\snote\lang\summernote-id-ID.min.js
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\jqueryui\themes\themes\start\jquery-ui.min.css
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\bootstrap\js\dist\index.js
@@ -161,6 +162,7 @@ C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\elFinder\js\extras\quicklook
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\jqueryui\themes\themes\hot-sneaks\jquery-ui.css
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\tempusdominus\js\moment-timezone.min.js
+C:\Users\NKAQuoc002\Code\Carental\wwwroot\toastr\toastr.css
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\snote\plugin\specialchars\summernote-ext-specialchars.js
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\jqueryui\themes\themes\black-tie\theme.css
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\tempusdominus\css\tempusdominus-bootstrap-4.css
@@ -318,6 +320,7 @@ C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\snote\summernote.js.map
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\lib\easing\easing.js
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\snote\lang\summernote-sr-RS.min.js.LICENSE.txt
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\snote\lang\summernote-lt-LT.min.js
+C:\Users\NKAQuoc002\Code\Carental\wwwroot\toastr\toastr.min.js
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\snote\lang\summernote-pt-BR.min.js
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\jqueryui\themes\themes\dark-hive\jquery-ui.min.css
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\lib\jquery-validation\dist\jquery.validate.js
@@ -451,6 +454,7 @@ C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\snote\summernote.js
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\owlcarousel\assets\owl.theme.default.css
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\snote\lang\summernote-ta-IN.js
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\jqueryui\AUTHORS.txt
+C:\Users\NKAQuoc002\Code\Carental\wwwroot\toastr\toastr.js.map
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\elFinder\js\i18n\elfinder.LANG.js
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 C:\Users\NKAQuoc002\Code\Carental\wwwroot\Admin\lib\snote\lang\summernote-es-EU.min.js
@@ -1713,3 +1717,7 @@ wwwroot\scss\bootstrap\scss\mixins\_utilities.scss
 wwwroot\scss\bootstrap\scss\mixins\_visually-hidden.scss
 wwwroot\scss\bootstrap\scss\utilities\_api.scss
 wwwroot\scss\bootstrap\scss\vendor\_rfs.scss
+wwwroot\toastr\toastr.css
+wwwroot\toastr\toastr.js.map
+wwwroot\toastr\toastr.min.css
+wwwroot\toastr\toastr.min.js

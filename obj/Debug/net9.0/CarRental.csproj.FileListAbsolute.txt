@@ -2163,3 +2163,7 @@ C:\Users\NKAQuoc002\Code\Carental\obj\Debug\net9.0\refint\CarRental.dll
 C:\Users\NKAQuoc002\Code\Carental\obj\Debug\net9.0\CarRental.pdb
 C:\Users\NKAQuoc002\Code\Carental\obj\Debug\net9.0\CarRental.genruntimeconfig.cache
 C:\Users\NKAQuoc002\Code\Carental\obj\Debug\net9.0\ref\CarRental.dll
+C:\Users\NKAQuoc002\Code\Carental\obj\Debug\net9.0\compressed\bb6gyl9zmd-7znil99lx5.gz
+C:\Users\NKAQuoc002\Code\Carental\obj\Debug\net9.0\compressed\x2qdgiyxo6-jw5ahztbe4.gz
+C:\Users\NKAQuoc002\Code\Carental\obj\Debug\net9.0\compressed\9dbvk0eyn6-fuwkiubrsj.gz
+C:\Users\NKAQuoc002\Code\Carental\obj\Debug\net9.0\compressed\n30tjhnp5a-uhmk5snb2d.gz

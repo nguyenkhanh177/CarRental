@@ -68,7 +68,5 @@ namespace CarRental.Areas.Admin.Controllers
 
         }
 
-
-
     }
 }

@@ -4853,6 +4853,22 @@
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
+      "Id": "C:\\Users\\NKAQuoc002\\Code\\Carental\\wwwroot\\toastr\\toastr.css",
+      "PackagePath": "staticwebassets\\toastr\\toastr.css"
+    },
+    {
+      "Id": "C:\\Users\\NKAQuoc002\\Code\\Carental\\wwwroot\\toastr\\toastr.js.map",
+      "PackagePath": "staticwebassets\\toastr\\toastr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NKAQuoc002\\Code\\Carental\\wwwroot\\toastr\\toastr.min.css",
+      "PackagePath": "staticwebassets\\toastr\\toastr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NKAQuoc002\\Code\\Carental\\wwwroot\\toastr\\toastr.min.js",
+      "PackagePath": "staticwebassets\\toastr\\toastr.min.js"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CarRental.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
