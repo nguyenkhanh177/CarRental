@@ -484,7 +484,7 @@ public partial class CarRentalContext : DbContext
         OnModelCreatingPartial(modelBuilder);
     }
 
-    //hello
+
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }
